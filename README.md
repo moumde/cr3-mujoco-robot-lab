@@ -4,9 +4,9 @@
 
 A reproducible MuJoCo platform for visual motor manipulation, demonstration collection, behavior cloning, and residual reinforcement learning.
 
-[Complete visual manipulation demo and review clips](docs/MEDIA.md)
+![RGB Expert pick and place](docs/media/rgb-expert-demo.gif)
 
-The local review bundle includes the RGB Expert completing both initial orientations. Publishing the video in this README requires redistribution approval.
+RGB Expert completes pick, reorientation and placement for both initial part orientations. Playback is accelerated 3×. [Play or download MP4](docs/media/rgb-expert-demo.mp4) · [Complete visual manipulation demo and review clips](docs/MEDIA.md)
 
 ## Highlights
 

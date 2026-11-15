@@ -1,6 +1,6 @@
 # Demonstration media
 
-The review MP4s contain simulated CR3 renders and are kept in the local review bundle pending permission to distribute. The filenames below identify the clips. The publishing location will be set after approval.
+The RGB Expert short clip is published as an [animated preview](media/rgb-expert-demo.gif) and [MP4](media/rgb-expert-demo.mp4). The other clips listed here are in the local review bundle.
 
 | Clip | Local filename | Source and selection |
 | --- | --- | --- |

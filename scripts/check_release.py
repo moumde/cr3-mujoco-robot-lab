@@ -12,6 +12,7 @@ from urllib.parse import unquote, urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 LINK = re.compile(r"\]\((<[^>]+>|[^\s)]+)(?:\s+\"[^\"]*\")?\)")
 USER_PATH = re.compile(r"(?:/" r"home/[^/\s]+/|/" r"Users/[^/\s]+/|[A-Za-z]:\\Users\\[^\\\s]+\\)")
+PUBLIC_MEDIA = {"docs/media/rgb-expert-demo.gif": 3 * 1024**2, "docs/media/rgb-expert-demo.mp4": 1024**2}
 PRIVATE_SUFFIXES = {".pt", ".pth", ".zip", ".npz", ".stl", ".tar", ".tgz", ".gif", ".mp4", ".parquet"}
 HEADING = re.compile(r"^#{1,6}\s+(.+?)\s*#*$", re.MULTILINE)
 FILES = (
@@ -85,7 +86,7 @@ def main():
         path = ROOT / name
         if not path.is_file():
             continue
-        if path.suffix.lower() in PRIVATE_SUFFIXES or path.stat().st_size > 1024**2:
+        if (path.suffix.lower() in PRIVATE_SUFFIXES and name not in PUBLIC_MEDIA) or path.stat().st_size > PUBLIC_MEDIA.get(name, 1024**2):
             errors.append(f"Review tracked asset size/type: {name}")
         if path.suffix in {".py", ".sh", ".md", ".json", ".yml", ".txt"}:
             if USER_PATH.search(path.read_text()):

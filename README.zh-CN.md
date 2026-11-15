@@ -4,9 +4,9 @@
 
 基于 MuJoCo 的可复现平台，支持电机零件视觉定向抓放、示范采集、行为克隆和残差强化学习。
 
-[完整抓放与演示素材索引](docs/MEDIA.md)
+![RGB Expert pick and place](docs/media/rgb-expert-demo.gif)
 
-本地审阅包包含 RGB Expert 完成两种初始朝向的录像。视频取得分发授权后可嵌入 README。
+RGB Expert 完成两种初始朝向的抓取、重定向和放置。画面以 3 倍速播放。 [播放或下载 MP4](docs/media/rgb-expert-demo.mp4) · [完整抓放与演示素材索引](docs/MEDIA.md)
 
 ## 核心功能
 
