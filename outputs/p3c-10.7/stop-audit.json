@@ -1,0 +1,18 @@
+{
+  "replayed": 211,
+  "deterministic_saturation_last_window": [
+    0.54,
+    0.0,
+    0.06
+  ],
+  "recorded_saturation_last_window": [
+    0.52,
+    0.0,
+    0.06
+  ],
+  "executed_saturation": [
+    0.0,
+    0.0,
+    0.0
+  ]
+}

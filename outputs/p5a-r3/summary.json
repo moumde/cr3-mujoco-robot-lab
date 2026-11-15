@@ -1,0 +1,1208 @@
+{
+  "strategies": {
+    "bc": {
+      "n": 80,
+      "success": 80,
+      "bilateral": 80,
+      "grasp": 80,
+      "lift": 80,
+      "hold": 80,
+      "signed_budget_violations": 0,
+      "timeouts": 0,
+      "contacts": 0,
+      "review": 0,
+      "lost_baseline": 0,
+      "eligible": true,
+      "successful_mean": 331.2875,
+      "successful_p50_p95": [
+        332.0,
+        338.05
+      ],
+      "all_mean": 331.2875,
+      "paired_n": 80,
+      "paired_mean": 0.0,
+      "faster": 0,
+      "slower": 0,
+      "ik": {
+        "solver_nonconverged": 0,
+        "joint_step_limit": 0
+      },
+      "absolute_mean_mm": [
+        6.422866833582887,
+        1.3487782179342687,
+        14.127324269084017
+      ],
+      "absolute_max_mm": [
+        7.385693723989339,
+        1.5939032128962083,
+        16.085709112680036
+      ],
+      "drift_episode_p95_mean": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "phase_steps": {
+        "approach": 8129,
+        "near": 4566,
+        "closing": 341,
+        "bilateral": 5129,
+        "lift": 6818,
+        "hold": 1520
+      },
+      "reward_mean": 0.6328005239977517,
+      "tcp_mean_mm": 313.0227835236162,
+      "failures": {}
+    },
+    "ppo-11": {
+      "n": 80,
+      "success": 80,
+      "bilateral": 80,
+      "grasp": 80,
+      "lift": 80,
+      "hold": 80,
+      "signed_budget_violations": 0,
+      "timeouts": 0,
+      "contacts": 0,
+      "review": 0,
+      "lost_baseline": 0,
+      "eligible": true,
+      "successful_mean": 330.775,
+      "successful_p50_p95": [
+        331.0,
+        338.0
+      ],
+      "all_mean": 330.775,
+      "paired_n": 80,
+      "paired_mean": -0.5125,
+      "faster": 34,
+      "slower": 3,
+      "ik": {
+        "solver_nonconverged": 0,
+        "joint_step_limit": 0
+      },
+      "absolute_mean_mm": [
+        6.42437173357133,
+        1.3547772515419432,
+        14.092958727195604
+      ],
+      "absolute_max_mm": [
+        7.405388146395131,
+        1.6234052538967036,
+        16.073140457526947
+      ],
+      "drift_episode_p95_mean": [
+        0.013163842959329486,
+        0.0034553617297206074,
+        0.004325218469602987
+      ],
+      "phase_steps": {
+        "approach": 8129,
+        "near": 4565,
+        "closing": 339,
+        "bilateral": 5100,
+        "lift": 6809,
+        "hold": 1520
+      },
+      "reward_mean": 0.6405423393710532,
+      "tcp_mean_mm": 312.9432183094169,
+      "failures": {}
+    },
+    "ppo-22": {
+      "n": 80,
+      "success": 80,
+      "bilateral": 80,
+      "grasp": 80,
+      "lift": 80,
+      "hold": 80,
+      "signed_budget_violations": 0,
+      "timeouts": 0,
+      "contacts": 0,
+      "review": 0,
+      "lost_baseline": 0,
+      "eligible": true,
+      "successful_mean": 331.4125,
+      "successful_p50_p95": [
+        332.0,
+        339.0
+      ],
+      "all_mean": 331.4125,
+      "paired_n": 80,
+      "paired_mean": 0.125,
+      "faster": 17,
+      "slower": 23,
+      "ik": {
+        "solver_nonconverged": 0,
+        "joint_step_limit": 0
+      },
+      "absolute_mean_mm": [
+        6.444347177173614,
+        1.2556620268897978,
+        14.249055433570812
+      ],
+      "absolute_max_mm": [
+        7.352612226185107,
+        1.5488683664253156,
+        16.148733478651423
+      ],
+      "drift_episode_p95_mean": [
+        0.003930799072259105,
+        0.004520979459630326,
+        0.006459655985236168
+      ],
+      "phase_steps": {
+        "approach": 8127,
+        "near": 4558,
+        "closing": 340,
+        "bilateral": 5162,
+        "lift": 6806,
+        "hold": 1520
+      },
+      "reward_mean": 0.6315161218079755,
+      "tcp_mean_mm": 312.9957102943351,
+      "failures": {}
+    },
+    "ppo-33": {
+      "n": 80,
+      "success": 80,
+      "bilateral": 80,
+      "grasp": 80,
+      "lift": 80,
+      "hold": 80,
+      "signed_budget_violations": 0,
+      "timeouts": 0,
+      "contacts": 0,
+      "review": 0,
+      "lost_baseline": 0,
+      "eligible": true,
+      "successful_mean": 327.4125,
+      "successful_p50_p95": [
+        327.5,
+        335.1
+      ],
+      "all_mean": 327.4125,
+      "paired_n": 80,
+      "paired_mean": -3.875,
+      "faster": 77,
+      "slower": 3,
+      "ik": {
+        "solver_nonconverged": 0,
+        "joint_step_limit": 0
+      },
+      "absolute_mean_mm": [
+        6.633167421899673,
+        1.2859092515263315,
+        14.18797924131944
+      ],
+      "absolute_max_mm": [
+        7.9073261514677196,
+        1.5419855557476936,
+        16.243040529481334
+      ],
+      "drift_episode_p95_mean": [
+        0.023360844561830164,
+        0.005127169023035094,
+        0.02652687709778547
+      ],
+      "phase_steps": {
+        "approach": 8108,
+        "near": 4584,
+        "closing": 341,
+        "bilateral": 4836,
+        "lift": 6804,
+        "hold": 1520
+      },
+      "reward_mean": 0.6909940629210339,
+      "tcp_mean_mm": 312.3024226210421,
+      "failures": {}
+    },
+    "sac-11": {
+      "n": 80,
+      "success": 79,
+      "bilateral": 79,
+      "grasp": 79,
+      "lift": 79,
+      "hold": 79,
+      "signed_budget_violations": 0,
+      "timeouts": 1,
+      "contacts": 0,
+      "review": 0,
+      "lost_baseline": 1,
+      "eligible": false,
+      "successful_mean": 321.5189873417722,
+      "successful_p50_p95": [
+        321.0,
+        334.0
+      ],
+      "all_mean": 322.5,
+      "paired_n": 79,
+      "paired_mean": -9.708860759493671,
+      "faster": 71,
+      "slower": 8,
+      "ik": {
+        "solver_nonconverged": 203,
+        "joint_step_limit": 5
+      },
+      "absolute_mean_mm": [
+        6.109412964659407,
+        2.9937402596270197,
+        10.835698505055074
+      ],
+      "absolute_max_mm": [
+        7.3476989406626725,
+        3.3998411105925497,
+        15.008892543448837
+      ],
+      "drift_episode_p95_mean": [
+        0.23190691228955984,
+        0.2639180302619934,
+        0.2856349745299667
+      ],
+      "phase_steps": {
+        "approach": 8245,
+        "near": 4588,
+        "closing": 709,
+        "bilateral": 3813,
+        "lift": 6944,
+        "hold": 1501
+      },
+      "reward_mean": 0.6796153009836582,
+      "tcp_mean_mm": 309.4033402671299,
+      "failures": {
+        "timeout / closing": 1
+      }
+    },
+    "sac-22": {
+      "n": 80,
+      "success": 80,
+      "bilateral": 80,
+      "grasp": 80,
+      "lift": 80,
+      "hold": 80,
+      "signed_budget_violations": 0,
+      "timeouts": 0,
+      "contacts": 0,
+      "review": 0,
+      "lost_baseline": 0,
+      "eligible": true,
+      "successful_mean": 328.9375,
+      "successful_p50_p95": [
+        327.5,
+        347.05
+      ],
+      "all_mean": 328.9375,
+      "paired_n": 80,
+      "paired_mean": -2.35,
+      "faster": 43,
+      "slower": 36,
+      "ik": {
+        "solver_nonconverged": 0,
+        "joint_step_limit": 0
+      },
+      "absolute_mean_mm": [
+        11.21169179973829,
+        3.2525486373595514,
+        12.31892352439435
+      ],
+      "absolute_max_mm": [
+        14.867971418638382,
+        3.77470868825458,
+        13.771098834155282
+      ],
+      "drift_episode_p95_mean": [
+        0.24654603507369757,
+        0.2877592880278826,
+        0.31982650943100455
+      ],
+      "phase_steps": {
+        "approach": 8260,
+        "near": 4486,
+        "closing": 331,
+        "bilateral": 4506,
+        "lift": 7212,
+        "hold": 1520
+      },
+      "reward_mean": 0.6202377999755571,
+      "tcp_mean_mm": 318.8913973507107,
+      "failures": {}
+    },
+    "sac-33": {
+      "n": 80,
+      "success": 79,
+      "bilateral": 79,
+      "grasp": 79,
+      "lift": 79,
+      "hold": 79,
+      "signed_budget_violations": 0,
+      "timeouts": 1,
+      "contacts": 0,
+      "review": 0,
+      "lost_baseline": 1,
+      "eligible": false,
+      "successful_mean": 323.54430379746833,
+      "successful_p50_p95": [
+        322.0,
+        340.0
+      ],
+      "all_mean": 324.5,
+      "paired_n": 79,
+      "paired_mean": -7.6835443037974684,
+      "faster": 65,
+      "slower": 12,
+      "ik": {
+        "solver_nonconverged": 294,
+        "joint_step_limit": 7
+      },
+      "absolute_mean_mm": [
+        6.453186829566606,
+        3.0401547994881146,
+        12.046328415008796
+      ],
+      "absolute_max_mm": [
+        7.554128713905817,
+        4.211960742196541,
+        14.311291802101778
+      ],
+      "drift_episode_p95_mean": [
+        0.22266675978899003,
+        0.3245221784338355,
+        0.36390331722795966
+      ],
+      "phase_steps": {
+        "approach": 8437,
+        "near": 4531,
+        "closing": 713,
+        "bilateral": 3523,
+        "lift": 7255,
+        "hold": 1501
+      },
+      "reward_mean": 0.5976702498546826,
+      "tcp_mean_mm": 314.55295048533526,
+      "failures": {
+        "timeout / closing": 1
+      }
+    }
+  },
+  "seed_mean_min_max": {
+    "ppo": {
+      "success": [
+        80.0,
+        80,
+        80
+      ],
+      "successful_mean": [
+        329.8666666666667,
+        327.4125,
+        331.4125
+      ],
+      "paired_mean": [
+        -1.4208333333333334,
+        -3.875,
+        0.125
+      ],
+      "review": [
+        0.0,
+        0,
+        0
+      ]
+    },
+    "sac": {
+      "success": [
+        79.33333333333333,
+        79,
+        80
+      ],
+      "successful_mean": [
+        324.6669303797468,
+        321.5189873417722,
+        328.9375
+      ],
+      "paired_mean": [
+        -6.580801687763713,
+        -9.708860759493671,
+        -2.35
+      ],
+      "review": [
+        0.0,
+        0,
+        0
+      ]
+    }
+  },
+  "by_orientation": {
+    "bc": {
+      "flat_facing_camera": {
+        "n": 40,
+        "success": 40,
+        "bilateral": 40,
+        "grasp": 40,
+        "lift": 40,
+        "hold": 40,
+        "signed_budget_violations": 0,
+        "timeouts": 0,
+        "contacts": 0,
+        "review": 0,
+        "lost_baseline": 0,
+        "eligible": true,
+        "successful_mean": 332.35,
+        "successful_p50_p95": [
+          332.5,
+          337.1
+        ],
+        "all_mean": 332.35,
+        "paired_n": 40,
+        "paired_mean": 0.0,
+        "faster": 0,
+        "slower": 0,
+        "ik": {
+          "solver_nonconverged": 0,
+          "joint_step_limit": 0
+        },
+        "absolute_mean_mm": [
+          6.566965859492465,
+          1.3796445068842957,
+          14.253150365240398
+        ],
+        "absolute_max_mm": [
+          7.385693723989339,
+          1.5939032128962083,
+          16.085709112680036
+        ],
+        "drift_episode_p95_mean": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "phase_steps": {
+          "approach": 4042,
+          "near": 2270,
+          "closing": 171,
+          "bilateral": 2665,
+          "lift": 3386,
+          "hold": 760
+        },
+        "reward_mean": 0.6159864073107035,
+        "tcp_mean_mm": 311.77175863472587,
+        "failures": {}
+      },
+      "protrusion_facing_camera": {
+        "n": 40,
+        "success": 40,
+        "bilateral": 40,
+        "grasp": 40,
+        "lift": 40,
+        "hold": 40,
+        "signed_budget_violations": 0,
+        "timeouts": 0,
+        "contacts": 0,
+        "review": 0,
+        "lost_baseline": 0,
+        "eligible": true,
+        "successful_mean": 330.225,
+        "successful_p50_p95": [
+          330.0,
+          338.15
+        ],
+        "all_mean": 330.225,
+        "paired_n": 40,
+        "paired_mean": 0.0,
+        "faster": 0,
+        "slower": 0,
+        "ik": {
+          "solver_nonconverged": 0,
+          "joint_step_limit": 0
+        },
+        "absolute_mean_mm": [
+          6.27876780767331,
+          1.3179119289842416,
+          14.00149817292764
+        ],
+        "absolute_max_mm": [
+          6.644787711166833,
+          1.4805111378226599,
+          15.852539815014666
+        ],
+        "drift_episode_p95_mean": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "phase_steps": {
+          "approach": 4087,
+          "near": 2296,
+          "closing": 170,
+          "bilateral": 2464,
+          "lift": 3432,
+          "hold": 760
+        },
+        "reward_mean": 0.6496146406848,
+        "tcp_mean_mm": 314.2738084125065,
+        "failures": {}
+      }
+    },
+    "ppo-11": {
+      "flat_facing_camera": {
+        "n": 40,
+        "success": 40,
+        "bilateral": 40,
+        "grasp": 40,
+        "lift": 40,
+        "hold": 40,
+        "signed_budget_violations": 0,
+        "timeouts": 0,
+        "contacts": 0,
+        "review": 0,
+        "lost_baseline": 0,
+        "eligible": true,
+        "successful_mean": 331.6,
+        "successful_p50_p95": [
+          331.5,
+          337.05
+        ],
+        "all_mean": 331.6,
+        "paired_n": 40,
+        "paired_mean": -0.75,
+        "faster": 23,
+        "slower": 1,
+        "ik": {
+          "solver_nonconverged": 0,
+          "joint_step_limit": 0
+        },
+        "absolute_mean_mm": [
+          6.568075186599694,
+          1.3938434038185288,
+          14.216935523595321
+        ],
+        "absolute_max_mm": [
+          7.405388146395131,
+          1.6234052538967036,
+          16.073140457526947
+        ],
+        "drift_episode_p95_mean": [
+          0.013001208170317113,
+          0.0034248514799401163,
+          0.004404807067476213
+        ],
+        "phase_steps": {
+          "approach": 4042,
+          "near": 2270,
+          "closing": 170,
+          "bilateral": 2635,
+          "lift": 3387,
+          "hold": 760
+        },
+        "reward_mean": 0.6267666881587372,
+        "tcp_mean_mm": 311.6882090299227,
+        "failures": {}
+      },
+      "protrusion_facing_camera": {
+        "n": 40,
+        "success": 40,
+        "bilateral": 40,
+        "grasp": 40,
+        "lift": 40,
+        "hold": 40,
+        "signed_budget_violations": 0,
+        "timeouts": 0,
+        "contacts": 0,
+        "review": 0,
+        "lost_baseline": 0,
+        "eligible": true,
+        "successful_mean": 329.95,
+        "successful_p50_p95": [
+          329.0,
+          338.15
+        ],
+        "all_mean": 329.95,
+        "paired_n": 40,
+        "paired_mean": -0.275,
+        "faster": 11,
+        "slower": 2,
+        "ik": {
+          "solver_nonconverged": 0,
+          "joint_step_limit": 0
+        },
+        "absolute_mean_mm": [
+          6.2806682805429634,
+          1.3157110992653567,
+          13.968981930795886
+        ],
+        "absolute_max_mm": [
+          6.696099482979667,
+          1.4680702488441,
+          15.828531426464565
+        ],
+        "drift_episode_p95_mean": [
+          0.013326477748341859,
+          0.0034858719795010985,
+          0.004245629871729761
+        ],
+        "phase_steps": {
+          "approach": 4087,
+          "near": 2295,
+          "closing": 169,
+          "bilateral": 2465,
+          "lift": 3422,
+          "hold": 760
+        },
+        "reward_mean": 0.6543179905833693,
+        "tcp_mean_mm": 314.19822758891104,
+        "failures": {}
+      }
+    },
+    "ppo-22": {
+      "flat_facing_camera": {
+        "n": 40,
+        "success": 40,
+        "bilateral": 40,
+        "grasp": 40,
+        "lift": 40,
+        "hold": 40,
+        "signed_budget_violations": 0,
+        "timeouts": 0,
+        "contacts": 0,
+        "review": 0,
+        "lost_baseline": 0,
+        "eligible": true,
+        "successful_mean": 332.5,
+        "successful_p50_p95": [
+          332.5,
+          337.0
+        ],
+        "all_mean": 332.5,
+        "paired_n": 40,
+        "paired_mean": 0.15,
+        "faster": 8,
+        "slower": 11,
+        "ik": {
+          "solver_nonconverged": 0,
+          "joint_step_limit": 0
+        },
+        "absolute_mean_mm": [
+          6.602616470867642,
+          1.3008077708233712,
+          14.384869622053255
+        ],
+        "absolute_max_mm": [
+          7.352612226185107,
+          1.5488683664253156,
+          16.148733478651423
+        ],
+        "drift_episode_p95_mean": [
+          0.003658648405689746,
+          0.004554951342288405,
+          0.0061797592090442775
+        ],
+        "phase_steps": {
+          "approach": 4041,
+          "near": 2265,
+          "closing": 173,
+          "bilateral": 2681,
+          "lift": 3380,
+          "hold": 760
+        },
+        "reward_mean": 0.6141853873739035,
+        "tcp_mean_mm": 311.7482610974812,
+        "failures": {}
+      },
+      "protrusion_facing_camera": {
+        "n": 40,
+        "success": 40,
+        "bilateral": 40,
+        "grasp": 40,
+        "lift": 40,
+        "hold": 40,
+        "signed_budget_violations": 0,
+        "timeouts": 0,
+        "contacts": 0,
+        "review": 0,
+        "lost_baseline": 0,
+        "eligible": true,
+        "successful_mean": 330.325,
+        "successful_p50_p95": [
+          329.5,
+          339.05
+        ],
+        "all_mean": 330.325,
+        "paired_n": 40,
+        "paired_mean": 0.1,
+        "faster": 9,
+        "slower": 12,
+        "ik": {
+          "solver_nonconverged": 0,
+          "joint_step_limit": 0
+        },
+        "absolute_mean_mm": [
+          6.286077883479587,
+          1.2105162829562257,
+          14.11324124508837
+        ],
+        "absolute_max_mm": [
+          6.598898959651711,
+          1.3430696774321405,
+          15.740284133784144
+        ],
+        "drift_episode_p95_mean": [
+          0.0042029497388284655,
+          0.004487007576972246,
+          0.006739552761428058
+        ],
+        "phase_steps": {
+          "approach": 4086,
+          "near": 2293,
+          "closing": 167,
+          "bilateral": 2481,
+          "lift": 3426,
+          "hold": 760
+        },
+        "reward_mean": 0.6488468562420474,
+        "tcp_mean_mm": 314.243159491189,
+        "failures": {}
+      }
+    },
+    "ppo-33": {
+      "flat_facing_camera": {
+        "n": 40,
+        "success": 40,
+        "bilateral": 40,
+        "grasp": 40,
+        "lift": 40,
+        "hold": 40,
+        "signed_budget_violations": 0,
+        "timeouts": 0,
+        "contacts": 0,
+        "review": 0,
+        "lost_baseline": 0,
+        "eligible": true,
+        "successful_mean": 327.575,
+        "successful_p50_p95": [
+          328.0,
+          333.05
+        ],
+        "all_mean": 327.575,
+        "paired_n": 40,
+        "paired_mean": -4.775,
+        "faster": 40,
+        "slower": 0,
+        "ik": {
+          "solver_nonconverged": 0,
+          "joint_step_limit": 0
+        },
+        "absolute_mean_mm": [
+          6.80832827524109,
+          1.3140798873122974,
+          14.40676717669751
+        ],
+        "absolute_max_mm": [
+          7.9073261514677196,
+          1.5419855557476936,
+          16.243040529481334
+        ],
+        "drift_episode_p95_mean": [
+          0.023318686289712787,
+          0.004974293895065785,
+          0.027492393180727957
+        ],
+        "phase_steps": {
+          "approach": 4034,
+          "near": 2274,
+          "closing": 173,
+          "bilateral": 2478,
+          "lift": 3384,
+          "hold": 760
+        },
+        "reward_mean": 0.6865081018125654,
+        "tcp_mean_mm": 311.1455103465463,
+        "failures": {}
+      },
+      "protrusion_facing_camera": {
+        "n": 40,
+        "success": 40,
+        "bilateral": 40,
+        "grasp": 40,
+        "lift": 40,
+        "hold": 40,
+        "signed_budget_violations": 0,
+        "timeouts": 0,
+        "contacts": 0,
+        "review": 0,
+        "lost_baseline": 0,
+        "eligible": true,
+        "successful_mean": 327.25,
+        "successful_p50_p95": [
+          326.5,
+          338.05
+        ],
+        "all_mean": 327.25,
+        "paired_n": 40,
+        "paired_mean": -2.975,
+        "faster": 37,
+        "slower": 3,
+        "ik": {
+          "solver_nonconverged": 0,
+          "joint_step_limit": 0
+        },
+        "absolute_mean_mm": [
+          6.458006568558258,
+          1.257738615740365,
+          13.969191305941365
+        ],
+        "absolute_max_mm": [
+          7.261136461067741,
+          1.5090615964159504,
+          15.754333227143036
+        ],
+        "drift_episode_p95_mean": [
+          0.02340300283394754,
+          0.005280044151004404,
+          0.025561361014842986
+        ],
+        "phase_steps": {
+          "approach": 4074,
+          "near": 2310,
+          "closing": 168,
+          "bilateral": 2358,
+          "lift": 3420,
+          "hold": 760
+        },
+        "reward_mean": 0.6954800240295025,
+        "tcp_mean_mm": 313.45933489553795,
+        "failures": {}
+      }
+    },
+    "sac-11": {
+      "flat_facing_camera": {
+        "n": 40,
+        "success": 39,
+        "bilateral": 39,
+        "grasp": 39,
+        "lift": 39,
+        "hold": 39,
+        "signed_budget_violations": 0,
+        "timeouts": 1,
+        "contacts": 0,
+        "review": 0,
+        "lost_baseline": 1,
+        "eligible": false,
+        "successful_mean": 320.4871794871795,
+        "successful_p50_p95": [
+          321.0,
+          330.1
+        ],
+        "all_mean": 322.475,
+        "paired_n": 39,
+        "paired_mean": -11.76923076923077,
+        "faster": 37,
+        "slower": 2,
+        "ik": {
+          "solver_nonconverged": 203,
+          "joint_step_limit": 5
+        },
+        "absolute_mean_mm": [
+          6.134931006927276,
+          2.9873503181326875,
+          11.122062517659726
+        ],
+        "absolute_max_mm": [
+          7.3476989406626725,
+          3.3998411105925497,
+          15.008892543448837
+        ],
+        "drift_episode_p95_mean": [
+          0.23383514657616616,
+          0.25242940336465836,
+          0.27193866251036525
+        ],
+        "phase_steps": {
+          "approach": 4039,
+          "near": 2244,
+          "closing": 544,
+          "bilateral": 1930,
+          "lift": 3401,
+          "hold": 741
+        },
+        "reward_mean": 0.5938704287856837,
+        "tcp_mean_mm": 305.3762674809733,
+        "failures": {
+          "timeout / closing": 1
+        }
+      },
+      "protrusion_facing_camera": {
+        "n": 40,
+        "success": 40,
+        "bilateral": 40,
+        "grasp": 40,
+        "lift": 40,
+        "hold": 40,
+        "signed_budget_violations": 0,
+        "timeouts": 0,
+        "contacts": 0,
+        "review": 0,
+        "lost_baseline": 0,
+        "eligible": true,
+        "successful_mean": 322.525,
+        "successful_p50_p95": [
+          322.0,
+          338.0
+        ],
+        "all_mean": 322.525,
+        "paired_n": 40,
+        "paired_mean": -7.7,
+        "faster": 34,
+        "slower": 6,
+        "ik": {
+          "solver_nonconverged": 0,
+          "joint_step_limit": 0
+        },
+        "absolute_mean_mm": [
+          6.083894922391538,
+          3.000130201121352,
+          10.549334492450424
+        ],
+        "absolute_max_mm": [
+          6.265560068328346,
+          3.00494191942835,
+          14.275575333599022
+        ],
+        "drift_episode_p95_mean": [
+          0.22997867800295352,
+          0.27540665715932844,
+          0.2993312865495682
+        ],
+        "phase_steps": {
+          "approach": 4206,
+          "near": 2344,
+          "closing": 165,
+          "bilateral": 1883,
+          "lift": 3543,
+          "hold": 760
+        },
+        "reward_mean": 0.7653601731816324,
+        "tcp_mean_mm": 313.43041305328654,
+        "failures": {}
+      }
+    },
+    "sac-22": {
+      "flat_facing_camera": {
+        "n": 40,
+        "success": 40,
+        "bilateral": 40,
+        "grasp": 40,
+        "lift": 40,
+        "hold": 40,
+        "signed_budget_violations": 0,
+        "timeouts": 0,
+        "contacts": 0,
+        "review": 0,
+        "lost_baseline": 0,
+        "eligible": true,
+        "successful_mean": 324.025,
+        "successful_p50_p95": [
+          324.0,
+          332.05
+        ],
+        "all_mean": 324.025,
+        "paired_n": 40,
+        "paired_mean": -8.325,
+        "faster": 37,
+        "slower": 3,
+        "ik": {
+          "solver_nonconverged": 0,
+          "joint_step_limit": 0
+        },
+        "absolute_mean_mm": [
+          9.075959100124383,
+          3.3052949014416226,
+          12.215618997831715
+        ],
+        "absolute_max_mm": [
+          9.986430504331123,
+          3.77470868825458,
+          13.106544672410791
+        ],
+        "drift_episode_p95_mean": [
+          0.21745495758950711,
+          0.29006812646985053,
+          0.33124160021543503
+        ],
+        "phase_steps": {
+          "approach": 4099,
+          "near": 2244,
+          "closing": 167,
+          "bilateral": 2036,
+          "lift": 3655,
+          "hold": 760
+        },
+        "reward_mean": 0.675508851377295,
+        "tcp_mean_mm": 318.9327280752467,
+        "failures": {}
+      },
+      "protrusion_facing_camera": {
+        "n": 40,
+        "success": 40,
+        "bilateral": 40,
+        "grasp": 40,
+        "lift": 40,
+        "hold": 40,
+        "signed_budget_violations": 0,
+        "timeouts": 0,
+        "contacts": 0,
+        "review": 0,
+        "lost_baseline": 0,
+        "eligible": true,
+        "successful_mean": 333.85,
+        "successful_p50_p95": [
+          333.5,
+          349.1
+        ],
+        "all_mean": 333.85,
+        "paired_n": 40,
+        "paired_mean": 3.625,
+        "faster": 6,
+        "slower": 33,
+        "ik": {
+          "solver_nonconverged": 0,
+          "joint_step_limit": 0
+        },
+        "absolute_mean_mm": [
+          13.347424499352204,
+          3.199802373277481,
+          12.422228050956985
+        ],
+        "absolute_max_mm": [
+          14.867971418638382,
+          3.3114727007869105,
+          13.771098834155282
+        ],
+        "drift_episode_p95_mean": [
+          0.27563711255788803,
+          0.2854504495859146,
+          0.308411418646574
+        ],
+        "phase_steps": {
+          "approach": 4161,
+          "near": 2242,
+          "closing": 164,
+          "bilateral": 2470,
+          "lift": 3557,
+          "hold": 760
+        },
+        "reward_mean": 0.5649667485738191,
+        "tcp_mean_mm": 318.8500666261746,
+        "failures": {}
+      }
+    },
+    "sac-33": {
+      "flat_facing_camera": {
+        "n": 40,
+        "success": 39,
+        "bilateral": 39,
+        "grasp": 39,
+        "lift": 39,
+        "hold": 39,
+        "signed_budget_violations": 0,
+        "timeouts": 1,
+        "contacts": 0,
+        "review": 0,
+        "lost_baseline": 1,
+        "eligible": false,
+        "successful_mean": 321.84615384615387,
+        "successful_p50_p95": [
+          321.0,
+          335.1
+        ],
+        "all_mean": 323.8,
+        "paired_n": 39,
+        "paired_mean": -10.41025641025641,
+        "faster": 34,
+        "slower": 4,
+        "ik": {
+          "solver_nonconverged": 294,
+          "joint_step_limit": 7
+        },
+        "absolute_mean_mm": [
+          6.662011200219238,
+          3.0278238400658144,
+          11.961949126019778
+        ],
+        "absolute_max_mm": [
+          7.554128713905817,
+          4.211960742196541,
+          14.268811471264797
+        ],
+        "drift_episode_p95_mean": [
+          0.2270918797701597,
+          0.3099048648029566,
+          0.34693478494882585
+        ],
+        "phase_steps": {
+          "approach": 4156,
+          "near": 2226,
+          "closing": 546,
+          "bilateral": 1731,
+          "lift": 3552,
+          "hold": 741
+        },
+        "reward_mean": 0.5070197937944936,
+        "tcp_mean_mm": 309.5737638069253,
+        "failures": {
+          "timeout / closing": 1
+        }
+      },
+      "protrusion_facing_camera": {
+        "n": 40,
+        "success": 40,
+        "bilateral": 40,
+        "grasp": 40,
+        "lift": 40,
+        "hold": 40,
+        "signed_budget_violations": 0,
+        "timeouts": 0,
+        "contacts": 0,
+        "review": 0,
+        "lost_baseline": 0,
+        "eligible": true,
+        "successful_mean": 325.2,
+        "successful_p50_p95": [
+          323.5,
+          343.1
+        ],
+        "all_mean": 325.2,
+        "paired_n": 40,
+        "paired_mean": -5.025,
+        "faster": 31,
+        "slower": 8,
+        "ik": {
+          "solver_nonconverged": 0,
+          "joint_step_limit": 0
+        },
+        "absolute_mean_mm": [
+          6.244362458913974,
+          3.0524857589104153,
+          12.130707703997818
+        ],
+        "absolute_max_mm": [
+          6.659714386038962,
+          4.108588149129733,
+          14.311291802101778
+        ],
+        "drift_episode_p95_mean": [
+          0.21824163980782033,
+          0.33913949206471444,
+          0.3808718495070934
+        ],
+        "phase_steps": {
+          "approach": 4281,
+          "near": 2305,
+          "closing": 167,
+          "bilateral": 1792,
+          "lift": 3703,
+          "hold": 760
+        },
+        "reward_mean": 0.6883207059148717,
+        "tcp_mean_mm": 319.53213716374523,
+        "failures": {}
+      }
+    }
+  }
+}

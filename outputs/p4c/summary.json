@@ -1,0 +1,38 @@
+{
+  "phase_entries": {
+    "Initialize": 8,
+    "Approach": 8,
+    "Pre-Grasp": 7,
+    "Grasp": 7,
+    "Lift": 7,
+    "Reorient": 5,
+    "Transfer": 0,
+    "Place": 0,
+    "Release": 0,
+    "Retreat": 0
+  },
+  "total": 8,
+  "stage_metrics": {
+    "Initialize": 8,
+    "Approach": 8,
+    "Pre-Grasp": 7,
+    "Grasp": 0,
+    "Lift": 0,
+    "Reorient": 0,
+    "Transfer": 0,
+    "Place": 0,
+    "Release": 0,
+    "Retreat": 0
+  },
+  "milestones": {
+    "bilateral": 0,
+    "grasped": 0,
+    "stable": 0,
+    "success": 0
+  },
+  "data": {
+    "test": 8,
+    "train": 24,
+    "validation": 6
+  }
+}

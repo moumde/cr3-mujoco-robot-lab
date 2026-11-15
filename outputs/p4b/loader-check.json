@@ -1,0 +1,14 @@
+{
+  "train": {
+    "episodes": 6,
+    "frames": 1076,
+    "fps": 10,
+    "failures": 1
+  },
+  "validation": {
+    "episodes": 2,
+    "frames": 398,
+    "fps": 10,
+    "failures": 0
+  }
+}

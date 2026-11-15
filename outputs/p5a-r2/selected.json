@@ -1,0 +1,44 @@
+{
+  "ppo-11": {
+    "step": 2000,
+    "deployable": true,
+    "sha256": "073f8a1c1a99f3b6e82c1d02c7550efc796da5f59b1ef2255a2248a3072c636f",
+    "path": "ppo-11/model-2000.zip",
+    "last_step": 20000
+  },
+  "ppo-22": {
+    "step": 5000,
+    "deployable": true,
+    "sha256": "e3f6ac9403cdd994b8da0654530362021eef3ee0dd0c74facfe2e6b4eba57942",
+    "path": "ppo-22/model-5000.zip",
+    "last_step": 20000
+  },
+  "ppo-33": {
+    "step": 20000,
+    "deployable": true,
+    "sha256": "82c0f43fc5056a3fbeb4d81c35eada52c100681e245435981e5a5a7e63de6455",
+    "path": "ppo-33/model-20000.zip",
+    "last_step": 20000
+  },
+  "sac-11": {
+    "step": 2000,
+    "deployable": true,
+    "sha256": "cd1c0d5909e20716ffbdf8fb65d0a71eb8f11ceb67243e5adbeeb642f6661638",
+    "path": "sac-11/model-2000.zip",
+    "last_step": 20000
+  },
+  "sac-22": {
+    "step": 5000,
+    "deployable": true,
+    "sha256": "8c9c684e10088cc2a8e5648297e4ec940f768adf9a447839ea82168b6dc44279",
+    "path": "sac-22/model-5000.zip",
+    "last_step": 20000
+  },
+  "sac-33": {
+    "step": 5000,
+    "deployable": true,
+    "sha256": "b7c45713604acc590d141156e61151ac1b542ef8561f604bd250a7da6cbfce87",
+    "path": "sac-33/model-5000.zip",
+    "last_step": 20000
+  }
+}

@@ -1,0 +1,451 @@
+{
+  "schema": 1,
+  "assets": [
+    {
+      "name": "LICENSE",
+      "version": "7807ef8fb31e8f86a76cd474a4a9cddffef6eca9",
+      "source": "Dobot-Arm/DOBOT_6Axis_ROS2_V4",
+      "license_or_restriction": "Local only; repository MIT, package BSD variant unconfirmed",
+      "path": "outputs/dobot_cr3/LICENSE",
+      "sha256": "a55351a1634b6cd46d2ca5555459a245761e11ac9956e3771faf343187cf2132",
+      "acquisition": "python scripts/fetch_cr3.py",
+      "required_for": [
+        "quickstart",
+        "data",
+        "research"
+      ]
+    },
+    {
+      "name": "cr3_robot.srdf",
+      "version": "7807ef8fb31e8f86a76cd474a4a9cddffef6eca9",
+      "source": "Dobot-Arm/DOBOT_6Axis_ROS2_V4",
+      "license_or_restriction": "Local only; repository MIT, package BSD variant unconfirmed",
+      "path": "outputs/dobot_cr3/cr3_moveit/config/cr3_robot.srdf",
+      "sha256": "d3d959c805906329d341764f81f967e1701be3cdb7b168e9a7200acf172f6e0c",
+      "acquisition": "python scripts/fetch_cr3.py",
+      "required_for": [
+        "quickstart",
+        "data",
+        "research"
+      ]
+    },
+    {
+      "name": "initial_positions.yaml",
+      "version": "7807ef8fb31e8f86a76cd474a4a9cddffef6eca9",
+      "source": "Dobot-Arm/DOBOT_6Axis_ROS2_V4",
+      "license_or_restriction": "Local only; repository MIT, package BSD variant unconfirmed",
+      "path": "outputs/dobot_cr3/cr3_moveit/config/initial_positions.yaml",
+      "sha256": "250a95f493e96beeeab7750d8748be224a28e3d4c9a6bf9f5ce0dfc75bf8755f",
+      "acquisition": "python scripts/fetch_cr3.py",
+      "required_for": [
+        "quickstart",
+        "data",
+        "research"
+      ]
+    },
+    {
+      "name": "joint_limits.yaml",
+      "version": "7807ef8fb31e8f86a76cd474a4a9cddffef6eca9",
+      "source": "Dobot-Arm/DOBOT_6Axis_ROS2_V4",
+      "license_or_restriction": "Local only; repository MIT, package BSD variant unconfirmed",
+      "path": "outputs/dobot_cr3/cr3_moveit/config/joint_limits.yaml",
+      "sha256": "ac0fa24b696630b88c09e7fa8bc8c9a97bd8ace967e8489fc5e5e2f6ff2eb2e3",
+      "acquisition": "python scripts/fetch_cr3.py",
+      "required_for": [
+        "quickstart",
+        "data",
+        "research"
+      ]
+    },
+    {
+      "name": "J1.STL",
+      "version": "7807ef8fb31e8f86a76cd474a4a9cddffef6eca9",
+      "source": "Dobot-Arm/DOBOT_6Axis_ROS2_V4",
+      "license_or_restriction": "Local only; repository MIT, package BSD variant unconfirmed",
+      "path": "outputs/dobot_cr3/cra_description/meshes/cr3/J1.STL",
+      "sha256": "326d387004613ca07e1113f42b7d9198edd57dd72b03e773859cb50f1cf60dd6",
+      "acquisition": "python scripts/fetch_cr3.py",
+      "required_for": [
+        "quickstart",
+        "data",
+        "research"
+      ]
+    },
+    {
+      "name": "J2.STL",
+      "version": "7807ef8fb31e8f86a76cd474a4a9cddffef6eca9",
+      "source": "Dobot-Arm/DOBOT_6Axis_ROS2_V4",
+      "license_or_restriction": "Local only; repository MIT, package BSD variant unconfirmed",
+      "path": "outputs/dobot_cr3/cra_description/meshes/cr3/J2.STL",
+      "sha256": "1fe1454681fc145c33bcd870995541134635ff604aeb471c047d9b976a707c26",
+      "acquisition": "python scripts/fetch_cr3.py",
+      "required_for": [
+        "quickstart",
+        "data",
+        "research"
+      ]
+    },
+    {
+      "name": "J3.STL",
+      "version": "7807ef8fb31e8f86a76cd474a4a9cddffef6eca9",
+      "source": "Dobot-Arm/DOBOT_6Axis_ROS2_V4",
+      "license_or_restriction": "Local only; repository MIT, package BSD variant unconfirmed",
+      "path": "outputs/dobot_cr3/cra_description/meshes/cr3/J3.STL",
+      "sha256": "24768f47c1ccddedd22bb75f417d2a14503688b6b2416752acd7e5602b52a674",
+      "acquisition": "python scripts/fetch_cr3.py",
+      "required_for": [
+        "quickstart",
+        "data",
+        "research"
+      ]
+    },
+    {
+      "name": "J4.STL",
+      "version": "7807ef8fb31e8f86a76cd474a4a9cddffef6eca9",
+      "source": "Dobot-Arm/DOBOT_6Axis_ROS2_V4",
+      "license_or_restriction": "Local only; repository MIT, package BSD variant unconfirmed",
+      "path": "outputs/dobot_cr3/cra_description/meshes/cr3/J4.STL",
+      "sha256": "f1ee36bfd9f3e96a4666694df326106a824212f43d9a610b67fce150e0fd3e34",
+      "acquisition": "python scripts/fetch_cr3.py",
+      "required_for": [
+        "quickstart",
+        "data",
+        "research"
+      ]
+    },
+    {
+      "name": "J5.STL",
+      "version": "7807ef8fb31e8f86a76cd474a4a9cddffef6eca9",
+      "source": "Dobot-Arm/DOBOT_6Axis_ROS2_V4",
+      "license_or_restriction": "Local only; repository MIT, package BSD variant unconfirmed",
+      "path": "outputs/dobot_cr3/cra_description/meshes/cr3/J5.STL",
+      "sha256": "852a94eb9f900da345d77967fad2f927deab777d121a861e0ad7d6f1b91995f7",
+      "acquisition": "python scripts/fetch_cr3.py",
+      "required_for": [
+        "quickstart",
+        "data",
+        "research"
+      ]
+    },
+    {
+      "name": "J6.STL",
+      "version": "7807ef8fb31e8f86a76cd474a4a9cddffef6eca9",
+      "source": "Dobot-Arm/DOBOT_6Axis_ROS2_V4",
+      "license_or_restriction": "Local only; repository MIT, package BSD variant unconfirmed",
+      "path": "outputs/dobot_cr3/cra_description/meshes/cr3/J6.STL",
+      "sha256": "a74c427c61b3991d1e05212456e48807b8dc6ba6f1628ebff4c184e60c3e16ea",
+      "acquisition": "python scripts/fetch_cr3.py",
+      "required_for": [
+        "quickstart",
+        "data",
+        "research"
+      ]
+    },
+    {
+      "name": "base_link.STL",
+      "version": "7807ef8fb31e8f86a76cd474a4a9cddffef6eca9",
+      "source": "Dobot-Arm/DOBOT_6Axis_ROS2_V4",
+      "license_or_restriction": "Local only; repository MIT, package BSD variant unconfirmed",
+      "path": "outputs/dobot_cr3/cra_description/meshes/cr3/base_link.STL",
+      "sha256": "50cb152eda36c45c1a2d24c8e1319ee44cd4f08dde7167e18ef2d38140f5059a",
+      "acquisition": "python scripts/fetch_cr3.py",
+      "required_for": [
+        "quickstart",
+        "data",
+        "research"
+      ]
+    },
+    {
+      "name": "package.xml",
+      "version": "7807ef8fb31e8f86a76cd474a4a9cddffef6eca9",
+      "source": "Dobot-Arm/DOBOT_6Axis_ROS2_V4",
+      "license_or_restriction": "Local only; repository MIT, package BSD variant unconfirmed",
+      "path": "outputs/dobot_cr3/cra_description/package.xml",
+      "sha256": "3c891ceacc864018b609dfc6f446d5efa9b963f9e272265c7152f4d80ef47750",
+      "acquisition": "python scripts/fetch_cr3.py",
+      "required_for": [
+        "quickstart",
+        "data",
+        "research"
+      ]
+    },
+    {
+      "name": "cr3_robot.xacro",
+      "version": "7807ef8fb31e8f86a76cd474a4a9cddffef6eca9",
+      "source": "Dobot-Arm/DOBOT_6Axis_ROS2_V4",
+      "license_or_restriction": "Local only; repository MIT, package BSD variant unconfirmed",
+      "path": "outputs/dobot_cr3/cra_description/urdf/cr3_robot.xacro",
+      "sha256": "c269821bc8eb58510e18aabf1c58d65244802b9b1128ee71966fdbbe9098b768",
+      "acquisition": "python scripts/fetch_cr3.py",
+      "required_for": [
+        "quickstart",
+        "data",
+        "research"
+      ]
+    },
+    {
+      "name": "parallel.xml",
+      "version": "4ff1eec",
+      "source": "Project source or generated statistics",
+      "license_or_restriction": "Project material; publication license pending maintainer approval",
+      "path": "assets/robots/gripper/parallel.xml",
+      "sha256": "0e870e52ebbd0d893b362b9b750f9ada9250198df58c18770558c1717ac88a16",
+      "acquisition": "Git checkout",
+      "required_for": [
+        "quickstart",
+        "data",
+        "research"
+      ]
+    },
+    {
+      "name": "motor_scene.py",
+      "version": "4ff1eec",
+      "source": "Project source or generated statistics",
+      "license_or_restriction": "Project material; publication license pending maintainer approval",
+      "path": "src/cr3_lab/tasks/motor_scene.py",
+      "sha256": "5085b2f3bb6b5c410f2012e91bccc79d3a580ce964ad8d8555625273b4ff1834",
+      "acquisition": "Git checkout",
+      "required_for": [
+        "quickstart",
+        "data",
+        "research"
+      ]
+    },
+    {
+      "name": "camera.py",
+      "version": "4ff1eec",
+      "source": "Project source or generated statistics",
+      "license_or_restriction": "Project material; publication license pending maintainer approval",
+      "path": "src/cr3_lab/perception/camera.py",
+      "sha256": "41da92683afc7042ec29ad106d03eb948f39dd95dbbe31a21e6977694e31b0c4",
+      "acquisition": "Git checkout",
+      "required_for": [
+        "quickstart",
+        "data"
+      ]
+    },
+    {
+      "name": "train_grasp_lift.py",
+      "version": "4ff1eec",
+      "source": "Project source or generated statistics",
+      "license_or_restriction": "Project material; publication license pending maintainer approval",
+      "path": "src/cr3_lab/rl/train_grasp_lift.py",
+      "sha256": "cf18d326f293b79d0f3044f1f0f392de273f149c316f0d31c88d5f7335360680",
+      "acquisition": "Git checkout",
+      "required_for": [
+        "research"
+      ]
+    },
+    {
+      "name": "test_manifest.json",
+      "version": "4ff1eec",
+      "source": "Project source or generated statistics",
+      "license_or_restriction": "Project material; publication license pending maintainer approval",
+      "path": "outputs/p5a-r3/test_manifest.json",
+      "sha256": "a618e700ab788369f5b6e0bf5e91e415c93f2b3c5c9f3c38053850cac39dfb78",
+      "acquisition": "Git checkout",
+      "required_for": [
+        "research"
+      ]
+    },
+    {
+      "name": "summary.json",
+      "version": "4ff1eec",
+      "source": "Project source or generated statistics",
+      "license_or_restriction": "Project material; publication license pending maintainer approval",
+      "path": "outputs/p5a-r3/summary.json",
+      "sha256": "cb11612cbb3778125b4c705f00046d7cd82258a8ba4d108a5962fd8bb878186c",
+      "acquisition": "Git checkout",
+      "required_for": []
+    },
+    {
+      "name": "summary.json",
+      "version": "4ff1eec",
+      "source": "Project source or generated statistics",
+      "license_or_restriction": "Project material; publication license pending maintainer approval",
+      "path": "outputs/p5a-r2/summary.json",
+      "sha256": "1ad3f3f60bd645b151548c5a42259f5c1c8b2bf9caec86330feddd63cfdec357",
+      "acquisition": "Git checkout",
+      "required_for": []
+    },
+    {
+      "name": "model.pt",
+      "version": "P3c-6",
+      "source": "Project-generated from local CR3 simulation",
+      "license_or_restriction": "Local only pending explicit redistribution review",
+      "path": "outputs/p3c-6/run/model.pt",
+      "sha256": "999e77405fb4bfdc1dc43c1ef6b8a4cef48e4cf6924ffdd9c5d918b2dc668617",
+      "acquisition": "Import privately held verified artifact; see REPRODUCTION.md",
+      "required_for": [
+        "learned",
+        "research"
+      ]
+    },
+    {
+      "name": "model.pt",
+      "version": "bc@0",
+      "source": "Project-generated from local CR3 simulation",
+      "license_or_restriction": "Local only pending explicit redistribution review",
+      "path": "outputs/p3c-10.5/uniform/model.pt",
+      "sha256": "27456f45c93961e012087528581472d02c65eca15ed47bd48c6d59191f123be0",
+      "acquisition": "Import privately held verified artifact; see REPRODUCTION.md",
+      "required_for": [
+        "learned",
+        "research"
+      ]
+    },
+    {
+      "name": "model-2000.zip",
+      "version": "ppo-11@2000",
+      "source": "Project-generated from local CR3 simulation",
+      "license_or_restriction": "Local only pending explicit redistribution review",
+      "path": "outputs/p5a-r2/ppo-11/model-2000.zip",
+      "sha256": "073f8a1c1a99f3b6e82c1d02c7550efc796da5f59b1ef2255a2248a3072c636f",
+      "acquisition": "Import privately held verified artifact; see REPRODUCTION.md",
+      "required_for": [
+        "research"
+      ]
+    },
+    {
+      "name": "model-5000.zip",
+      "version": "ppo-22@5000",
+      "source": "Project-generated from local CR3 simulation",
+      "license_or_restriction": "Local only pending explicit redistribution review",
+      "path": "outputs/p5a-r2/ppo-22/model-5000.zip",
+      "sha256": "e3f6ac9403cdd994b8da0654530362021eef3ee0dd0c74facfe2e6b4eba57942",
+      "acquisition": "Import privately held verified artifact; see REPRODUCTION.md",
+      "required_for": [
+        "research"
+      ]
+    },
+    {
+      "name": "model-20000.zip",
+      "version": "ppo-33@20000",
+      "source": "Project-generated from local CR3 simulation",
+      "license_or_restriction": "Local only pending explicit redistribution review",
+      "path": "outputs/p5a-r2/ppo-33/model-20000.zip",
+      "sha256": "82c0f43fc5056a3fbeb4d81c35eada52c100681e245435981e5a5a7e63de6455",
+      "acquisition": "Import privately held verified artifact; see REPRODUCTION.md",
+      "required_for": [
+        "research"
+      ]
+    },
+    {
+      "name": "model-2000.zip",
+      "version": "sac-11@2000",
+      "source": "Project-generated from local CR3 simulation",
+      "license_or_restriction": "Local only pending explicit redistribution review",
+      "path": "outputs/p5a-r2/sac-11/model-2000.zip",
+      "sha256": "cd1c0d5909e20716ffbdf8fb65d0a71eb8f11ceb67243e5adbeeb642f6661638",
+      "acquisition": "Import privately held verified artifact; see REPRODUCTION.md",
+      "required_for": [
+        "research"
+      ]
+    },
+    {
+      "name": "model-5000.zip",
+      "version": "sac-22@5000",
+      "source": "Project-generated from local CR3 simulation",
+      "license_or_restriction": "Local only pending explicit redistribution review",
+      "path": "outputs/p5a-r2/sac-22/model-5000.zip",
+      "sha256": "8c9c684e10088cc2a8e5648297e4ec940f768adf9a447839ea82168b6dc44279",
+      "acquisition": "Import privately held verified artifact; see REPRODUCTION.md",
+      "required_for": [
+        "research"
+      ]
+    },
+    {
+      "name": "model-5000.zip",
+      "version": "sac-33@5000",
+      "source": "Project-generated from local CR3 simulation",
+      "license_or_restriction": "Local only pending explicit redistribution review",
+      "path": "outputs/p5a-r2/sac-33/model-5000.zip",
+      "sha256": "b7c45713604acc590d141156e61151ac1b542ef8561f604bd250a7da6cbfce87",
+      "acquisition": "Import privately held verified artifact; see REPRODUCTION.md",
+      "required_for": [
+        "research"
+      ]
+    },
+    {
+      "name": "model.pt",
+      "version": "P4c",
+      "source": "Project-generated from local CR3 simulation",
+      "license_or_restriction": "Local only pending explicit redistribution review",
+      "path": "outputs/p4c/train/model.pt",
+      "sha256": "a87b93c7ab4ec80ac2cc24c5daa553b630142d833f918ff40257e04c6f0d2af1",
+      "acquisition": "Import privately held verified artifact; see REPRODUCTION.md",
+      "required_for": [
+        "vision-bc"
+      ]
+    },
+    {
+      "name": "info.json",
+      "version": "P4b",
+      "source": "Project simulation RGB/state/action dataset",
+      "license_or_restriction": "Public redistribution unconfirmed (rendered CR3 meshes); local only",
+      "path": "outputs/p4b/lerobot/train/meta/info.json",
+      "sha256": "313d5b27224f0204fdfa0291094f1f1b083857a9c19fa8235aa794f4a07f784f",
+      "acquisition": "Generate locally with demo collect/export or P4c scripts",
+      "required_for": []
+    },
+    {
+      "name": "info.json",
+      "version": "P4c",
+      "source": "Project simulation RGB/state/action dataset",
+      "license_or_restriction": "Public redistribution unconfirmed (rendered CR3 meshes); local only",
+      "path": "outputs/p4c/dataset/train/meta/info.json",
+      "sha256": "b4c398f1e2a8d21590fcfab2d0c0e75a1a40f9c864711ce77e7d67149ead0314",
+      "acquisition": "Generate locally with demo collect/export or P4c scripts",
+      "required_for": []
+    },
+    {
+      "name": "selected.json",
+      "version": "P3c-10.6",
+      "source": "CR3 MuJoCo project",
+      "license_or_restriction": "Project metadata; code license pending",
+      "path": "outputs/p3c-10.6/selected.json",
+      "sha256": "9bbfdc8c8d9f6a87009d3c56cf2429b658b95f0926d48514b0689d4eed39a725",
+      "acquisition": "Git checkout",
+      "required_for": [
+        "learned",
+        "research"
+      ]
+    },
+    {
+      "name": "frozen_candidates.json",
+      "version": "P5a-R3",
+      "source": "CR3 MuJoCo project",
+      "license_or_restriction": "Project metadata; code license pending",
+      "path": "outputs/p5a-r3/frozen_candidates.json",
+      "sha256": "595bf702fbcdac7bd046128789d043866d329f2f3cf8f833101da1cfcf61a2b6",
+      "acquisition": "Git checkout",
+      "required_for": [
+        "research"
+      ]
+    },
+    {
+      "name": "protocol.json",
+      "version": "P5a-R2",
+      "source": "CR3 MuJoCo project",
+      "license_or_restriction": "Project metadata; code license pending",
+      "path": "outputs/p5a-r2/protocol.json",
+      "sha256": "3583aae0b24a091644e8418e928d54afb9b436b9d7f3f1d9e69c84c9ac4c3426",
+      "acquisition": "Git checkout",
+      "required_for": [
+        "research"
+      ]
+    },
+    {
+      "name": "development-demo.json",
+      "version": "P5b-1",
+      "source": "CR3 MuJoCo project",
+      "license_or_restriction": "Project metadata; code license pending",
+      "path": "configs/development-demo.json",
+      "sha256": "fbeee72cbe7db76234c159d36f1cfd467c28943155e20725003d529aaae42166",
+      "acquisition": "Git checkout",
+      "required_for": [
+        "research"
+      ]
+    }
+  ]
+}

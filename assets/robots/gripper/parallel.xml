@@ -1,0 +1,26 @@
+<mujoco>
+  <worldbody>
+    <body name="parallel_gripper">
+      <geom name="palm" type="box" pos="0 0 0.019" size="0.048 0.023 0.017"
+            mass="0.20" rgba="0.18 0.22 0.27 1" contype="4" conaffinity="1"/>
+      <body name="left_finger" pos="0.043 0 0.036">
+        <joint name="left_slide" type="slide" axis="-1 0 0" range="0 0.037" damping="4"/>
+        <geom name="left_pad" type="box" pos="0 0 0.032" size="0.006 0.016 0.032"
+              mass="0.045" rgba="0.25 0.5 0.65 1" contype="4" conaffinity="1"/>
+      </body>
+      <body name="right_finger" pos="-0.043 0 0.036">
+        <joint name="right_slide" type="slide" axis="1 0 0" range="0 0.037" damping="4"/>
+        <geom name="right_pad" type="box" pos="0 0 0.032" size="0.006 0.016 0.032"
+              mass="0.045" rgba="0.25 0.5 0.65 1" contype="4" conaffinity="1"/>
+      </body>
+      <site name="tcp" pos="0 0 0.10" size="0.004" rgba="0.95 0.3 0.1 1"/>
+    </body>
+  </worldbody>
+  <equality>
+    <joint joint1="right_slide" joint2="left_slide" polycoef="0 1 0 0 0"/>
+  </equality>
+  <actuator>
+    <position name="gripper_closure" joint="left_slide" kp="1500" kv="10"
+              ctrlrange="0 0.037" forcerange="-35 35"/>
+  </actuator>
+</mujoco>

@@ -1,0 +1,98 @@
+{
+  "checkpoints": [
+    {
+      "step": 0,
+      "updates": 0,
+      "parameter_change": {
+        "actor": 0.0,
+        "critic": 0.0
+      },
+      "violations": [],
+      "relative_drift": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "step": 250,
+      "updates": 0,
+      "parameter_change": {
+        "actor": 0.0,
+        "critic": 0.0
+      },
+      "violations": [],
+      "relative_drift": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "step": 500,
+      "updates": 0,
+      "parameter_change": {
+        "actor": 0.0,
+        "critic": 0.0
+      },
+      "violations": [],
+      "relative_drift": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "step": 750,
+      "updates": 62,
+      "parameter_change": {
+        "actor": 0.006712213158607483,
+        "critic": 0.0174916610121727
+      },
+      "violations": [
+        [
+          17208,
+          "flat_facing_camera",
+          "success",
+          [
+            0.006807364803012694,
+            0.0055774668397389204,
+            0.01384419569268358
+          ]
+        ],
+        [
+          17211,
+          "flat_facing_camera",
+          "success",
+          [
+            0.006944069502565986,
+            0.00539133132481584,
+            0.014157389795087294
+          ]
+        ],
+        [
+          18093,
+          "flat_facing_camera",
+          "success",
+          [
+            0.006851177230913441,
+            0.005702221173663591,
+            0.013923892018083972
+          ]
+        ]
+      ],
+      "relative_drift": [
+        false,
+        false,
+        false
+      ]
+    }
+  ],
+  "steps": 750,
+  "updates": 62,
+  "stop_reason": "paired capability or drift gate",
+  "calibration_steps": 211,
+  "evaluation_steps": 102885,
+  "online_including_gates_s": 85.52732582899989,
+  "wall_s": 139.5571165729998
+}

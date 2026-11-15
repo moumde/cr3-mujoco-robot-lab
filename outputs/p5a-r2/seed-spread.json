@@ -1,0 +1,150 @@
+{
+  "ppo": {
+    "0": {
+      "validation": {
+        "mean": 20.0,
+        "min": 20,
+        "max": 20
+      },
+      "history": {
+        "mean": 42.0,
+        "min": 42,
+        "max": 42
+      }
+    },
+    "1000": {
+      "validation": {
+        "mean": 20.0,
+        "min": 20,
+        "max": 20
+      },
+      "history": {
+        "mean": 41.333333333333336,
+        "min": 41,
+        "max": 42
+      }
+    },
+    "2000": {
+      "validation": {
+        "mean": 20.0,
+        "min": 20,
+        "max": 20
+      },
+      "history": {
+        "mean": 41.666666666666664,
+        "min": 41,
+        "max": 42
+      }
+    },
+    "5000": {
+      "validation": {
+        "mean": 20.0,
+        "min": 20,
+        "max": 20
+      },
+      "history": {
+        "mean": 41.666666666666664,
+        "min": 41,
+        "max": 42
+      }
+    },
+    "10000": {
+      "validation": {
+        "mean": 20.0,
+        "min": 20,
+        "max": 20
+      },
+      "history": {
+        "mean": 42.0,
+        "min": 42,
+        "max": 42
+      }
+    },
+    "20000": {
+      "validation": {
+        "mean": 20.0,
+        "min": 20,
+        "max": 20
+      },
+      "history": {
+        "mean": 42.0,
+        "min": 42,
+        "max": 42
+      }
+    }
+  },
+  "sac": {
+    "0": {
+      "validation": {
+        "mean": 20.0,
+        "min": 20,
+        "max": 20
+      },
+      "history": {
+        "mean": 42.0,
+        "min": 42,
+        "max": 42
+      }
+    },
+    "1000": {
+      "validation": {
+        "mean": 18.666666666666668,
+        "min": 16,
+        "max": 20
+      },
+      "history": {
+        "mean": 39.666666666666664,
+        "min": 36,
+        "max": 42
+      }
+    },
+    "2000": {
+      "validation": {
+        "mean": 20.0,
+        "min": 20,
+        "max": 20
+      },
+      "history": {
+        "mean": 41.0,
+        "min": 40,
+        "max": 42
+      }
+    },
+    "5000": {
+      "validation": {
+        "mean": 20.0,
+        "min": 20,
+        "max": 20
+      },
+      "history": {
+        "mean": 41.666666666666664,
+        "min": 41,
+        "max": 42
+      }
+    },
+    "10000": {
+      "validation": {
+        "mean": 19.666666666666668,
+        "min": 19,
+        "max": 20
+      },
+      "history": {
+        "mean": 38.666666666666664,
+        "min": 36,
+        "max": 40
+      }
+    },
+    "20000": {
+      "validation": {
+        "mean": 20.0,
+        "min": 20,
+        "max": 20
+      },
+      "history": {
+        "mean": 40.333333333333336,
+        "min": 40,
+        "max": 41
+      }
+    }
+  }
+}

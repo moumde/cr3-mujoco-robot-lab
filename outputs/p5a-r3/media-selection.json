@@ -1,0 +1,29 @@
+{
+  "shared-success": {
+    "seed": 17700,
+    "orientation": "protrusion_facing_camera",
+    "strategies": [
+      "bc",
+      "ppo-11",
+      "sac-11"
+    ]
+  },
+  "regression": {
+    "seed": 17721,
+    "orientation": "flat_facing_camera",
+    "strategies": [
+      "bc",
+      "sac-33",
+      "ppo-11"
+    ]
+  },
+  "tcp-contrast": {
+    "seed": 17719,
+    "orientation": "protrusion_facing_camera",
+    "strategies": [
+      "bc",
+      "ppo-11",
+      "sac-11"
+    ]
+  }
+}

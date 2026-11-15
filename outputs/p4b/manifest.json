@@ -1,0 +1,259 @@
+[
+  {
+    "id": "episode-000",
+    "seed": 5400,
+    "orientation": "protrusion_facing_camera",
+    "mode": "rgb_expert",
+    "profile": "fixed",
+    "dim": false,
+    "split": "train",
+    "task": "Pick up the motor part, orient its protruding end toward the robot, place it on the right target, and retreat.",
+    "control_hz": 50,
+    "camera_fps": 10,
+    "duration_s": 21.459999999998985,
+    "frames": 215,
+    "controls": 1073,
+    "success": true,
+    "terminal": true,
+    "failure_stage": null,
+    "estimate": {
+      "position_xy": [
+        0.44969012300818373,
+        0.09010680392810635
+      ],
+      "orientation": "protrusion_facing_camera",
+      "confidence": 0.8375461695931004,
+      "failure": null
+    },
+    "failure_reasons": [],
+    "failure_categories": [],
+    "render_control_parity": true,
+    "lerobot_episode_index": 0,
+    "perception_time_s": 0.6
+  },
+  {
+    "id": "episode-001",
+    "seed": 5400,
+    "orientation": "flat_facing_camera",
+    "mode": "rgb_expert",
+    "profile": "fixed",
+    "dim": false,
+    "split": "train",
+    "task": "Pick up the motor part, orient its protruding end toward the robot, place it on the right target, and retreat.",
+    "control_hz": 50,
+    "camera_fps": 10,
+    "duration_s": 21.299999999999073,
+    "frames": 213,
+    "controls": 1065,
+    "success": true,
+    "terminal": true,
+    "failure_stage": null,
+    "estimate": {
+      "position_xy": [
+        0.4498177556926032,
+        0.08994685753877518
+      ],
+      "orientation": "flat_facing_camera",
+      "confidence": 0.8132262990837794,
+      "failure": null
+    },
+    "failure_reasons": [],
+    "failure_categories": [],
+    "render_control_parity": true,
+    "lerobot_episode_index": 1,
+    "perception_time_s": 0.6
+  },
+  {
+    "id": "episode-002",
+    "seed": 5401,
+    "orientation": "protrusion_facing_camera",
+    "mode": "rgb_expert",
+    "profile": "large",
+    "dim": false,
+    "split": "train",
+    "task": "Pick up the motor part, orient its protruding end toward the robot, place it on the right target, and retreat.",
+    "control_hz": 50,
+    "camera_fps": 10,
+    "duration_s": 21.399999999999018,
+    "frames": 214,
+    "controls": 1070,
+    "success": true,
+    "terminal": true,
+    "failure_stage": null,
+    "estimate": {
+      "position_xy": [
+        0.42655725496409364,
+        0.0815300546824897
+      ],
+      "orientation": "protrusion_facing_camera",
+      "confidence": 0.868705030930265,
+      "failure": null
+    },
+    "failure_reasons": [],
+    "failure_categories": [],
+    "render_control_parity": true,
+    "lerobot_episode_index": 2,
+    "perception_time_s": 0.6
+  },
+  {
+    "id": "episode-003",
+    "seed": 5401,
+    "orientation": "flat_facing_camera",
+    "mode": "rgb_expert",
+    "profile": "large",
+    "dim": false,
+    "split": "train",
+    "task": "Pick up the motor part, orient its protruding end toward the robot, place it on the right target, and retreat.",
+    "control_hz": 50,
+    "camera_fps": 10,
+    "duration_s": 21.259999999999096,
+    "frames": 213,
+    "controls": 1063,
+    "success": true,
+    "terminal": true,
+    "failure_stage": null,
+    "estimate": {
+      "position_xy": [
+        0.4261828116917726,
+        0.08100342148739087
+      ],
+      "orientation": "flat_facing_camera",
+      "confidence": 0.8220050452296176,
+      "failure": null
+    },
+    "failure_reasons": [],
+    "failure_categories": [],
+    "render_control_parity": true,
+    "lerobot_episode_index": 3,
+    "perception_time_s": 0.6
+  },
+  {
+    "id": "episode-004",
+    "seed": 5402,
+    "orientation": "protrusion_facing_camera",
+    "mode": "rgb_learned_grasp",
+    "profile": "large",
+    "dim": false,
+    "split": "validation",
+    "task": "Pick up the motor part, orient its protruding end toward the robot, place it on the right target, and retreat.",
+    "control_hz": 50,
+    "camera_fps": 10,
+    "duration_s": 19.85999999999987,
+    "frames": 199,
+    "controls": 993,
+    "success": true,
+    "terminal": true,
+    "failure_stage": null,
+    "estimate": {
+      "position_xy": [
+        0.4374420606490368,
+        0.06540513222310261
+      ],
+      "orientation": "protrusion_facing_camera",
+      "confidence": 0.86457277019685,
+      "failure": null
+    },
+    "failure_reasons": [],
+    "failure_categories": [],
+    "render_control_parity": true,
+    "lerobot_episode_index": 0,
+    "perception_time_s": 0.6
+  },
+  {
+    "id": "episode-005",
+    "seed": 5402,
+    "orientation": "flat_facing_camera",
+    "mode": "rgb_learned_grasp",
+    "profile": "large",
+    "dim": false,
+    "split": "validation",
+    "task": "Pick up the motor part, orient its protruding end toward the robot, place it on the right target, and retreat.",
+    "control_hz": 50,
+    "camera_fps": 10,
+    "duration_s": 19.839999999999883,
+    "frames": 199,
+    "controls": 992,
+    "success": true,
+    "terminal": true,
+    "failure_stage": null,
+    "estimate": {
+      "position_xy": [
+        0.43768721354506346,
+        0.06509105076167682
+      ],
+      "orientation": "flat_facing_camera",
+      "confidence": 0.8185850377208337,
+      "failure": null
+    },
+    "failure_reasons": [],
+    "failure_categories": [],
+    "render_control_parity": true,
+    "lerobot_episode_index": 1,
+    "perception_time_s": 0.6
+  },
+  {
+    "id": "episode-006",
+    "seed": 5400,
+    "orientation": "protrusion_facing_camera",
+    "mode": "rgb_expert",
+    "profile": "fixed",
+    "dim": true,
+    "split": "train",
+    "task": "Pick up the motor part, orient its protruding end toward the robot, place it on the right target, and retreat.",
+    "control_hz": 50,
+    "camera_fps": 10,
+    "duration_s": 21.419999999999007,
+    "frames": 215,
+    "controls": 1071,
+    "success": true,
+    "terminal": true,
+    "failure_stage": null,
+    "estimate": {
+      "position_xy": [
+        0.44721639147539005,
+        0.08757323340368246
+      ],
+      "orientation": "protrusion_facing_camera",
+      "confidence": 0.5626756684972245,
+      "failure": null
+    },
+    "failure_reasons": [],
+    "failure_categories": [],
+    "render_control_parity": true,
+    "lerobot_episode_index": 4,
+    "perception_time_s": 0.6
+  },
+  {
+    "id": "episode-007",
+    "seed": 5400,
+    "orientation": "flat_facing_camera",
+    "mode": "rgb_expert",
+    "profile": "fixed",
+    "dim": true,
+    "split": "train",
+    "task": "Pick up the motor part, orient its protruding end toward the robot, place it on the right target, and retreat.",
+    "control_hz": 50,
+    "camera_fps": 10,
+    "duration_s": 0.6000000000000004,
+    "frames": 6,
+    "controls": 30,
+    "success": false,
+    "terminal": true,
+    "failure_stage": "Initialize",
+    "estimate": {
+      "position_xy": null,
+      "orientation": "flat_facing_camera",
+      "confidence": 0.0,
+      "failure": "localization_geometry_failed"
+    },
+    "failure_reasons": [
+      "localization_geometry_failed"
+    ],
+    "failure_categories": [
+      "perception"
+    ],
+    "render_control_parity": true,
+    "lerobot_episode_index": 5,
+    "perception_time_s": 0.6
+  }
+]

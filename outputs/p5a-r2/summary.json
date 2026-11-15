@@ -1,0 +1,6266 @@
+{
+  "ppo-11": {
+    "status": {
+      "steps": 20000,
+      "error": null,
+      "wall_s": 238.29676388299958,
+      "eval_and_save_s": 183.0045306209995,
+      "first_rollout": {
+        "phases": {
+          "approach": 316,
+          "near": 173,
+          "closing": 12,
+          "bilateral": 185,
+          "lift": 257,
+          "hold": 57
+        },
+        "completed": {
+          "success": 3
+        },
+        "advantage": [
+          -0.2816349267959595,
+          -0.126029372215271,
+          1.0297952890396118,
+          2.8102359771728516
+        ]
+      },
+      "checks": [
+        {
+          "step": 0,
+          "gradients": 0,
+          "review": [],
+          "online_completed": {},
+          "online_phases": {}
+        },
+        {
+          "step": 1000,
+          "gradients": 16,
+          "review": [],
+          "online_completed": {
+            "success": 3
+          },
+          "online_phases": {
+            "approach": 316,
+            "near": 173,
+            "closing": 12,
+            "bilateral": 185,
+            "lift": 257,
+            "hold": 57
+          }
+        },
+        {
+          "step": 2000,
+          "gradients": 32,
+          "review": [],
+          "online_completed": {
+            "success": 6
+          },
+          "online_phases": {
+            "approach": 621,
+            "near": 346,
+            "closing": 25,
+            "bilateral": 379,
+            "lift": 515,
+            "hold": 114
+          }
+        },
+        {
+          "step": 5000,
+          "gradients": 80,
+          "review": [
+            [
+              17218,
+              "protrusion_facing_camera",
+              "timeout",
+              [
+                0.0012028082473989343,
+                0.0003261632737121545,
+                0.004226372424251501
+              ]
+            ]
+          ],
+          "online_completed": {
+            "success": 14
+          },
+          "online_phases": {
+            "approach": 1540,
+            "near": 846,
+            "closing": 103,
+            "bilateral": 935,
+            "lift": 1298,
+            "hold": 278
+          }
+        },
+        {
+          "step": 10000,
+          "gradients": 160,
+          "review": [],
+          "online_completed": {
+            "success": 30
+          },
+          "online_phases": {
+            "approach": 3112,
+            "near": 1702,
+            "closing": 167,
+            "bilateral": 1874,
+            "lift": 2575,
+            "hold": 570
+          }
+        },
+        {
+          "step": 20000,
+          "gradients": 320,
+          "review": [],
+          "online_completed": {
+            "success": 60
+          },
+          "online_phases": {
+            "approach": 6189,
+            "near": 3393,
+            "closing": 350,
+            "bilateral": 3781,
+            "lift": 5147,
+            "hold": 1140
+          }
+        }
+      ]
+    },
+    "records": [
+      {
+        "step": 0,
+        "gradients": 0,
+        "review": [],
+        "online_completed": {},
+        "online_phases": {},
+        "eligible": true,
+        "history": {
+          "success": 42,
+          "count": 42,
+          "all_mean": 332.6904761904762,
+          "successful_mean": 332.6904761904762,
+          "paired_n": 42,
+          "paired_delta": 0.0,
+          "reward_mean": 0.6047153566298756,
+          "bilateral": 42,
+          "confirmed": 42,
+          "lift100": 42,
+          "ik": 21,
+          "collisions": 0,
+          "absolute_max_mm": [
+            15.392357514116384,
+            2.2588598907766766,
+            15.840554539895635
+          ],
+          "failures": {}
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 333.0,
+          "successful_mean": 333.0,
+          "paired_n": 20,
+          "paired_delta": 0.0,
+          "reward_mean": 0.6147297463770973,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            6.926525866930211,
+            1.6183972390493295,
+            16.13788944946748
+          ],
+          "failures": {}
+        }
+      },
+      {
+        "step": 1000,
+        "gradients": 16,
+        "review": [],
+        "online_completed": {
+          "success": 3
+        },
+        "online_phases": {
+          "approach": 316,
+          "near": 173,
+          "closing": 12,
+          "bilateral": 185,
+          "lift": 257,
+          "hold": 57
+        },
+        "eligible": true,
+        "history": {
+          "success": 42,
+          "count": 42,
+          "all_mean": 332.64285714285717,
+          "successful_mean": 332.64285714285717,
+          "paired_n": 42,
+          "paired_delta": -0.047619047619047616,
+          "reward_mean": 0.6050863690958153,
+          "bilateral": 42,
+          "confirmed": 42,
+          "lift100": 42,
+          "ik": 22,
+          "collisions": 0,
+          "absolute_max_mm": [
+            13.671131753692833,
+            2.2729457977916923,
+            15.862797153999963
+          ],
+          "failures": {}
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 332.65,
+          "successful_mean": 332.65,
+          "paired_n": 20,
+          "paired_delta": -0.35,
+          "reward_mean": 0.6202106665279733,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            6.8976217580993815,
+            1.6543150969869913,
+            16.18393565865972
+          ],
+          "failures": {}
+        }
+      },
+      {
+        "step": 2000,
+        "gradients": 32,
+        "review": [],
+        "online_completed": {
+          "success": 6
+        },
+        "online_phases": {
+          "approach": 621,
+          "near": 346,
+          "closing": 25,
+          "bilateral": 379,
+          "lift": 515,
+          "hold": 114
+        },
+        "eligible": true,
+        "history": {
+          "success": 42,
+          "count": 42,
+          "all_mean": 332.54761904761904,
+          "successful_mean": 332.54761904761904,
+          "paired_n": 42,
+          "paired_delta": -0.14285714285714285,
+          "reward_mean": 0.6059263913466479,
+          "bilateral": 42,
+          "confirmed": 42,
+          "lift100": 42,
+          "ik": 25,
+          "collisions": 0,
+          "absolute_max_mm": [
+            15.921019638476697,
+            2.4801290144988997,
+            15.85926050688613
+          ],
+          "failures": {}
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 332.55,
+          "successful_mean": 332.55,
+          "paired_n": 20,
+          "paired_delta": -0.45,
+          "reward_mean": 0.6213203098922986,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            6.910874628516472,
+            1.6406550959786603,
+            16.177737985572094
+          ],
+          "failures": {}
+        }
+      },
+      {
+        "step": 5000,
+        "gradients": 80,
+        "review": [
+          [
+            17218,
+            "protrusion_facing_camera",
+            "timeout",
+            [
+              0.0012028082473989343,
+              0.0003261632737121545,
+              0.004226372424251501
+            ]
+          ]
+        ],
+        "online_completed": {
+          "success": 14
+        },
+        "online_phases": {
+          "approach": 1540,
+          "near": 846,
+          "closing": 103,
+          "bilateral": 935,
+          "lift": 1298,
+          "hold": 278
+        },
+        "eligible": false,
+        "history": {
+          "success": 41,
+          "count": 42,
+          "all_mean": 333.23809523809524,
+          "successful_mean": 331.609756097561,
+          "paired_n": 41,
+          "paired_delta": 0.04878048780487805,
+          "reward_mean": 0.3713983569861892,
+          "bilateral": 41,
+          "confirmed": 41,
+          "lift100": 41,
+          "ik": 360,
+          "collisions": 0,
+          "absolute_max_mm": [
+            12.929780790034817,
+            2.204097824282769,
+            15.856299035192478
+          ],
+          "failures": {
+            "timeout / approach": 1
+          }
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 332.6,
+          "successful_mean": 332.6,
+          "paired_n": 20,
+          "paired_delta": -0.4,
+          "reward_mean": 0.6198746272958833,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            6.895430420314375,
+            1.6168259904545401,
+            16.129393944652293
+          ],
+          "failures": {}
+        }
+      },
+      {
+        "step": 10000,
+        "gradients": 160,
+        "review": [],
+        "online_completed": {
+          "success": 30
+        },
+        "online_phases": {
+          "approach": 3112,
+          "near": 1702,
+          "closing": 167,
+          "bilateral": 1874,
+          "lift": 2575,
+          "hold": 570
+        },
+        "eligible": true,
+        "history": {
+          "success": 42,
+          "count": 42,
+          "all_mean": 332.5952380952381,
+          "successful_mean": 332.5952380952381,
+          "paired_n": 42,
+          "paired_delta": -0.09523809523809523,
+          "reward_mean": 0.6071029094615523,
+          "bilateral": 42,
+          "confirmed": 42,
+          "lift100": 42,
+          "ik": 19,
+          "collisions": 0,
+          "absolute_max_mm": [
+            12.065161210500497,
+            2.1109584500540457,
+            15.836575205071313
+          ],
+          "failures": {}
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 332.55,
+          "successful_mean": 332.55,
+          "paired_n": 20,
+          "paired_delta": -0.45,
+          "reward_mean": 0.6227816396653669,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            6.91459195834887,
+            1.6561162837152033,
+            16.150038413059065
+          ],
+          "failures": {}
+        }
+      },
+      {
+        "step": 20000,
+        "gradients": 320,
+        "review": [],
+        "online_completed": {
+          "success": 60
+        },
+        "online_phases": {
+          "approach": 6189,
+          "near": 3393,
+          "closing": 350,
+          "bilateral": 3781,
+          "lift": 5147,
+          "hold": 1140
+        },
+        "eligible": true,
+        "history": {
+          "success": 42,
+          "count": 42,
+          "all_mean": 333.45238095238096,
+          "successful_mean": 333.45238095238096,
+          "paired_n": 42,
+          "paired_delta": 0.7619047619047619,
+          "reward_mean": 0.5911905900335752,
+          "bilateral": 42,
+          "confirmed": 42,
+          "lift100": 42,
+          "ik": 23,
+          "collisions": 0,
+          "absolute_max_mm": [
+            12.813756716070435,
+            2.227980795651341,
+            15.85176215782269
+          ],
+          "failures": {}
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 332.55,
+          "successful_mean": 332.55,
+          "paired_n": 20,
+          "paired_delta": -0.45,
+          "reward_mean": 0.6229527384750563,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            6.99612354081558,
+            1.4696122793095983,
+            16.13249848101672
+          ],
+          "failures": {}
+        }
+      }
+    ],
+    "online": {
+      "1000": {
+        "steps": 1000,
+        "reward": 0.001891770169921218,
+        "actor_drift_p95": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "sample_abs_p95": [
+          0.9818556427955627,
+          0.1132327131927013,
+          0.9639075487852097
+        ],
+        "projected_mm_p95": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "actual_tcp_mm_p95": [
+          0.3117673983863029,
+          0.9802298526082698,
+          1.2463091053920794
+        ]
+      },
+      "2000": {
+        "steps": 1000,
+        "reward": 0.0017941917524114228,
+        "actor_drift_p95": [
+          0.007286732550710439,
+          0.0026545590255409477,
+          0.0026866376399993894
+        ],
+        "sample_abs_p95": [
+          0.9853384643793106,
+          0.11515100710093974,
+          0.966172644495964
+        ],
+        "projected_mm_p95": [
+          0.0007174645816121483,
+          0.0004977297180630557,
+          0.0005037458322476595
+        ],
+        "actual_tcp_mm_p95": [
+          0.19379690000005387,
+          0.4736774712823021,
+          1.2427383403701848
+        ]
+      },
+      "5000": {
+        "steps": 3000,
+        "reward": 0.0007809339875727879,
+        "actor_drift_p95": [
+          0.01358410366810858,
+          0.004566616518422961,
+          0.005546400789171446
+        ],
+        "sample_abs_p95": [
+          0.9847606033086777,
+          0.11945229880511754,
+          0.9689649373292922
+        ],
+        "projected_mm_p95": [
+          0.0016749585029174282,
+          0.0008562413313484284,
+          0.0010399671737104633
+        ],
+        "actual_tcp_mm_p95": [
+          0.24181485252862794,
+          0.49466460297092885,
+          1.2400213378255198
+        ]
+      },
+      "10000": {
+        "steps": 5000,
+        "reward": 0.002507315995827316,
+        "actor_drift_p95": [
+          0.025629514269530775,
+          0.007697127386927605,
+          0.008408187702298172
+        ],
+        "sample_abs_p95": [
+          0.9847754895687103,
+          0.11408402994275099,
+          0.9651909649372101
+        ],
+        "projected_mm_p95": [
+          0.0033886908568092644,
+          0.001443211183982385,
+          0.0015765333046147152
+        ],
+        "actual_tcp_mm_p95": [
+          0.21824835241810173,
+          0.4936690497964694,
+          1.2440830634611073
+        ]
+      },
+      "20000": {
+        "steps": 10000,
+        "reward": 0.0018187897683568288,
+        "actor_drift_p95": [
+          0.019471101649105548,
+          0.0059887361479923126,
+          0.013954677246510982
+        ],
+        "sample_abs_p95": [
+          0.9848737478256225,
+          0.11618767678737638,
+          0.9663440555334091
+        ],
+        "projected_mm_p95": [
+          0.0027382502594264176,
+          0.0011228881021452253,
+          0.0026165028316427193
+        ],
+        "actual_tcp_mm_p95": [
+          0.22065107212195784,
+          0.7939927824494275,
+          1.2418379793226892
+        ]
+      }
+    }
+  },
+  "ppo-22": {
+    "status": {
+      "steps": 20000,
+      "error": null,
+      "wall_s": 242.14343084599932,
+      "eval_and_save_s": 187.86045021299833,
+      "first_rollout": {
+        "phases": {
+          "approach": 320,
+          "closing": 51,
+          "near": 159,
+          "bilateral": 178,
+          "lift": 254,
+          "hold": 38
+        },
+        "completed": {
+          "success": 2
+        },
+        "advantage": [
+          -0.28821489214897156,
+          -0.13877413421869278,
+          0.4147172808647132,
+          2.7873473167419434
+        ]
+      },
+      "checks": [
+        {
+          "step": 0,
+          "gradients": 0,
+          "review": [],
+          "online_completed": {},
+          "online_phases": {}
+        },
+        {
+          "step": 1000,
+          "gradients": 16,
+          "review": [
+            [
+              17218,
+              "flat_facing_camera",
+              "timeout",
+              [
+                0.0067373784610536,
+                0.0006453823207266396,
+                0.01200000000000001
+              ]
+            ]
+          ],
+          "online_completed": {
+            "success": 2
+          },
+          "online_phases": {
+            "approach": 320,
+            "closing": 51,
+            "near": 159,
+            "bilateral": 178,
+            "lift": 254,
+            "hold": 38
+          }
+        },
+        {
+          "step": 2000,
+          "gradients": 32,
+          "review": [],
+          "online_completed": {
+            "success": 5
+          },
+          "online_phases": {
+            "approach": 638,
+            "closing": 63,
+            "near": 326,
+            "bilateral": 366,
+            "lift": 512,
+            "hold": 95
+          }
+        },
+        {
+          "step": 5000,
+          "gradients": 80,
+          "review": [],
+          "online_completed": {
+            "success": 14
+          },
+          "online_phases": {
+            "approach": 1554,
+            "closing": 100,
+            "near": 834,
+            "bilateral": 955,
+            "lift": 1281,
+            "hold": 276
+          }
+        },
+        {
+          "step": 10000,
+          "gradients": 160,
+          "review": [],
+          "online_completed": {
+            "success": 30
+          },
+          "online_phases": {
+            "approach": 3096,
+            "closing": 161,
+            "near": 1692,
+            "bilateral": 1926,
+            "lift": 2555,
+            "hold": 570
+          }
+        },
+        {
+          "step": 20000,
+          "gradients": 320,
+          "review": [],
+          "online_completed": {
+            "success": 59,
+            "timeout": 1
+          },
+          "online_phases": {
+            "approach": 6087,
+            "closing": 661,
+            "near": 3321,
+            "bilateral": 3784,
+            "lift": 5026,
+            "hold": 1121
+          }
+        }
+      ]
+    },
+    "records": [
+      {
+        "step": 0,
+        "gradients": 0,
+        "review": [],
+        "online_completed": {},
+        "online_phases": {},
+        "eligible": true,
+        "history": {
+          "success": 42,
+          "count": 42,
+          "all_mean": 332.6904761904762,
+          "successful_mean": 332.6904761904762,
+          "paired_n": 42,
+          "paired_delta": 0.0,
+          "reward_mean": 0.6047153566298756,
+          "bilateral": 42,
+          "confirmed": 42,
+          "lift100": 42,
+          "ik": 21,
+          "collisions": 0,
+          "absolute_max_mm": [
+            15.392357514116384,
+            2.2588598907766766,
+            15.840554539895635
+          ],
+          "failures": {}
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 333.0,
+          "successful_mean": 333.0,
+          "paired_n": 20,
+          "paired_delta": 0.0,
+          "reward_mean": 0.6147297463770973,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            6.926525866930211,
+            1.6183972390493295,
+            16.13788944946748
+          ],
+          "failures": {}
+        }
+      },
+      {
+        "step": 1000,
+        "gradients": 16,
+        "review": [
+          [
+            17218,
+            "flat_facing_camera",
+            "timeout",
+            [
+              0.0067373784610536,
+              0.0006453823207266396,
+              0.01200000000000001
+            ]
+          ]
+        ],
+        "online_completed": {
+          "success": 2
+        },
+        "online_phases": {
+          "approach": 320,
+          "closing": 51,
+          "near": 159,
+          "bilateral": 178,
+          "lift": 254,
+          "hold": 38
+        },
+        "eligible": false,
+        "history": {
+          "success": 41,
+          "count": 42,
+          "all_mean": 333.64285714285717,
+          "successful_mean": 332.0243902439024,
+          "paired_n": 41,
+          "paired_delta": 0.4146341463414634,
+          "reward_mean": 0.3874515023162348,
+          "bilateral": 41,
+          "confirmed": 41,
+          "lift100": 41,
+          "ik": 314,
+          "collisions": 0,
+          "absolute_max_mm": [
+            12.335716072430003,
+            2.0302121857982414,
+            15.900870395967104
+          ],
+          "failures": {
+            "timeout / approach": 1
+          }
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 333.55,
+          "successful_mean": 333.55,
+          "paired_n": 20,
+          "paired_delta": 0.55,
+          "reward_mean": 0.6043387328442203,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            6.8879500195462295,
+            1.5769795449358526,
+            16.25168471599636
+          ],
+          "failures": {}
+        }
+      },
+      {
+        "step": 2000,
+        "gradients": 32,
+        "review": [],
+        "online_completed": {
+          "success": 5
+        },
+        "online_phases": {
+          "approach": 638,
+          "closing": 63,
+          "near": 326,
+          "bilateral": 366,
+          "lift": 512,
+          "hold": 95
+        },
+        "eligible": true,
+        "history": {
+          "success": 42,
+          "count": 42,
+          "all_mean": 333.23809523809524,
+          "successful_mean": 333.23809523809524,
+          "paired_n": 42,
+          "paired_delta": 0.5476190476190477,
+          "reward_mean": 0.5980739168929218,
+          "bilateral": 42,
+          "confirmed": 42,
+          "lift100": 42,
+          "ik": 23,
+          "collisions": 0,
+          "absolute_max_mm": [
+            14.401549173482131,
+            2.291951690804872,
+            15.903664038887655
+          ],
+          "failures": {}
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 333.3,
+          "successful_mean": 333.3,
+          "paired_n": 20,
+          "paired_delta": 0.3,
+          "reward_mean": 0.6099782907962817,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            6.904055324781444,
+            1.588511141143556,
+            16.202595606188197
+          ],
+          "failures": {}
+        }
+      },
+      {
+        "step": 5000,
+        "gradients": 80,
+        "review": [],
+        "online_completed": {
+          "success": 14
+        },
+        "online_phases": {
+          "approach": 1554,
+          "closing": 100,
+          "near": 834,
+          "bilateral": 955,
+          "lift": 1281,
+          "hold": 276
+        },
+        "eligible": true,
+        "history": {
+          "success": 42,
+          "count": 42,
+          "all_mean": 333.0952380952381,
+          "successful_mean": 333.0952380952381,
+          "paired_n": 42,
+          "paired_delta": 0.40476190476190477,
+          "reward_mean": 0.5986524291301075,
+          "bilateral": 42,
+          "confirmed": 42,
+          "lift100": 42,
+          "ik": 19,
+          "collisions": 0,
+          "absolute_max_mm": [
+            13.066126337434758,
+            2.252271591813404,
+            15.93280391278995
+          ],
+          "failures": {}
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 332.9,
+          "successful_mean": 332.9,
+          "paired_n": 20,
+          "paired_delta": -0.1,
+          "reward_mean": 0.617309309704231,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            6.979251324856994,
+            1.5538191116126754,
+            16.234087062244384
+          ],
+          "failures": {}
+        }
+      },
+      {
+        "step": 10000,
+        "gradients": 160,
+        "review": [],
+        "online_completed": {
+          "success": 30
+        },
+        "online_phases": {
+          "approach": 3096,
+          "closing": 161,
+          "near": 1692,
+          "bilateral": 1926,
+          "lift": 2555,
+          "hold": 570
+        },
+        "eligible": true,
+        "history": {
+          "success": 42,
+          "count": 42,
+          "all_mean": 333.6666666666667,
+          "successful_mean": 333.6666666666667,
+          "paired_n": 42,
+          "paired_delta": 0.9761904761904762,
+          "reward_mean": 0.5870946580526392,
+          "bilateral": 42,
+          "confirmed": 42,
+          "lift100": 42,
+          "ik": 17,
+          "collisions": 0,
+          "absolute_max_mm": [
+            12.76892612878533,
+            2.2716955798025573,
+            15.883454720835744
+          ],
+          "failures": {}
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 333.35,
+          "successful_mean": 333.35,
+          "paired_n": 20,
+          "paired_delta": 0.35,
+          "reward_mean": 0.6103518797457234,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            7.032231869118055,
+            1.4123399530452385,
+            16.05712659869596
+          ],
+          "failures": {}
+        }
+      },
+      {
+        "step": 20000,
+        "gradients": 320,
+        "review": [],
+        "online_completed": {
+          "success": 59,
+          "timeout": 1
+        },
+        "online_phases": {
+          "approach": 6087,
+          "closing": 661,
+          "near": 3321,
+          "bilateral": 3784,
+          "lift": 5026,
+          "hold": 1121
+        },
+        "eligible": true,
+        "history": {
+          "success": 42,
+          "count": 42,
+          "all_mean": 334.1190476190476,
+          "successful_mean": 334.1190476190476,
+          "paired_n": 42,
+          "paired_delta": 1.4285714285714286,
+          "reward_mean": 0.5783727315245655,
+          "bilateral": 42,
+          "confirmed": 42,
+          "lift100": 42,
+          "ik": 18,
+          "collisions": 0,
+          "absolute_max_mm": [
+            13.211062354997472,
+            2.3691591657584166,
+            15.96637874746376
+          ],
+          "failures": {}
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 334.15,
+          "successful_mean": 334.15,
+          "paired_n": 20,
+          "paired_delta": 1.15,
+          "reward_mean": 0.5968605992626415,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            7.18790695337268,
+            1.401162519462984,
+            16.252583521371378
+          ],
+          "failures": {}
+        }
+      }
+    ],
+    "online": {
+      "1000": {
+        "steps": 1000,
+        "reward": -0.0012128489525243663,
+        "actor_drift_p95": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "sample_abs_p95": [
+          0.9815628796815872,
+          0.12686610668897627,
+          0.9776145100593566
+        ],
+        "projected_mm_p95": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "actual_tcp_mm_p95": [
+          0.840466880480134,
+          0.49583172387190305,
+          1.241846898867491
+        ]
+      },
+      "2000": {
+        "steps": 1000,
+        "reward": 0.0018631725493445967,
+        "actor_drift_p95": [
+          0.002104937378317117,
+          0.0024989280733279883,
+          0.0022655628621578213
+        ],
+        "sample_abs_p95": [
+          0.9836688786745071,
+          0.10890251733362674,
+          0.964779046177864
+        ],
+        "projected_mm_p95": [
+          0.0003500207640172446,
+          0.0004685493195211165,
+          0.00042477622628211964
+        ],
+        "actual_tcp_mm_p95": [
+          0.231992260976177,
+          1.1757458741125526,
+          1.241822141492041
+        ]
+      },
+      "5000": {
+        "steps": 3000,
+        "reward": 0.0018479764158899578,
+        "actor_drift_p95": [
+          0.0037872198969125747,
+          0.004695206042379139,
+          0.005482260882854452
+        ],
+        "sample_abs_p95": [
+          0.9853684067726135,
+          0.11481986306607721,
+          0.9620495975017548
+        ],
+        "projected_mm_p95": [
+          0.0007080174327711573,
+          0.0008803490345599127,
+          0.0010279314665240218
+        ],
+        "actual_tcp_mm_p95": [
+          0.23300960166067372,
+          0.20398094465417102,
+          1.2415649486536702
+        ]
+      },
+      "10000": {
+        "steps": 5000,
+        "reward": 0.002461659216545521,
+        "actor_drift_p95": [
+          0.005043662758544089,
+          0.00816071517765522,
+          0.009872839599847798
+        ],
+        "sample_abs_p95": [
+          0.9850379258394242,
+          0.11360234282910825,
+          0.9650568246841431
+        ],
+        "projected_mm_p95": [
+          0.0009220296760759085,
+          0.0015301343751161767,
+          0.0018510792870074517
+        ],
+        "actual_tcp_mm_p95": [
+          0.22774450805731775,
+          0.49338269507215465,
+          1.2437153286714853
+        ]
+      },
+      "20000": {
+        "steps": 10000,
+        "reward": 0.0009614534330107258,
+        "actor_drift_p95": [
+          0.01079591205343604,
+          0.012569363182410597,
+          0.011201970651745797
+        ],
+        "sample_abs_p95": [
+          0.9850594758987427,
+          0.1131702274084091,
+          0.9648011535406112
+        ],
+        "projected_mm_p95": [
+          0.0018228905048545125,
+          0.0023567555672343588,
+          0.002098840195685624
+        ],
+        "actual_tcp_mm_p95": [
+          0.2327282758180474,
+          0.4667384550702562,
+          1.2431173235192328
+        ]
+      }
+    }
+  },
+  "ppo-33": {
+    "status": {
+      "steps": 20000,
+      "error": null,
+      "wall_s": 239.58134844800043,
+      "eval_and_save_s": 186.1370177560002,
+      "first_rollout": {
+        "phases": {
+          "approach": 313,
+          "near": 169,
+          "closing": 12,
+          "bilateral": 193,
+          "lift": 256,
+          "hold": 57
+        },
+        "completed": {
+          "success": 3
+        },
+        "advantage": [
+          -0.22735406458377838,
+          -0.09491578489542007,
+          1.1059340953826904,
+          3.072169065475464
+        ]
+      },
+      "checks": [
+        {
+          "step": 0,
+          "gradients": 0,
+          "review": [],
+          "online_completed": {},
+          "online_phases": {}
+        },
+        {
+          "step": 1000,
+          "gradients": 16,
+          "review": [
+            [
+              17218,
+              "flat_facing_camera",
+              "timeout",
+              [
+                0.006781130162067717,
+                0.0006402748199434427,
+                0.01200000000000001
+              ]
+            ]
+          ],
+          "online_completed": {
+            "success": 3
+          },
+          "online_phases": {
+            "approach": 313,
+            "near": 169,
+            "closing": 12,
+            "bilateral": 193,
+            "lift": 256,
+            "hold": 57
+          }
+        },
+        {
+          "step": 2000,
+          "gradients": 32,
+          "review": [
+            [
+              17218,
+              "protrusion_facing_camera",
+              "timeout",
+              [
+                0.001541529512451234,
+                0.0003637002992036287,
+                0.004800917902713309
+              ]
+            ]
+          ],
+          "online_completed": {
+            "success": 6
+          },
+          "online_phases": {
+            "approach": 624,
+            "near": 338,
+            "closing": 24,
+            "bilateral": 384,
+            "lift": 516,
+            "hold": 114
+          }
+        },
+        {
+          "step": 5000,
+          "gradients": 80,
+          "review": [],
+          "online_completed": {
+            "success": 14
+          },
+          "online_phases": {
+            "approach": 1542,
+            "near": 845,
+            "closing": 106,
+            "bilateral": 932,
+            "lift": 1293,
+            "hold": 282
+          }
+        },
+        {
+          "step": 10000,
+          "gradients": 160,
+          "review": [],
+          "online_completed": {
+            "success": 30
+          },
+          "online_phases": {
+            "approach": 3114,
+            "near": 1701,
+            "closing": 170,
+            "bilateral": 1864,
+            "lift": 2581,
+            "hold": 570
+          }
+        },
+        {
+          "step": 20000,
+          "gradients": 320,
+          "review": [],
+          "online_completed": {
+            "success": 60
+          },
+          "online_phases": {
+            "approach": 6283,
+            "near": 3383,
+            "closing": 400,
+            "bilateral": 3633,
+            "lift": 5161,
+            "hold": 1140
+          }
+        }
+      ]
+    },
+    "records": [
+      {
+        "step": 0,
+        "gradients": 0,
+        "review": [],
+        "online_completed": {},
+        "online_phases": {},
+        "eligible": true,
+        "history": {
+          "success": 42,
+          "count": 42,
+          "all_mean": 332.6904761904762,
+          "successful_mean": 332.6904761904762,
+          "paired_n": 42,
+          "paired_delta": 0.0,
+          "reward_mean": 0.6047153566298756,
+          "bilateral": 42,
+          "confirmed": 42,
+          "lift100": 42,
+          "ik": 21,
+          "collisions": 0,
+          "absolute_max_mm": [
+            15.392357514116384,
+            2.2588598907766766,
+            15.840554539895635
+          ],
+          "failures": {}
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 333.0,
+          "successful_mean": 333.0,
+          "paired_n": 20,
+          "paired_delta": 0.0,
+          "reward_mean": 0.6147297463770973,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            6.926525866930211,
+            1.6183972390493295,
+            16.13788944946748
+          ],
+          "failures": {}
+        }
+      },
+      {
+        "step": 1000,
+        "gradients": 16,
+        "review": [
+          [
+            17218,
+            "flat_facing_camera",
+            "timeout",
+            [
+              0.006781130162067717,
+              0.0006402748199434427,
+              0.01200000000000001
+            ]
+          ]
+        ],
+        "online_completed": {
+          "success": 3
+        },
+        "online_phases": {
+          "approach": 313,
+          "near": 169,
+          "closing": 12,
+          "bilateral": 193,
+          "lift": 256,
+          "hold": 57
+        },
+        "eligible": false,
+        "history": {
+          "success": 41,
+          "count": 42,
+          "all_mean": 333.1190476190476,
+          "successful_mean": 331.4878048780488,
+          "paired_n": 41,
+          "paired_delta": -0.12195121951219512,
+          "reward_mean": 0.3934016499260357,
+          "bilateral": 41,
+          "confirmed": 41,
+          "lift100": 41,
+          "ik": 317,
+          "collisions": 0,
+          "absolute_max_mm": [
+            12.141336154417814,
+            2.0321891846140083,
+            15.943980628776444
+          ],
+          "failures": {
+            "timeout / approach": 1
+          }
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 332.0,
+          "successful_mean": 332.0,
+          "paired_n": 20,
+          "paired_delta": -1.0,
+          "reward_mean": 0.6305259437635558,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            6.988257511778562,
+            1.5703518194190025,
+            16.163922079576842
+          ],
+          "failures": {}
+        }
+      },
+      {
+        "step": 2000,
+        "gradients": 32,
+        "review": [
+          [
+            17218,
+            "protrusion_facing_camera",
+            "timeout",
+            [
+              0.001541529512451234,
+              0.0003637002992036287,
+              0.004800917902713309
+            ]
+          ]
+        ],
+        "online_completed": {
+          "success": 6
+        },
+        "online_phases": {
+          "approach": 624,
+          "near": 338,
+          "closing": 24,
+          "bilateral": 384,
+          "lift": 516,
+          "hold": 114
+        },
+        "eligible": false,
+        "history": {
+          "success": 41,
+          "count": 42,
+          "all_mean": 332.85714285714283,
+          "successful_mean": 331.219512195122,
+          "paired_n": 41,
+          "paired_delta": -0.34146341463414637,
+          "reward_mean": 0.3774369122762066,
+          "bilateral": 41,
+          "confirmed": 41,
+          "lift100": 41,
+          "ik": 357,
+          "collisions": 0,
+          "absolute_max_mm": [
+            12.593853922623799,
+            2.197438854933509,
+            15.788957372222967
+          ],
+          "failures": {
+            "timeout / approach": 1
+          }
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 331.7,
+          "successful_mean": 331.7,
+          "paired_n": 20,
+          "paired_delta": -1.3,
+          "reward_mean": 0.6357477079387772,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            7.11825620206219,
+            1.533926366473981,
+            15.905313886321437
+          ],
+          "failures": {}
+        }
+      },
+      {
+        "step": 5000,
+        "gradients": 80,
+        "review": [],
+        "online_completed": {
+          "success": 14
+        },
+        "online_phases": {
+          "approach": 1542,
+          "near": 845,
+          "closing": 106,
+          "bilateral": 932,
+          "lift": 1293,
+          "hold": 282
+        },
+        "eligible": true,
+        "history": {
+          "success": 42,
+          "count": 42,
+          "all_mean": 330.95238095238096,
+          "successful_mean": 330.95238095238096,
+          "paired_n": 42,
+          "paired_delta": -1.7380952380952381,
+          "reward_mean": 0.6350614702062962,
+          "bilateral": 42,
+          "confirmed": 42,
+          "lift100": 42,
+          "ik": 22,
+          "collisions": 0,
+          "absolute_max_mm": [
+            11.645523970301275,
+            2.069684015728157,
+            15.784460005988876
+          ],
+          "failures": {}
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 330.15,
+          "successful_mean": 330.15,
+          "paired_n": 20,
+          "paired_delta": -2.85,
+          "reward_mean": 0.6688285506758856,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            7.205369508852533,
+            1.6629510133068237,
+            16.077038932571952
+          ],
+          "failures": {}
+        }
+      },
+      {
+        "step": 10000,
+        "gradients": 160,
+        "review": [],
+        "online_completed": {
+          "success": 30
+        },
+        "online_phases": {
+          "approach": 3114,
+          "near": 1701,
+          "closing": 170,
+          "bilateral": 1864,
+          "lift": 2581,
+          "hold": 570
+        },
+        "eligible": true,
+        "history": {
+          "success": 42,
+          "count": 42,
+          "all_mean": 330.4047619047619,
+          "successful_mean": 330.4047619047619,
+          "paired_n": 42,
+          "paired_delta": -2.2857142857142856,
+          "reward_mean": 0.6417124424422441,
+          "bilateral": 42,
+          "confirmed": 42,
+          "lift100": 42,
+          "ik": 17,
+          "collisions": 0,
+          "absolute_max_mm": [
+            12.140387231809546,
+            2.092261189968525,
+            15.869502260272839
+          ],
+          "failures": {}
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 329.3,
+          "successful_mean": 329.3,
+          "paired_n": 20,
+          "paired_delta": -3.7,
+          "reward_mean": 0.6798954332768934,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            7.291199059096476,
+            1.569142837740678,
+            15.948332682881983
+          ],
+          "failures": {}
+        }
+      },
+      {
+        "step": 20000,
+        "gradients": 320,
+        "review": [],
+        "online_completed": {
+          "success": 60
+        },
+        "online_phases": {
+          "approach": 6283,
+          "near": 3383,
+          "closing": 400,
+          "bilateral": 3633,
+          "lift": 5161,
+          "hold": 1140
+        },
+        "eligible": true,
+        "history": {
+          "success": 42,
+          "count": 42,
+          "all_mean": 328.8809523809524,
+          "successful_mean": 328.8809523809524,
+          "paired_n": 42,
+          "paired_delta": -3.8095238095238093,
+          "reward_mean": 0.6650166347791413,
+          "bilateral": 42,
+          "confirmed": 42,
+          "lift100": 42,
+          "ik": 19,
+          "collisions": 0,
+          "absolute_max_mm": [
+            11.80976436773662,
+            2.0578545044935836,
+            15.882486963986864
+          ],
+          "failures": {}
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 328.8,
+          "successful_mean": 328.8,
+          "paired_n": 20,
+          "paired_delta": -4.2,
+          "reward_mean": 0.6851741929166035,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            7.374585041958204,
+            1.5765106924670036,
+            16.06516539555969
+          ],
+          "failures": {}
+        }
+      }
+    ],
+    "online": {
+      "1000": {
+        "steps": 1000,
+        "reward": 0.0018603702164813856,
+        "actor_drift_p95": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "sample_abs_p95": [
+          0.9853220522403717,
+          0.10755039826035495,
+          0.9602860748767853
+        ],
+        "projected_mm_p95": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "actual_tcp_mm_p95": [
+          0.606463314417664,
+          0.1727990131766865,
+          1.2419586865817638
+        ]
+      },
+      "2000": {
+        "steps": 1000,
+        "reward": 0.00181143759548664,
+        "actor_drift_p95": [
+          0.003795571345835924,
+          0.002640941622667014,
+          0.004319364158436654
+        ],
+        "sample_abs_p95": [
+          0.9858513385057449,
+          0.10564397834241389,
+          0.9657947868108749
+        ],
+        "projected_mm_p95": [
+          0.0007116695769582293,
+          0.0004951766214844608,
+          0.0008097558747977013
+        ],
+        "actual_tcp_mm_p95": [
+          0.6013674796794469,
+          0.4758585047198147,
+          1.2402110559057766
+        ]
+      },
+      "5000": {
+        "steps": 3000,
+        "reward": 0.0008216537137577917,
+        "actor_drift_p95": [
+          0.01055522561073303,
+          0.003545454260893166,
+          0.007218464068137106
+        ],
+        "sample_abs_p95": [
+          0.9826584428548812,
+          0.11755813583731635,
+          0.9631333172321319
+        ],
+        "projected_mm_p95": [
+          0.0019497799883083642,
+          0.0006647714144492056,
+          0.0013534387107938522
+        ],
+        "actual_tcp_mm_p95": [
+          0.3110740820319116,
+          0.22294610686756305,
+          1.2439407912619536
+        ]
+      },
+      "10000": {
+        "steps": 5000,
+        "reward": 0.0024763032344579687,
+        "actor_drift_p95": [
+          0.012567770294845104,
+          0.004035210143774748,
+          0.01027151350863278
+        ],
+        "sample_abs_p95": [
+          0.9850275903940201,
+          0.11431295722723009,
+          0.9625647723674774
+        ],
+        "projected_mm_p95": [
+          0.00232516376854619,
+          0.0007566022759419867,
+          0.0019259110558778048
+        ],
+        "actual_tcp_mm_p95": [
+          0.22168066701131472,
+          0.604465460041926,
+          1.2430143791590866
+        ]
+      },
+      "20000": {
+        "steps": 10000,
+        "reward": 0.001916028297785668,
+        "actor_drift_p95": [
+          0.02051948104053734,
+          0.0034118051640689368,
+          0.020651672780513757
+        ],
+        "sample_abs_p95": [
+          0.9834192842245102,
+          0.11702329441905021,
+          0.9646989464759826
+        ],
+        "projected_mm_p95": [
+          0.003689196381628789,
+          0.0006397130846380604,
+          0.0038721711462130753
+        ],
+        "actual_tcp_mm_p95": [
+          0.33388182133151295,
+          0.7379099427556083,
+          1.2443798616993906
+        ]
+      }
+    }
+  },
+  "sac-11": {
+    "status": {
+      "steps": 20000,
+      "error": null,
+      "wall_s": 274.5531193269999,
+      "eval_and_save_s": 186.78140715800146,
+      "first_rollout": null,
+      "checks": [
+        {
+          "step": 0,
+          "gradients": 0,
+          "review": [],
+          "online_completed": {},
+          "online_phases": {}
+        },
+        {
+          "step": 1000,
+          "gradients": 125,
+          "review": [
+            [
+              17208,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.006783164091416216,
+                0.005401545879024527,
+                0.01290987479151795
+              ]
+            ],
+            [
+              17208,
+              "flat_facing_camera",
+              "success",
+              [
+                0.006796812402818153,
+                0.006775831944151989,
+                0.013342218820354912
+              ]
+            ],
+            [
+              17211,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.0067487281041767044,
+                0.006123041189269318,
+                0.012899513664592632
+              ]
+            ],
+            [
+              17211,
+              "flat_facing_camera",
+              "success",
+              [
+                0.006819598217006506,
+                0.006488858854869939,
+                0.013486307198320002
+              ]
+            ],
+            [
+              17216,
+              "flat_facing_camera",
+              "success",
+              [
+                0.006831466998711955,
+                0.005722471496156234,
+                0.012940540453541871
+              ]
+            ],
+            [
+              18093,
+              "flat_facing_camera",
+              "success",
+              [
+                0.006787735810924067,
+                0.006631113179068393,
+                0.013331605253653844
+              ]
+            ],
+            [
+              18095,
+              "flat_facing_camera",
+              "success",
+              [
+                0.006901162589072696,
+                0.005406447112321078,
+                0.012985645934868728
+              ]
+            ]
+          ],
+          "online_completed": {
+            "success": 3
+          },
+          "online_phases": {
+            "approach": 314,
+            "near": 174,
+            "closing": 12,
+            "bilateral": 185,
+            "lift": 258,
+            "hold": 57
+          }
+        },
+        {
+          "step": 2000,
+          "gradients": 375,
+          "review": [],
+          "online_completed": {
+            "success": 6
+          },
+          "online_phases": {
+            "approach": 645,
+            "near": 345,
+            "closing": 25,
+            "bilateral": 348,
+            "lift": 523,
+            "hold": 114
+          }
+        },
+        {
+          "step": 5000,
+          "gradients": 1125,
+          "review": [
+            [
+              17218,
+              "flat_facing_camera",
+              "timeout",
+              [
+                0.006117106363177305,
+                0.00149316768420249,
+                0.014367112105275748
+              ]
+            ]
+          ],
+          "online_completed": {
+            "success": 15
+          },
+          "online_phases": {
+            "approach": 1590,
+            "near": 840,
+            "closing": 108,
+            "bilateral": 825,
+            "lift": 1352,
+            "hold": 285
+          }
+        },
+        {
+          "step": 10000,
+          "gradients": 2375,
+          "review": [
+            [
+              17208,
+              "protrusion_facing_camera",
+              "unexpected_contact",
+              [
+                0.007320673796726629,
+                0.003654035463412586,
+                0.018647016696661023
+              ]
+            ],
+            [
+              17208,
+              "flat_facing_camera",
+              "unexpected_contact",
+              [
+                0.018302488522493165,
+                0.0031093936298275393,
+                0.016977965064767897
+              ]
+            ],
+            [
+              17211,
+              "protrusion_facing_camera",
+              "unexpected_contact",
+              [
+                0.00974482470783733,
+                0.0034487528417485036,
+                0.016616658843588095
+              ]
+            ],
+            [
+              17211,
+              "flat_facing_camera",
+              "unexpected_contact",
+              [
+                0.008248937137892431,
+                0.0031343998956144814,
+                0.01729847684856578
+              ]
+            ],
+            [
+              17218,
+              "protrusion_facing_camera",
+              "timeout",
+              [
+                0.005884159137849565,
+                0.001501496356354437,
+                0.004259890730679672
+              ]
+            ],
+            [
+              17218,
+              "flat_facing_camera",
+              "timeout",
+              [
+                0.0035930155401615593,
+                0.0007649874328308215,
+                0.003096562586051732
+              ]
+            ],
+            [
+              18093,
+              "flat_facing_camera",
+              "unexpected_contact",
+              [
+                0.018089177163317816,
+                0.003106557527033149,
+                0.014455328033647685
+              ]
+            ]
+          ],
+          "online_completed": {
+            "success": 30
+          },
+          "online_phases": {
+            "approach": 3355,
+            "near": 1667,
+            "closing": 170,
+            "bilateral": 1492,
+            "lift": 2746,
+            "hold": 570
+          }
+        },
+        {
+          "step": 20000,
+          "gradients": 4875,
+          "review": [
+            [
+              15000,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.009781753240110547,
+                0.006826176790937555,
+                0.013924103966302948
+              ]
+            ],
+            [
+              17200,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.010104528375478594,
+                0.006139921549894289,
+                0.013718734430369306
+              ]
+            ],
+            [
+              17201,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.008264821561176916,
+                0.006905380349009116,
+                0.014457235809743008
+              ]
+            ],
+            [
+              17202,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.011710788724709431,
+                0.007368573421679514,
+                0.013713500440928339
+              ]
+            ],
+            [
+              17203,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.012075998123423304,
+                0.008066784820345063,
+                0.01565338667457139
+              ]
+            ],
+            [
+              17204,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.012174144686610822,
+                0.006852658115299448,
+                0.013429511286005447
+              ]
+            ],
+            [
+              17205,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.011183406582389033,
+                0.0066001570716469615,
+                0.013413959538695064
+              ]
+            ],
+            [
+              17206,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.010680298315207892,
+                0.0071465268201755805,
+                0.01374023219915399
+              ]
+            ],
+            [
+              17207,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.00843974648782364,
+                0.006826169475621313,
+                0.014247151065603259
+              ]
+            ],
+            [
+              17208,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.011608637004044686,
+                0.006687858918837719,
+                0.013485639986640319
+              ]
+            ],
+            [
+              17209,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.008494548254937229,
+                0.007893270695539911,
+                0.015820877034058878
+              ]
+            ],
+            [
+              17210,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.008845055071834196,
+                0.007376675038713532,
+                0.015132875367555254
+              ]
+            ],
+            [
+              17211,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.010287802978169003,
+                0.006329029980300049,
+                0.013337340133432019
+              ]
+            ],
+            [
+              17212,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.010865259212422984,
+                0.008005440617483872,
+                0.016724295092501062
+              ]
+            ],
+            [
+              17213,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.010833957121315407,
+                0.00790434056766276,
+                0.014149295525214267
+              ]
+            ],
+            [
+              17214,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.009972970147696714,
+                0.0068689947095775805,
+                0.013281310705962834
+              ]
+            ],
+            [
+              17215,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.00920487595589492,
+                0.0069499340443072155,
+                0.013298614399274822
+              ]
+            ],
+            [
+              17216,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.011299796885097413,
+                0.006349604839174461,
+                0.013099296602660626
+              ]
+            ],
+            [
+              17217,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.012662576290075833,
+                0.007419174470941647,
+                0.013633595011867339
+              ]
+            ],
+            [
+              17218,
+              "protrusion_facing_camera",
+              "timeout",
+              [
+                0.006000000000000005,
+                0.001294634162377406,
+                0.006394905610818569
+              ]
+            ],
+            [
+              17218,
+              "flat_facing_camera",
+              "timeout",
+              [
+                0.002244691031819457,
+                0.0009562975722019473,
+                0.0027632890160020906
+              ]
+            ],
+            [
+              17219,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.01214455884768817,
+                0.006746150275343865,
+                0.013139802671787049
+              ]
+            ],
+            [
+              18080,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.010594529561949173,
+                0.008245960959960885,
+                0.016316057512824056
+              ]
+            ],
+            [
+              18082,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.01194195337936299,
+                0.006775918508719059,
+                0.013345397009117743
+              ]
+            ],
+            [
+              18084,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.009172857250295152,
+                0.007842896299301572,
+                0.016526423651441302
+              ]
+            ],
+            [
+              18086,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.00902316666000047,
+                0.006105762173382878,
+                0.013846929137173003
+              ]
+            ],
+            [
+              18088,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.009105322579780584,
+                0.007247246700643362,
+                0.01390027299368013
+              ]
+            ],
+            [
+              18090,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.014152066489600434,
+                0.007906108576261311,
+                0.013621828696897875
+              ]
+            ],
+            [
+              18092,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.012016403810712728,
+                0.007832270884870818,
+                0.014533196941840298
+              ]
+            ],
+            [
+              18094,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.008895669386554506,
+                0.006351967184545754,
+                0.013839499163907032
+              ]
+            ],
+            [
+              18096,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.010576387664773979,
+                0.007693811581489629,
+                0.015416994634676495
+              ]
+            ],
+            [
+              18098,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.009573725212248974,
+                0.006798675179254476,
+                0.014063054339487291
+              ]
+            ]
+          ],
+          "online_completed": {
+            "success": 57,
+            "timeout": 2
+          },
+          "online_phases": {
+            "approach": 6764,
+            "near": 3190,
+            "closing": 1046,
+            "bilateral": 2570,
+            "lift": 5347,
+            "hold": 1083
+          }
+        }
+      ]
+    },
+    "records": [
+      {
+        "step": 0,
+        "gradients": 0,
+        "review": [],
+        "online_completed": {},
+        "online_phases": {},
+        "eligible": true,
+        "history": {
+          "success": 42,
+          "count": 42,
+          "all_mean": 332.6904761904762,
+          "successful_mean": 332.6904761904762,
+          "paired_n": 42,
+          "paired_delta": 0.0,
+          "reward_mean": 0.6047153566298756,
+          "bilateral": 42,
+          "confirmed": 42,
+          "lift100": 42,
+          "ik": 21,
+          "collisions": 0,
+          "absolute_max_mm": [
+            15.392357514116384,
+            2.2588598907766766,
+            15.840554539895635
+          ],
+          "failures": {}
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 333.0,
+          "successful_mean": 333.0,
+          "paired_n": 20,
+          "paired_delta": 0.0,
+          "reward_mean": 0.6147297463770973,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            6.926525866930211,
+            1.6183972390493295,
+            16.13788944946748
+          ],
+          "failures": {}
+        }
+      },
+      {
+        "step": 1000,
+        "gradients": 125,
+        "review": [
+          [
+            17208,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.006783164091416216,
+              0.005401545879024527,
+              0.01290987479151795
+            ]
+          ],
+          [
+            17208,
+            "flat_facing_camera",
+            "success",
+            [
+              0.006796812402818153,
+              0.006775831944151989,
+              0.013342218820354912
+            ]
+          ],
+          [
+            17211,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.0067487281041767044,
+              0.006123041189269318,
+              0.012899513664592632
+            ]
+          ],
+          [
+            17211,
+            "flat_facing_camera",
+            "success",
+            [
+              0.006819598217006506,
+              0.006488858854869939,
+              0.013486307198320002
+            ]
+          ],
+          [
+            17216,
+            "flat_facing_camera",
+            "success",
+            [
+              0.006831466998711955,
+              0.005722471496156234,
+              0.012940540453541871
+            ]
+          ],
+          [
+            18093,
+            "flat_facing_camera",
+            "success",
+            [
+              0.006787735810924067,
+              0.006631113179068393,
+              0.013331605253653844
+            ]
+          ],
+          [
+            18095,
+            "flat_facing_camera",
+            "success",
+            [
+              0.006901162589072696,
+              0.005406447112321078,
+              0.012985645934868728
+            ]
+          ]
+        ],
+        "online_completed": {
+          "success": 3
+        },
+        "online_phases": {
+          "approach": 314,
+          "near": 174,
+          "closing": 12,
+          "bilateral": 185,
+          "lift": 258,
+          "hold": 57
+        },
+        "eligible": false,
+        "history": {
+          "success": 42,
+          "count": 42,
+          "all_mean": 331.85714285714283,
+          "successful_mean": 331.85714285714283,
+          "paired_n": 42,
+          "paired_delta": -0.8333333333333334,
+          "reward_mean": 0.6281090877790554,
+          "bilateral": 42,
+          "confirmed": 42,
+          "lift100": 42,
+          "ik": 18,
+          "collisions": 0,
+          "absolute_max_mm": [
+            14.222752333705957,
+            6.775831944151989,
+            14.828815878653145
+          ],
+          "failures": {}
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 333.0,
+          "successful_mean": 333.0,
+          "paired_n": 20,
+          "paired_delta": 0.0,
+          "reward_mean": 0.6221657648887502,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            8.089495792283463,
+            6.631113179068393,
+            14.659197004192492
+          ],
+          "failures": {}
+        }
+      },
+      {
+        "step": 2000,
+        "gradients": 375,
+        "review": [],
+        "online_completed": {
+          "success": 6
+        },
+        "online_phases": {
+          "approach": 645,
+          "near": 345,
+          "closing": 25,
+          "bilateral": 348,
+          "lift": 523,
+          "hold": 114
+        },
+        "eligible": true,
+        "history": {
+          "success": 42,
+          "count": 42,
+          "all_mean": 320.4047619047619,
+          "successful_mean": 320.4047619047619,
+          "paired_n": 42,
+          "paired_delta": -12.285714285714286,
+          "reward_mean": 0.8059855743116228,
+          "bilateral": 42,
+          "confirmed": 42,
+          "lift100": 42,
+          "ik": 14,
+          "collisions": 0,
+          "absolute_max_mm": [
+            9.61740867447225,
+            4.484076167663775,
+            14.384603758259118
+          ],
+          "failures": {}
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 322.9,
+          "successful_mean": 322.9,
+          "paired_n": 20,
+          "paired_delta": -10.1,
+          "reward_mean": 0.7739229108039307,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            6.264606851715149,
+            4.367467979449091,
+            15.091550258588882
+          ],
+          "failures": {}
+        }
+      },
+      {
+        "step": 5000,
+        "gradients": 1125,
+        "review": [
+          [
+            17218,
+            "flat_facing_camera",
+            "timeout",
+            [
+              0.006117106363177305,
+              0.00149316768420249,
+              0.014367112105275748
+            ]
+          ]
+        ],
+        "online_completed": {
+          "success": 15
+        },
+        "online_phases": {
+          "approach": 1590,
+          "near": 840,
+          "closing": 108,
+          "bilateral": 825,
+          "lift": 1352,
+          "hold": 285
+        },
+        "eligible": false,
+        "history": {
+          "success": 41,
+          "count": 42,
+          "all_mean": 332.0,
+          "successful_mean": 330.3414634146341,
+          "paired_n": 41,
+          "paired_delta": -1.2682926829268293,
+          "reward_mean": 0.3912939850542526,
+          "bilateral": 41,
+          "confirmed": 41,
+          "lift100": 41,
+          "ik": 295,
+          "collisions": 0,
+          "absolute_max_mm": [
+            14.738398244375395,
+            3.0000000000000027,
+            16.9568243258591
+          ],
+          "failures": {
+            "timeout / approach": 1
+          }
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 334.45,
+          "successful_mean": 334.45,
+          "paired_n": 20,
+          "paired_delta": 1.45,
+          "reward_mean": 0.5533551439344901,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            15.094332226675,
+            3.000463784090246,
+            17.039228429097886
+          ],
+          "failures": {}
+        }
+      },
+      {
+        "step": 10000,
+        "gradients": 2375,
+        "review": [
+          [
+            17208,
+            "protrusion_facing_camera",
+            "unexpected_contact",
+            [
+              0.007320673796726629,
+              0.003654035463412586,
+              0.018647016696661023
+            ]
+          ],
+          [
+            17208,
+            "flat_facing_camera",
+            "unexpected_contact",
+            [
+              0.018302488522493165,
+              0.0031093936298275393,
+              0.016977965064767897
+            ]
+          ],
+          [
+            17211,
+            "protrusion_facing_camera",
+            "unexpected_contact",
+            [
+              0.00974482470783733,
+              0.0034487528417485036,
+              0.016616658843588095
+            ]
+          ],
+          [
+            17211,
+            "flat_facing_camera",
+            "unexpected_contact",
+            [
+              0.008248937137892431,
+              0.0031343998956144814,
+              0.01729847684856578
+            ]
+          ],
+          [
+            17218,
+            "protrusion_facing_camera",
+            "timeout",
+            [
+              0.005884159137849565,
+              0.001501496356354437,
+              0.004259890730679672
+            ]
+          ],
+          [
+            17218,
+            "flat_facing_camera",
+            "timeout",
+            [
+              0.0035930155401615593,
+              0.0007649874328308215,
+              0.003096562586051732
+            ]
+          ],
+          [
+            18093,
+            "flat_facing_camera",
+            "unexpected_contact",
+            [
+              0.018089177163317816,
+              0.003106557527033149,
+              0.014455328033647685
+            ]
+          ]
+        ],
+        "online_completed": {
+          "success": 30
+        },
+        "online_phases": {
+          "approach": 3355,
+          "near": 1667,
+          "closing": 170,
+          "bilateral": 1492,
+          "lift": 2746,
+          "hold": 570
+        },
+        "eligible": false,
+        "history": {
+          "success": 36,
+          "count": 42,
+          "all_mean": 325.3095238095238,
+          "successful_mean": 325.0,
+          "paired_n": 36,
+          "paired_delta": -4.305555555555555,
+          "reward_mean": -0.5877365442471812,
+          "bilateral": 40,
+          "confirmed": 36,
+          "lift100": 36,
+          "ik": 681,
+          "collisions": 4,
+          "absolute_max_mm": [
+            18.302488522493164,
+            3.654035463412586,
+            18.647016696661023
+          ],
+          "failures": {
+            "unexpected_contact / grasp": 4,
+            "timeout / approach": 2
+          }
+        },
+        "validation": {
+          "success": 19,
+          "count": 20,
+          "all_mean": 327.45,
+          "successful_mean": 327.2631578947368,
+          "paired_n": 19,
+          "paired_delta": -4.684210526315789,
+          "reward_mean": 0.2646433032099177,
+          "bilateral": 20,
+          "confirmed": 19,
+          "lift100": 19,
+          "ik": 0,
+          "collisions": 1,
+          "absolute_max_mm": [
+            18.089177163317814,
+            3.5106420589982035,
+            14.455328033647685
+          ],
+          "failures": {
+            "unexpected_contact / grasp": 1
+          }
+        }
+      },
+      {
+        "step": 20000,
+        "gradients": 4875,
+        "review": [
+          [
+            15000,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.009781753240110547,
+              0.006826176790937555,
+              0.013924103966302948
+            ]
+          ],
+          [
+            17200,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.010104528375478594,
+              0.006139921549894289,
+              0.013718734430369306
+            ]
+          ],
+          [
+            17201,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.008264821561176916,
+              0.006905380349009116,
+              0.014457235809743008
+            ]
+          ],
+          [
+            17202,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.011710788724709431,
+              0.007368573421679514,
+              0.013713500440928339
+            ]
+          ],
+          [
+            17203,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.012075998123423304,
+              0.008066784820345063,
+              0.01565338667457139
+            ]
+          ],
+          [
+            17204,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.012174144686610822,
+              0.006852658115299448,
+              0.013429511286005447
+            ]
+          ],
+          [
+            17205,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.011183406582389033,
+              0.0066001570716469615,
+              0.013413959538695064
+            ]
+          ],
+          [
+            17206,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.010680298315207892,
+              0.0071465268201755805,
+              0.01374023219915399
+            ]
+          ],
+          [
+            17207,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.00843974648782364,
+              0.006826169475621313,
+              0.014247151065603259
+            ]
+          ],
+          [
+            17208,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.011608637004044686,
+              0.006687858918837719,
+              0.013485639986640319
+            ]
+          ],
+          [
+            17209,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.008494548254937229,
+              0.007893270695539911,
+              0.015820877034058878
+            ]
+          ],
+          [
+            17210,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.008845055071834196,
+              0.007376675038713532,
+              0.015132875367555254
+            ]
+          ],
+          [
+            17211,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.010287802978169003,
+              0.006329029980300049,
+              0.013337340133432019
+            ]
+          ],
+          [
+            17212,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.010865259212422984,
+              0.008005440617483872,
+              0.016724295092501062
+            ]
+          ],
+          [
+            17213,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.010833957121315407,
+              0.00790434056766276,
+              0.014149295525214267
+            ]
+          ],
+          [
+            17214,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.009972970147696714,
+              0.0068689947095775805,
+              0.013281310705962834
+            ]
+          ],
+          [
+            17215,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.00920487595589492,
+              0.0069499340443072155,
+              0.013298614399274822
+            ]
+          ],
+          [
+            17216,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.011299796885097413,
+              0.006349604839174461,
+              0.013099296602660626
+            ]
+          ],
+          [
+            17217,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.012662576290075833,
+              0.007419174470941647,
+              0.013633595011867339
+            ]
+          ],
+          [
+            17218,
+            "protrusion_facing_camera",
+            "timeout",
+            [
+              0.006000000000000005,
+              0.001294634162377406,
+              0.006394905610818569
+            ]
+          ],
+          [
+            17218,
+            "flat_facing_camera",
+            "timeout",
+            [
+              0.002244691031819457,
+              0.0009562975722019473,
+              0.0027632890160020906
+            ]
+          ],
+          [
+            17219,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.01214455884768817,
+              0.006746150275343865,
+              0.013139802671787049
+            ]
+          ],
+          [
+            18080,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.010594529561949173,
+              0.008245960959960885,
+              0.016316057512824056
+            ]
+          ],
+          [
+            18082,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.01194195337936299,
+              0.006775918508719059,
+              0.013345397009117743
+            ]
+          ],
+          [
+            18084,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.009172857250295152,
+              0.007842896299301572,
+              0.016526423651441302
+            ]
+          ],
+          [
+            18086,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.00902316666000047,
+              0.006105762173382878,
+              0.013846929137173003
+            ]
+          ],
+          [
+            18088,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.009105322579780584,
+              0.007247246700643362,
+              0.01390027299368013
+            ]
+          ],
+          [
+            18090,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.014152066489600434,
+              0.007906108576261311,
+              0.013621828696897875
+            ]
+          ],
+          [
+            18092,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.012016403810712728,
+              0.007832270884870818,
+              0.014533196941840298
+            ]
+          ],
+          [
+            18094,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.008895669386554506,
+              0.006351967184545754,
+              0.013839499163907032
+            ]
+          ],
+          [
+            18096,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.010576387664773979,
+              0.007693811581489629,
+              0.015416994634676495
+            ]
+          ],
+          [
+            18098,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.009573725212248974,
+              0.006798675179254476,
+              0.014063054339487291
+            ]
+          ]
+        ],
+        "online_completed": {
+          "success": 57,
+          "timeout": 2
+        },
+        "online_phases": {
+          "approach": 6764,
+          "near": 3190,
+          "closing": 1046,
+          "bilateral": 2570,
+          "lift": 5347,
+          "hold": 1083
+        },
+        "eligible": false,
+        "history": {
+          "success": 40,
+          "count": 42,
+          "all_mean": 320.7857142857143,
+          "successful_mean": 316.825,
+          "paired_n": 40,
+          "paired_delta": -13.6,
+          "reward_mean": 0.32968005053610533,
+          "bilateral": 40,
+          "confirmed": 40,
+          "lift100": 40,
+          "ik": 657,
+          "collisions": 0,
+          "absolute_max_mm": [
+            12.662576290075833,
+            8.066784820345063,
+            16.724295092501062
+          ],
+          "failures": {
+            "timeout / approach": 2
+          }
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 319.1,
+          "successful_mean": 319.1,
+          "paired_n": 20,
+          "paired_delta": -13.9,
+          "reward_mean": 0.7965788448937259,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            14.152066489600434,
+            8.245960959960886,
+            16.526423651441302
+          ],
+          "failures": {}
+        }
+      }
+    ],
+    "online": {
+      "1000": {
+        "steps": 1000,
+        "reward": 0.0018674437016248683,
+        "actor_drift_p95": [
+          0.08421621173620224,
+          0.18539703115820882,
+          0.1431884028017519
+        ],
+        "sample_abs_p95": [
+          0.9755992829799652,
+          0.21588923335075377,
+          0.9431865900754929
+        ],
+        "projected_mm_p95": [
+          0.015311399874917697,
+          0.03395859439478954,
+          0.026847804838325794
+        ],
+        "actual_tcp_mm_p95": [
+          0.30294670386262096,
+          0.9398124027596697,
+          1.2464173200104456
+        ]
+      },
+      "2000": {
+        "steps": 1000,
+        "reward": 0.001911245052181183,
+        "actor_drift_p95": [
+          0.21913746967911707,
+          0.3433181598782539,
+          0.30682573020458215
+        ],
+        "sample_abs_p95": [
+          0.887199479341507,
+          0.4134718477725982,
+          0.7915746152400969
+        ],
+        "projected_mm_p95": [
+          0.0358076867996715,
+          0.046557275521763586,
+          0.05752986180596052
+        ],
+        "actual_tcp_mm_p95": [
+          0.18516702024986556,
+          0.6384244209027855,
+          1.2326495007987242
+        ]
+      },
+      "5000": {
+        "steps": 3000,
+        "reward": 0.0017017385417347143,
+        "actor_drift_p95": [
+          0.31558813005685776,
+          0.49094492495059966,
+          0.40418990999460164
+        ],
+        "sample_abs_p95": [
+          0.7364267975091934,
+          0.533752816915512,
+          0.7852455049753186
+        ],
+        "projected_mm_p95": [
+          0.05882932637177872,
+          0.055026226644372345,
+          0.07578561780974258
+        ],
+        "actual_tcp_mm_p95": [
+          0.23398372783426277,
+          0.7179085597363553,
+          1.247510259884911
+        ]
+      },
+      "10000": {
+        "steps": 5000,
+        "reward": 0.0019209214437678455,
+        "actor_drift_p95": [
+          0.38781498670578013,
+          0.3809051111340523,
+          0.7078327506780624
+        ],
+        "sample_abs_p95": [
+          0.5978948146104813,
+          0.406856769323349,
+          0.637325942516327
+        ],
+        "projected_mm_p95": [
+          0.06946263820282184,
+          0.045204329035186674,
+          0.13237445811000725
+        ],
+        "actual_tcp_mm_p95": [
+          0.1425481873895629,
+          0.4734125475517363,
+          1.267092848774762
+        ]
+      },
+      "20000": {
+        "steps": 10000,
+        "reward": -0.00025843423249572643,
+        "actor_drift_p95": [
+          0.48817497044801705,
+          0.3380949571728706,
+          1.0836645841598507
+        ],
+        "sample_abs_p95": [
+          0.7242527216672897,
+          0.35857531130313874,
+          0.8528547942638397
+        ],
+        "projected_mm_p95": [
+          0.08253349724327559,
+          0.04941842819903284,
+          0.183701334754005
+        ],
+        "actual_tcp_mm_p95": [
+          0.13641674451096703,
+          0.8026951417383228,
+          1.228487112973814
+        ]
+      }
+    }
+  },
+  "sac-22": {
+    "status": {
+      "steps": 20000,
+      "error": null,
+      "wall_s": 285.3657742389987,
+      "eval_and_save_s": 199.75100031099828,
+      "first_rollout": null,
+      "checks": [
+        {
+          "step": 0,
+          "gradients": 0,
+          "review": [],
+          "online_completed": {},
+          "online_phases": {}
+        },
+        {
+          "step": 1000,
+          "gradients": 125,
+          "review": [
+            [
+              17208,
+              "protrusion_facing_camera",
+              "unexpected_contact",
+              [
+                0.006000000000000005,
+                0.0030000000000000027,
+                0.01275437966734172
+              ]
+            ],
+            [
+              17208,
+              "flat_facing_camera",
+              "unexpected_contact",
+              [
+                0.00778276693941371,
+                0.0033904640029759348,
+                0.014744891775364533
+              ]
+            ],
+            [
+              17211,
+              "protrusion_facing_camera",
+              "unexpected_contact",
+              [
+                0.006000000000000005,
+                0.0031026607715175514,
+                0.014272610145155351
+              ]
+            ],
+            [
+              17211,
+              "flat_facing_camera",
+              "timeout",
+              [
+                0.016100996898941622,
+                0.004068077448209695,
+                0.03698031232482754
+              ]
+            ],
+            [
+              17218,
+              "protrusion_facing_camera",
+              "timeout",
+              [
+                0.004350913069174567,
+                0.00021267429110594094,
+                0.004737365719904574
+              ]
+            ],
+            [
+              17218,
+              "flat_facing_camera",
+              "timeout",
+              [
+                0.0044487675295386,
+                0.00023696426887909183,
+                0.004765054918607348
+              ]
+            ],
+            [
+              18082,
+              "protrusion_facing_camera",
+              "unexpected_contact",
+              [
+                0.006029419170459738,
+                0.0031398236017848857,
+                0.013146997790783654
+              ]
+            ],
+            [
+              18085,
+              "flat_facing_camera",
+              "timeout",
+              [
+                0.006000000000000005,
+                0.0016759603902301023,
+                0.0081282261328397
+              ]
+            ],
+            [
+              18090,
+              "protrusion_facing_camera",
+              "timeout",
+              [
+                0.006000000000000005,
+                0.0014758281240574433,
+                0.008968923942575202
+              ]
+            ],
+            [
+              18093,
+              "flat_facing_camera",
+              "unexpected_contact",
+              [
+                0.006000000000000005,
+                0.0030000000000000027,
+                0.012865042122313763
+              ]
+            ]
+          ],
+          "online_completed": {
+            "success": 2
+          },
+          "online_phases": {
+            "approach": 323,
+            "closing": 70,
+            "near": 153,
+            "bilateral": 176,
+            "lift": 240,
+            "hold": 38
+          }
+        },
+        {
+          "step": 2000,
+          "gradients": 375,
+          "review": [
+            [
+              17218,
+              "protrusion_facing_camera",
+              "timeout",
+              [
+                0.006000000000000005,
+                0.0030000000000000027,
+                0.004394889267132385
+              ]
+            ],
+            [
+              17218,
+              "flat_facing_camera",
+              "timeout",
+              [
+                0.006000000000000005,
+                0.0030000000000000027,
+                0.00376735150712193
+              ]
+            ]
+          ],
+          "online_completed": {
+            "success": 5
+          },
+          "online_phases": {
+            "approach": 678,
+            "closing": 82,
+            "near": 319,
+            "bilateral": 301,
+            "lift": 525,
+            "hold": 95
+          }
+        },
+        {
+          "step": 5000,
+          "gradients": 1125,
+          "review": [],
+          "online_completed": {
+            "success": 15
+          },
+          "online_phases": {
+            "approach": 1632,
+            "closing": 119,
+            "near": 818,
+            "bilateral": 793,
+            "lift": 1353,
+            "hold": 285
+          }
+        },
+        {
+          "step": 10000,
+          "gradients": 2375,
+          "review": [
+            [
+              17218,
+              "protrusion_facing_camera",
+              "timeout",
+              [
+                0.006000000000000005,
+                0.002692579433642095,
+                0.002999105102716726
+              ]
+            ],
+            [
+              17218,
+              "flat_facing_camera",
+              "timeout",
+              [
+                0.0046621453208217645,
+                0.0018705638467508834,
+                0.0016783321302682452
+              ]
+            ],
+            [
+              18082,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.011810765298008397,
+                0.0052944584511464,
+                0.016031871333623826
+              ]
+            ],
+            [
+              18085,
+              "flat_facing_camera",
+              "success",
+              [
+                0.010301376190973377,
+                0.005144479424217141,
+                0.013712489938654482
+              ]
+            ],
+            [
+              18090,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.012562997753633232,
+                0.005816000037000779,
+                0.01678919868658113
+              ]
+            ]
+          ],
+          "online_completed": {
+            "success": 30
+          },
+          "online_phases": {
+            "approach": 3319,
+            "closing": 181,
+            "near": 1667,
+            "bilateral": 1526,
+            "lift": 2737,
+            "hold": 570
+          }
+        },
+        {
+          "step": 20000,
+          "gradients": 4875,
+          "review": [
+            [
+              17202,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.0149194931810539,
+                0.005780159665235263,
+                0.015039222435290878
+              ]
+            ],
+            [
+              17203,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.01488255326029253,
+                0.005566322615052743,
+                0.014422948926323453
+              ]
+            ],
+            [
+              17204,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.01366423909692549,
+                0.006267382194962923,
+                0.014812615896800718
+              ]
+            ],
+            [
+              17208,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.01342487302835571,
+                0.007092489042704986,
+                0.014712379392050945
+              ]
+            ],
+            [
+              17211,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.012504007723165733,
+                0.005342635323657308,
+                0.014239026076949823
+              ]
+            ],
+            [
+              17217,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.016010230860530106,
+                0.006779953096113789,
+                0.01540153154390067
+              ]
+            ],
+            [
+              17217,
+              "flat_facing_camera",
+              "success",
+              [
+                0.016344213778012096,
+                0.005412415671642523,
+                0.01611850317823338
+              ]
+            ],
+            [
+              17218,
+              "protrusion_facing_camera",
+              "timeout",
+              [
+                0.005970233546349846,
+                0.0030000000000000027,
+                0.004025940645725257
+              ]
+            ],
+            [
+              17218,
+              "flat_facing_camera",
+              "timeout",
+              [
+                0.004511250799215105,
+                0.0027727452461476787,
+                0.0029683233815376298
+              ]
+            ],
+            [
+              18082,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.015184512716643672,
+                0.007879699613866253,
+                0.01466222429672781
+              ]
+            ],
+            [
+              18085,
+              "flat_facing_camera",
+              "success",
+              [
+                0.016887949732683927,
+                0.00653981083173949,
+                0.01708180852125407
+              ]
+            ],
+            [
+              18090,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.01469186022657687,
+                0.007907382339638391,
+                0.015957594413986254
+              ]
+            ],
+            [
+              18092,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.016982524805385202,
+                0.005885062365749039,
+                0.014924060136990658
+              ]
+            ]
+          ],
+          "online_completed": {
+            "success": 59,
+            "timeout": 1
+          },
+          "online_phases": {
+            "approach": 6731,
+            "closing": 685,
+            "near": 3310,
+            "bilateral": 2646,
+            "lift": 5507,
+            "hold": 1121
+          }
+        }
+      ]
+    },
+    "records": [
+      {
+        "step": 0,
+        "gradients": 0,
+        "review": [],
+        "online_completed": {},
+        "online_phases": {},
+        "eligible": true,
+        "history": {
+          "success": 42,
+          "count": 42,
+          "all_mean": 332.6904761904762,
+          "successful_mean": 332.6904761904762,
+          "paired_n": 42,
+          "paired_delta": 0.0,
+          "reward_mean": 0.6047153566298756,
+          "bilateral": 42,
+          "confirmed": 42,
+          "lift100": 42,
+          "ik": 21,
+          "collisions": 0,
+          "absolute_max_mm": [
+            15.392357514116384,
+            2.2588598907766766,
+            15.840554539895635
+          ],
+          "failures": {}
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 333.0,
+          "successful_mean": 333.0,
+          "paired_n": 20,
+          "paired_delta": 0.0,
+          "reward_mean": 0.6147297463770973,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            6.926525866930211,
+            1.6183972390493295,
+            16.13788944946748
+          ],
+          "failures": {}
+        }
+      },
+      {
+        "step": 1000,
+        "gradients": 125,
+        "review": [
+          [
+            17208,
+            "protrusion_facing_camera",
+            "unexpected_contact",
+            [
+              0.006000000000000005,
+              0.0030000000000000027,
+              0.01275437966734172
+            ]
+          ],
+          [
+            17208,
+            "flat_facing_camera",
+            "unexpected_contact",
+            [
+              0.00778276693941371,
+              0.0033904640029759348,
+              0.014744891775364533
+            ]
+          ],
+          [
+            17211,
+            "protrusion_facing_camera",
+            "unexpected_contact",
+            [
+              0.006000000000000005,
+              0.0031026607715175514,
+              0.014272610145155351
+            ]
+          ],
+          [
+            17211,
+            "flat_facing_camera",
+            "timeout",
+            [
+              0.016100996898941622,
+              0.004068077448209695,
+              0.03698031232482754
+            ]
+          ],
+          [
+            17218,
+            "protrusion_facing_camera",
+            "timeout",
+            [
+              0.004350913069174567,
+              0.00021267429110594094,
+              0.004737365719904574
+            ]
+          ],
+          [
+            17218,
+            "flat_facing_camera",
+            "timeout",
+            [
+              0.0044487675295386,
+              0.00023696426887909183,
+              0.004765054918607348
+            ]
+          ],
+          [
+            18082,
+            "protrusion_facing_camera",
+            "unexpected_contact",
+            [
+              0.006029419170459738,
+              0.0031398236017848857,
+              0.013146997790783654
+            ]
+          ],
+          [
+            18085,
+            "flat_facing_camera",
+            "timeout",
+            [
+              0.006000000000000005,
+              0.0016759603902301023,
+              0.0081282261328397
+            ]
+          ],
+          [
+            18090,
+            "protrusion_facing_camera",
+            "timeout",
+            [
+              0.006000000000000005,
+              0.0014758281240574433,
+              0.008968923942575202
+            ]
+          ],
+          [
+            18093,
+            "flat_facing_camera",
+            "unexpected_contact",
+            [
+              0.006000000000000005,
+              0.0030000000000000027,
+              0.012865042122313763
+            ]
+          ]
+        ],
+        "online_completed": {
+          "success": 2
+        },
+        "online_phases": {
+          "approach": 323,
+          "closing": 70,
+          "near": 153,
+          "bilateral": 176,
+          "lift": 240,
+          "hold": 38
+        },
+        "eligible": false,
+        "history": {
+          "success": 36,
+          "count": 42,
+          "all_mean": 334.54761904761904,
+          "successful_mean": 335.3611111111111,
+          "paired_n": 36,
+          "paired_delta": 6.055555555555555,
+          "reward_mean": -0.5849819101490801,
+          "bilateral": 40,
+          "confirmed": 37,
+          "lift100": 36,
+          "ik": 716,
+          "collisions": 3,
+          "absolute_max_mm": [
+            16.100996898941624,
+            4.959839155688317,
+            36.980312324827544
+          ],
+          "failures": {
+            "unexpected_contact / grasp": 3,
+            "timeout / lift": 1,
+            "timeout / approach": 2
+          }
+        },
+        "validation": {
+          "success": 16,
+          "count": 20,
+          "all_mean": 336.6,
+          "successful_mean": 337.9375,
+          "paired_n": 16,
+          "paired_delta": 6.625,
+          "reward_mean": -1.1759578767344347,
+          "bilateral": 18,
+          "confirmed": 16,
+          "lift100": 16,
+          "ik": 642,
+          "collisions": 2,
+          "absolute_max_mm": [
+            10.4297503241495,
+            4.884602561169404,
+            18.600038126862284
+          ],
+          "failures": {
+            "unexpected_contact / grasp": 2,
+            "timeout / approach": 2
+          }
+        }
+      },
+      {
+        "step": 2000,
+        "gradients": 375,
+        "review": [
+          [
+            17218,
+            "protrusion_facing_camera",
+            "timeout",
+            [
+              0.006000000000000005,
+              0.0030000000000000027,
+              0.004394889267132385
+            ]
+          ],
+          [
+            17218,
+            "flat_facing_camera",
+            "timeout",
+            [
+              0.006000000000000005,
+              0.0030000000000000027,
+              0.00376735150712193
+            ]
+          ]
+        ],
+        "online_completed": {
+          "success": 5
+        },
+        "online_phases": {
+          "approach": 678,
+          "closing": 82,
+          "near": 319,
+          "bilateral": 301,
+          "lift": 525,
+          "hold": 95
+        },
+        "eligible": false,
+        "history": {
+          "success": 40,
+          "count": 42,
+          "all_mean": 326.4761904761905,
+          "successful_mean": 322.8,
+          "paired_n": 40,
+          "paired_delta": -7.625,
+          "reward_mean": 0.27275860838680865,
+          "bilateral": 40,
+          "confirmed": 40,
+          "lift100": 40,
+          "ik": 684,
+          "collisions": 0,
+          "absolute_max_mm": [
+            11.823419485565756,
+            3.002437664306856,
+            17.947871697117534
+          ],
+          "failures": {
+            "timeout / approach": 2
+          }
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 327.7,
+          "successful_mean": 327.7,
+          "paired_n": 20,
+          "paired_delta": -5.3,
+          "reward_mean": 0.6997443875502813,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            12.911792975017766,
+            3.014207023923521,
+            17.473400111072124
+          ],
+          "failures": {}
+        }
+      },
+      {
+        "step": 5000,
+        "gradients": 1125,
+        "review": [],
+        "online_completed": {
+          "success": 15
+        },
+        "online_phases": {
+          "approach": 1632,
+          "closing": 119,
+          "near": 818,
+          "bilateral": 793,
+          "lift": 1353,
+          "hold": 285
+        },
+        "eligible": true,
+        "history": {
+          "success": 42,
+          "count": 42,
+          "all_mean": 327.95238095238096,
+          "successful_mean": 327.95238095238096,
+          "paired_n": 42,
+          "paired_delta": -4.738095238095238,
+          "reward_mean": 0.6417766089506819,
+          "bilateral": 42,
+          "confirmed": 42,
+          "lift100": 42,
+          "ik": 12,
+          "collisions": 0,
+          "absolute_max_mm": [
+            14.385640722622162,
+            3.8091111740071737,
+            15.87088835486794
+          ],
+          "failures": {}
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 329.55,
+          "successful_mean": 329.55,
+          "paired_n": 20,
+          "paired_delta": -3.45,
+          "reward_mean": 0.6311809927411394,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            14.134012276450392,
+            3.7600040333883866,
+            13.655009696208253
+          ],
+          "failures": {}
+        }
+      },
+      {
+        "step": 10000,
+        "gradients": 2375,
+        "review": [
+          [
+            17218,
+            "protrusion_facing_camera",
+            "timeout",
+            [
+              0.006000000000000005,
+              0.002692579433642095,
+              0.002999105102716726
+            ]
+          ],
+          [
+            17218,
+            "flat_facing_camera",
+            "timeout",
+            [
+              0.0046621453208217645,
+              0.0018705638467508834,
+              0.0016783321302682452
+            ]
+          ],
+          [
+            18082,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.011810765298008397,
+              0.0052944584511464,
+              0.016031871333623826
+            ]
+          ],
+          [
+            18085,
+            "flat_facing_camera",
+            "success",
+            [
+              0.010301376190973377,
+              0.005144479424217141,
+              0.013712489938654482
+            ]
+          ],
+          [
+            18090,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.012562997753633232,
+              0.005816000037000779,
+              0.01678919868658113
+            ]
+          ]
+        ],
+        "online_completed": {
+          "success": 30
+        },
+        "online_phases": {
+          "approach": 3319,
+          "closing": 181,
+          "near": 1667,
+          "bilateral": 1526,
+          "lift": 2737,
+          "hold": 570
+        },
+        "eligible": false,
+        "history": {
+          "success": 40,
+          "count": 42,
+          "all_mean": 331.1666666666667,
+          "successful_mean": 327.725,
+          "paired_n": 40,
+          "paired_delta": -2.7,
+          "reward_mean": 0.18612684557480788,
+          "bilateral": 40,
+          "confirmed": 40,
+          "lift100": 40,
+          "ik": 645,
+          "collisions": 0,
+          "absolute_max_mm": [
+            16.828225487237837,
+            4.916583761840232,
+            20.2374916266872
+          ],
+          "failures": {
+            "timeout / approach": 2
+          }
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 330.4,
+          "successful_mean": 330.4,
+          "paired_n": 20,
+          "paired_delta": -2.6,
+          "reward_mean": 0.6243913832791168,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            15.28793911924331,
+            5.816000037000779,
+            19.83988487734223
+          ],
+          "failures": {}
+        }
+      },
+      {
+        "step": 20000,
+        "gradients": 4875,
+        "review": [
+          [
+            17202,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.0149194931810539,
+              0.005780159665235263,
+              0.015039222435290878
+            ]
+          ],
+          [
+            17203,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.01488255326029253,
+              0.005566322615052743,
+              0.014422948926323453
+            ]
+          ],
+          [
+            17204,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.01366423909692549,
+              0.006267382194962923,
+              0.014812615896800718
+            ]
+          ],
+          [
+            17208,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.01342487302835571,
+              0.007092489042704986,
+              0.014712379392050945
+            ]
+          ],
+          [
+            17211,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.012504007723165733,
+              0.005342635323657308,
+              0.014239026076949823
+            ]
+          ],
+          [
+            17217,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.016010230860530106,
+              0.006779953096113789,
+              0.01540153154390067
+            ]
+          ],
+          [
+            17217,
+            "flat_facing_camera",
+            "success",
+            [
+              0.016344213778012096,
+              0.005412415671642523,
+              0.01611850317823338
+            ]
+          ],
+          [
+            17218,
+            "protrusion_facing_camera",
+            "timeout",
+            [
+              0.005970233546349846,
+              0.0030000000000000027,
+              0.004025940645725257
+            ]
+          ],
+          [
+            17218,
+            "flat_facing_camera",
+            "timeout",
+            [
+              0.004511250799215105,
+              0.0027727452461476787,
+              0.0029683233815376298
+            ]
+          ],
+          [
+            18082,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.015184512716643672,
+              0.007879699613866253,
+              0.01466222429672781
+            ]
+          ],
+          [
+            18085,
+            "flat_facing_camera",
+            "success",
+            [
+              0.016887949732683927,
+              0.00653981083173949,
+              0.01708180852125407
+            ]
+          ],
+          [
+            18090,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.01469186022657687,
+              0.007907382339638391,
+              0.015957594413986254
+            ]
+          ],
+          [
+            18092,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.016982524805385202,
+              0.005885062365749039,
+              0.014924060136990658
+            ]
+          ]
+        ],
+        "online_completed": {
+          "success": 59,
+          "timeout": 1
+        },
+        "online_phases": {
+          "approach": 6731,
+          "closing": 685,
+          "near": 3310,
+          "bilateral": 2646,
+          "lift": 5507,
+          "hold": 1121
+        },
+        "eligible": false,
+        "history": {
+          "success": 40,
+          "count": 42,
+          "all_mean": 334.23809523809524,
+          "successful_mean": 330.95,
+          "paired_n": 40,
+          "paired_delta": 0.525,
+          "reward_mean": 0.1443941387933289,
+          "bilateral": 40,
+          "confirmed": 40,
+          "lift100": 40,
+          "ik": 635,
+          "collisions": 0,
+          "absolute_max_mm": [
+            17.784271289998934,
+            7.092489042704986,
+            17.222681798386485
+          ],
+          "failures": {
+            "timeout / approach": 2
+          }
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 333.35,
+          "successful_mean": 333.35,
+          "paired_n": 20,
+          "paired_delta": 0.35,
+          "reward_mean": 0.5873769352156689,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            18.049483710178784,
+            7.907382339638391,
+            17.08180852125407
+          ],
+          "failures": {}
+        }
+      }
+    ],
+    "online": {
+      "1000": {
+        "steps": 1000,
+        "reward": -0.0013749100600555552,
+        "actor_drift_p95": [
+          0.15532988980412482,
+          0.08763125240802765,
+          0.2809139594435692
+        ],
+        "sample_abs_p95": [
+          0.9758897840976715,
+          0.17485532909631726,
+          0.9834616899490356
+        ],
+        "projected_mm_p95": [
+          0.02912435411417391,
+          0.016270620801606128,
+          0.05267137894406914
+        ],
+        "actual_tcp_mm_p95": [
+          0.8450968523196941,
+          0.5025358927513324,
+          1.2430191804120694
+        ]
+      },
+      "2000": {
+        "steps": 1000,
+        "reward": 0.002073550805039701,
+        "actor_drift_p95": [
+          0.802878129482269,
+          0.6372880131006241,
+          1.0233687937259675
+        ],
+        "sample_abs_p95": [
+          0.9264560371637345,
+          0.736639666557312,
+          0.9108388483524322
+        ],
+        "projected_mm_p95": [
+          0.12566168553860277,
+          0.06830136453572777,
+          0.1918815658427775
+        ],
+        "actual_tcp_mm_p95": [
+          0.11371409823845419,
+          1.107485525793345,
+          1.2545798247134559
+        ]
+      },
+      "5000": {
+        "steps": 3000,
+        "reward": 0.002777297080904243,
+        "actor_drift_p95": [
+          0.5948703318834303,
+          0.3832405492663383,
+          0.4927894860506054
+        ],
+        "sample_abs_p95": [
+          0.8197729289531703,
+          0.4300042450428009,
+          0.7498126149177546
+        ],
+        "projected_mm_p95": [
+          0.10150887696909194,
+          0.046439030552392034,
+          0.09239790961146348
+        ],
+        "actual_tcp_mm_p95": [
+          0.2935855198777424,
+          0.19093032255183712,
+          1.2564922156432525
+        ]
+      },
+      "10000": {
+        "steps": 5000,
+        "reward": 0.0018312647475600236,
+        "actor_drift_p95": [
+          0.31800464093685155,
+          0.22795888558030133,
+          0.6737575560808182
+        ],
+        "sample_abs_p95": [
+          0.7128823727369311,
+          0.2739471808075905,
+          0.7133545607328415
+        ],
+        "projected_mm_p95": [
+          0.05962586765235756,
+          0.03443255527599832,
+          0.12421159190125763
+        ],
+        "actual_tcp_mm_p95": [
+          0.20286303032057798,
+          0.48600808209345925,
+          1.2871806363625478
+        ]
+      },
+      "20000": {
+        "steps": 10000,
+        "reward": 0.0010124756649769835,
+        "actor_drift_p95": [
+          0.4347523897886276,
+          0.4286258041858673,
+          0.9776878654956817
+        ],
+        "sample_abs_p95": [
+          0.7381364077329635,
+          0.4767549887299537,
+          0.8237980842590332
+        ],
+        "projected_mm_p95": [
+          0.07556270056738866,
+          0.04412423654684971,
+          0.1660451540374197
+        ],
+        "actual_tcp_mm_p95": [
+          0.19961604880074343,
+          0.47010270207875454,
+          1.3196504379189649
+        ]
+      }
+    }
+  },
+  "sac-33": {
+    "status": {
+      "steps": 20000,
+      "error": null,
+      "wall_s": 279.5997602570005,
+      "eval_and_save_s": 187.93575206199966,
+      "first_rollout": null,
+      "checks": [
+        {
+          "step": 0,
+          "gradients": 0,
+          "review": [],
+          "online_completed": {},
+          "online_phases": {}
+        },
+        {
+          "step": 1000,
+          "gradients": 125,
+          "review": [
+            [
+              17200,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.020630750464107228,
+                0.0035888044187418755,
+                0.015291154415592256
+              ]
+            ],
+            [
+              17201,
+              "flat_facing_camera",
+              "success",
+              [
+                0.02001711385264726,
+                0.00310612442906677,
+                0.015580268344698833
+              ]
+            ],
+            [
+              17205,
+              "flat_facing_camera",
+              "success",
+              [
+                0.02011148863693868,
+                0.003923665792242903,
+                0.01520346253374738
+              ]
+            ],
+            [
+              17216,
+              "flat_facing_camera",
+              "success",
+              [
+                0.020259201212922795,
+                0.003793179536970004,
+                0.01511783105459541
+              ]
+            ],
+            [
+              17218,
+              "flat_facing_camera",
+              "timeout",
+              [
+                0.006000000000000005,
+                0.0008423065680744912,
+                0.01200000000000001
+              ]
+            ],
+            [
+              18086,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.02128125573466355,
+                0.0033014535902821107,
+                0.015626222703125858
+              ]
+            ],
+            [
+              18094,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.020534580288938065,
+                0.0031801461231423245,
+                0.015301623774575557
+              ]
+            ]
+          ],
+          "online_completed": {
+            "success": 2
+          },
+          "online_phases": {
+            "approach": 309,
+            "near": 167,
+            "closing": 12,
+            "bilateral": 217,
+            "lift": 257,
+            "hold": 38
+          }
+        },
+        {
+          "step": 2000,
+          "gradients": 375,
+          "review": [
+            [
+              17218,
+              "flat_facing_camera",
+              "timeout",
+              [
+                0.006000000000000005,
+                0.0030000000000000027,
+                0.013120213324611552
+              ]
+            ]
+          ],
+          "online_completed": {
+            "success": 5
+          },
+          "online_phases": {
+            "approach": 604,
+            "near": 335,
+            "closing": 25,
+            "bilateral": 385,
+            "lift": 556,
+            "hold": 95
+          }
+        },
+        {
+          "step": 5000,
+          "gradients": 1125,
+          "review": [],
+          "online_completed": {
+            "success": 14
+          },
+          "online_phases": {
+            "approach": 1594,
+            "near": 843,
+            "closing": 97,
+            "bilateral": 808,
+            "lift": 1392,
+            "hold": 266
+          }
+        },
+        {
+          "step": 10000,
+          "gradients": 2375,
+          "review": [
+            [
+              15000,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.011076969038867679,
+                0.005876124416502537,
+                0.014489906271534903
+              ]
+            ],
+            [
+              15000,
+              "flat_facing_camera",
+              "success",
+              [
+                0.010141735090712478,
+                0.005600628924888329,
+                0.012994212578348208
+              ]
+            ],
+            [
+              17200,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.010410063754875187,
+                0.00573409721715723,
+                0.014408195226053078
+              ]
+            ],
+            [
+              17200,
+              "flat_facing_camera",
+              "success",
+              [
+                0.008799124030957506,
+                0.0056376796763543124,
+                0.013345378046607959
+              ]
+            ],
+            [
+              17201,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.010685023664059434,
+                0.0067800780026771035,
+                0.013765739063557714
+              ]
+            ],
+            [
+              17201,
+              "flat_facing_camera",
+              "success",
+              [
+                0.009486381527864074,
+                0.006665758370978714,
+                0.012888487911652202
+              ]
+            ],
+            [
+              17202,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.011026388524754571,
+                0.0054628018003767265,
+                0.015117450110266883
+              ]
+            ],
+            [
+              17202,
+              "flat_facing_camera",
+              "success",
+              [
+                0.009725596261887182,
+                0.005022002803187209,
+                0.013748022257743298
+              ]
+            ],
+            [
+              17203,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.011358688968613029,
+                0.005644718724070574,
+                0.01667405836212721
+              ]
+            ],
+            [
+              17203,
+              "flat_facing_camera",
+              "success",
+              [
+                0.01073828751711381,
+                0.00528808638173206,
+                0.015313261181119753
+              ]
+            ],
+            [
+              17204,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.010131251503281424,
+                0.005333687838582679,
+                0.014578689814981782
+              ]
+            ],
+            [
+              17205,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.009741060656693667,
+                0.005417614699965045,
+                0.014074735507449088
+              ]
+            ],
+            [
+              17205,
+              "flat_facing_camera",
+              "success",
+              [
+                0.008674511816394448,
+                0.005274935879768239,
+                0.013311198760049603
+              ]
+            ],
+            [
+              17206,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.010885061825824272,
+                0.005529370592983862,
+                0.014939904738695997
+              ]
+            ],
+            [
+              17206,
+              "flat_facing_camera",
+              "success",
+              [
+                0.00956970472218166,
+                0.005215368401238041,
+                0.01349602711735498
+              ]
+            ],
+            [
+              17207,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.010319461915201833,
+                0.006935554785300613,
+                0.013958376301445252
+              ]
+            ],
+            [
+              17207,
+              "flat_facing_camera",
+              "success",
+              [
+                0.00934311584941816,
+                0.006697013326110723,
+                0.012751286861486744
+              ]
+            ],
+            [
+              17209,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.01088125043928101,
+                0.006762200474433544,
+                0.014317995222256297
+              ]
+            ],
+            [
+              17209,
+              "flat_facing_camera",
+              "success",
+              [
+                0.009573443623178468,
+                0.006719566240334873,
+                0.013199984503955431
+              ]
+            ],
+            [
+              17210,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.011814535870285914,
+                0.006161843697306657,
+                0.01567668271172762
+              ]
+            ],
+            [
+              17210,
+              "flat_facing_camera",
+              "success",
+              [
+                0.01041121163843406,
+                0.005879320420170475,
+                0.014121824416349238
+              ]
+            ],
+            [
+              17212,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.011062788770089815,
+                0.006302589046882079,
+                0.01583352890276002
+              ]
+            ],
+            [
+              17212,
+              "flat_facing_camera",
+              "success",
+              [
+                0.009890723798662071,
+                0.006012731105414448,
+                0.014573976759777008
+              ]
+            ],
+            [
+              17213,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.01113646465168805,
+                0.005710140089993376,
+                0.015157902883913277
+              ]
+            ],
+            [
+              17213,
+              "flat_facing_camera",
+              "success",
+              [
+                0.010508771938986916,
+                0.005382823546684956,
+                0.015194200107373046
+              ]
+            ],
+            [
+              17214,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.01074402313736278,
+                0.00573194711866154,
+                0.01396254480931658
+              ]
+            ],
+            [
+              17214,
+              "flat_facing_camera",
+              "success",
+              [
+                0.009356926066771853,
+                0.00557649876300903,
+                0.013198591698084794
+              ]
+            ],
+            [
+              17215,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.0106923826305374,
+                0.00568834523593853,
+                0.0139987865971416
+              ]
+            ],
+            [
+              17215,
+              "flat_facing_camera",
+              "success",
+              [
+                0.009684670220650338,
+                0.0054973148131266525,
+                0.013426726501449604
+              ]
+            ],
+            [
+              17216,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.009151301475170959,
+                0.005009432734368491,
+                0.013906279156173706
+              ]
+            ],
+            [
+              17217,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.010799335754981376,
+                0.005475962572958903,
+                0.015316524679860333
+              ]
+            ],
+            [
+              17218,
+              "protrusion_facing_camera",
+              "timeout",
+              [
+                0.006000000000000005,
+                0.0030000000000000027,
+                0.015010795088925999
+              ]
+            ],
+            [
+              17218,
+              "flat_facing_camera",
+              "timeout",
+              [
+                0.005848164734516104,
+                0.0030000000000000027,
+                0.00455677495236273
+              ]
+            ],
+            [
+              17219,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.010117921676936481,
+                0.0052832267654280285,
+                0.01417432388603812
+              ]
+            ],
+            [
+              18080,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.01132085009950834,
+                0.006161347416664742,
+                0.0159137673793448
+              ]
+            ],
+            [
+              18081,
+              "flat_facing_camera",
+              "success",
+              [
+                0.0095117269926559,
+                0.006261362452676056,
+                0.014371829199546493
+              ]
+            ],
+            [
+              18083,
+              "flat_facing_camera",
+              "success",
+              [
+                0.009870551462757282,
+                0.006212478064146043,
+                0.013325487507330092
+              ]
+            ],
+            [
+              18084,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.01081163159784615,
+                0.006826202656199487,
+                0.015120481559108168
+              ]
+            ],
+            [
+              18086,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.010064294094860093,
+                0.006476934678673163,
+                0.015067234347412306
+              ]
+            ],
+            [
+              18087,
+              "flat_facing_camera",
+              "success",
+              [
+                0.010388523502427693,
+                0.005555066523797225,
+                0.01481520314365481
+              ]
+            ],
+            [
+              18088,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.011530103603803132,
+                0.00634547278495734,
+                0.014469500711185912
+              ]
+            ],
+            [
+              18089,
+              "flat_facing_camera",
+              "success",
+              [
+                0.010221340811227497,
+                0.006229028827391292,
+                0.013590531039255449
+              ]
+            ],
+            [
+              18090,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.011181700055629795,
+                0.005230391149396385,
+                0.016318355590385192
+              ]
+            ],
+            [
+              18092,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.010948678369117948,
+                0.005591056525403704,
+                0.01530451379340958
+              ]
+            ],
+            [
+              18094,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.010061404100582427,
+                0.006860838337660158,
+                0.014030201379966467
+              ]
+            ],
+            [
+              18096,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.011543141075513796,
+                0.005825660889052897,
+                0.016387160778151166
+              ]
+            ],
+            [
+              18097,
+              "flat_facing_camera",
+              "success",
+              [
+                0.00975671691276836,
+                0.006436987910262704,
+                0.013275330945645702
+              ]
+            ],
+            [
+              18098,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.010714003907366765,
+                0.005680104938205477,
+                0.015025112055183865
+              ]
+            ],
+            [
+              18099,
+              "flat_facing_camera",
+              "success",
+              [
+                0.010453750106993231,
+                0.00520485473042942,
+                0.01469183875775526
+              ]
+            ]
+          ],
+          "online_completed": {
+            "success": 29,
+            "timeout": 1
+          },
+          "online_phases": {
+            "approach": 3102,
+            "near": 1650,
+            "closing": 535,
+            "bilateral": 1482,
+            "lift": 2680,
+            "hold": 551
+          }
+        },
+        {
+          "step": 20000,
+          "gradients": 4875,
+          "review": [
+            [
+              17218,
+              "protrusion_facing_camera",
+              "success",
+              [
+                0.012082835169316075,
+                0.0036893117815707255,
+                0.02387818241601236
+              ]
+            ],
+            [
+              17218,
+              "flat_facing_camera",
+              "timeout",
+              [
+                0.0025357577516160745,
+                0.0027605397341545768,
+                0.00705016655111379
+              ]
+            ]
+          ],
+          "online_completed": {
+            "success": 56,
+            "timeout": 4
+          },
+          "online_phases": {
+            "approach": 6200,
+            "near": 3137,
+            "closing": 1836,
+            "bilateral": 2540,
+            "lift": 5223,
+            "hold": 1064
+          }
+        }
+      ]
+    },
+    "records": [
+      {
+        "step": 0,
+        "gradients": 0,
+        "review": [],
+        "online_completed": {},
+        "online_phases": {},
+        "eligible": true,
+        "history": {
+          "success": 42,
+          "count": 42,
+          "all_mean": 332.6904761904762,
+          "successful_mean": 332.6904761904762,
+          "paired_n": 42,
+          "paired_delta": 0.0,
+          "reward_mean": 0.6047153566298756,
+          "bilateral": 42,
+          "confirmed": 42,
+          "lift100": 42,
+          "ik": 21,
+          "collisions": 0,
+          "absolute_max_mm": [
+            15.392357514116384,
+            2.2588598907766766,
+            15.840554539895635
+          ],
+          "failures": {}
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 333.0,
+          "successful_mean": 333.0,
+          "paired_n": 20,
+          "paired_delta": 0.0,
+          "reward_mean": 0.6147297463770973,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            6.926525866930211,
+            1.6183972390493295,
+            16.13788944946748
+          ],
+          "failures": {}
+        }
+      },
+      {
+        "step": 1000,
+        "gradients": 125,
+        "review": [
+          [
+            17200,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.020630750464107228,
+              0.0035888044187418755,
+              0.015291154415592256
+            ]
+          ],
+          [
+            17201,
+            "flat_facing_camera",
+            "success",
+            [
+              0.02001711385264726,
+              0.00310612442906677,
+              0.015580268344698833
+            ]
+          ],
+          [
+            17205,
+            "flat_facing_camera",
+            "success",
+            [
+              0.02011148863693868,
+              0.003923665792242903,
+              0.01520346253374738
+            ]
+          ],
+          [
+            17216,
+            "flat_facing_camera",
+            "success",
+            [
+              0.020259201212922795,
+              0.003793179536970004,
+              0.01511783105459541
+            ]
+          ],
+          [
+            17218,
+            "flat_facing_camera",
+            "timeout",
+            [
+              0.006000000000000005,
+              0.0008423065680744912,
+              0.01200000000000001
+            ]
+          ],
+          [
+            18086,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.02128125573466355,
+              0.0033014535902821107,
+              0.015626222703125858
+            ]
+          ],
+          [
+            18094,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.020534580288938065,
+              0.0031801461231423245,
+              0.015301623774575557
+            ]
+          ]
+        ],
+        "online_completed": {
+          "success": 2
+        },
+        "online_phases": {
+          "approach": 309,
+          "near": 167,
+          "closing": 12,
+          "bilateral": 217,
+          "lift": 257,
+          "hold": 38
+        },
+        "eligible": false,
+        "history": {
+          "success": 41,
+          "count": 42,
+          "all_mean": 341.1190476190476,
+          "successful_mean": 339.6829268292683,
+          "paired_n": 41,
+          "paired_delta": 8.073170731707316,
+          "reward_mean": 0.16321391599785168,
+          "bilateral": 41,
+          "confirmed": 41,
+          "lift100": 41,
+          "ik": 320,
+          "collisions": 0,
+          "absolute_max_mm": [
+            20.63075046410723,
+            4.3740482110273815,
+            16.297688472775018
+          ],
+          "failures": {
+            "timeout / approach": 1
+          }
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 339.8,
+          "successful_mean": 339.8,
+          "paired_n": 20,
+          "paired_delta": 6.8,
+          "reward_mean": 0.3963610623367146,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            21.281255734663553,
+            4.589796746096719,
+            16.582474364276845
+          ],
+          "failures": {}
+        }
+      },
+      {
+        "step": 2000,
+        "gradients": 375,
+        "review": [
+          [
+            17218,
+            "flat_facing_camera",
+            "timeout",
+            [
+              0.006000000000000005,
+              0.0030000000000000027,
+              0.013120213324611552
+            ]
+          ]
+        ],
+        "online_completed": {
+          "success": 5
+        },
+        "online_phases": {
+          "approach": 604,
+          "near": 335,
+          "closing": 25,
+          "bilateral": 385,
+          "lift": 556,
+          "hold": 95
+        },
+        "eligible": false,
+        "history": {
+          "success": 41,
+          "count": 42,
+          "all_mean": 326.35714285714283,
+          "successful_mean": 324.5609756097561,
+          "paired_n": 41,
+          "paired_delta": -7.048780487804878,
+          "reward_mean": 0.48177347685875765,
+          "bilateral": 41,
+          "confirmed": 41,
+          "lift100": 41,
+          "ik": 303,
+          "collisions": 0,
+          "absolute_max_mm": [
+            18.29313407632305,
+            3.0000000000000027,
+            17.8000814474899
+          ],
+          "failures": {
+            "timeout / approach": 1
+          }
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 328.4,
+          "successful_mean": 328.4,
+          "paired_n": 20,
+          "paired_delta": -4.6,
+          "reward_mean": 0.6609200962241757,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            16.293482058738597,
+            3.0000000000000027,
+            17.901389827734704
+          ],
+          "failures": {}
+        }
+      },
+      {
+        "step": 5000,
+        "gradients": 1125,
+        "review": [],
+        "online_completed": {
+          "success": 14
+        },
+        "online_phases": {
+          "approach": 1594,
+          "near": 843,
+          "closing": 97,
+          "bilateral": 808,
+          "lift": 1392,
+          "hold": 266
+        },
+        "eligible": true,
+        "history": {
+          "success": 42,
+          "count": 42,
+          "all_mean": 321.42857142857144,
+          "successful_mean": 321.42857142857144,
+          "paired_n": 42,
+          "paired_delta": -11.261904761904763,
+          "reward_mean": 0.7666421876945329,
+          "bilateral": 42,
+          "confirmed": 42,
+          "lift100": 42,
+          "ik": 23,
+          "collisions": 0,
+          "absolute_max_mm": [
+            10.440282046346061,
+            3.071714874602338,
+            14.535764179925081
+          ],
+          "failures": {}
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 323.55,
+          "successful_mean": 323.55,
+          "paired_n": 20,
+          "paired_delta": -9.45,
+          "reward_mean": 0.7420144871883112,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            6.759049466751099,
+            3.1870690647720634,
+            14.743039237600897
+          ],
+          "failures": {}
+        }
+      },
+      {
+        "step": 10000,
+        "gradients": 2375,
+        "review": [
+          [
+            15000,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.011076969038867679,
+              0.005876124416502537,
+              0.014489906271534903
+            ]
+          ],
+          [
+            15000,
+            "flat_facing_camera",
+            "success",
+            [
+              0.010141735090712478,
+              0.005600628924888329,
+              0.012994212578348208
+            ]
+          ],
+          [
+            17200,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.010410063754875187,
+              0.00573409721715723,
+              0.014408195226053078
+            ]
+          ],
+          [
+            17200,
+            "flat_facing_camera",
+            "success",
+            [
+              0.008799124030957506,
+              0.0056376796763543124,
+              0.013345378046607959
+            ]
+          ],
+          [
+            17201,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.010685023664059434,
+              0.0067800780026771035,
+              0.013765739063557714
+            ]
+          ],
+          [
+            17201,
+            "flat_facing_camera",
+            "success",
+            [
+              0.009486381527864074,
+              0.006665758370978714,
+              0.012888487911652202
+            ]
+          ],
+          [
+            17202,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.011026388524754571,
+              0.0054628018003767265,
+              0.015117450110266883
+            ]
+          ],
+          [
+            17202,
+            "flat_facing_camera",
+            "success",
+            [
+              0.009725596261887182,
+              0.005022002803187209,
+              0.013748022257743298
+            ]
+          ],
+          [
+            17203,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.011358688968613029,
+              0.005644718724070574,
+              0.01667405836212721
+            ]
+          ],
+          [
+            17203,
+            "flat_facing_camera",
+            "success",
+            [
+              0.01073828751711381,
+              0.00528808638173206,
+              0.015313261181119753
+            ]
+          ],
+          [
+            17204,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.010131251503281424,
+              0.005333687838582679,
+              0.014578689814981782
+            ]
+          ],
+          [
+            17205,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.009741060656693667,
+              0.005417614699965045,
+              0.014074735507449088
+            ]
+          ],
+          [
+            17205,
+            "flat_facing_camera",
+            "success",
+            [
+              0.008674511816394448,
+              0.005274935879768239,
+              0.013311198760049603
+            ]
+          ],
+          [
+            17206,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.010885061825824272,
+              0.005529370592983862,
+              0.014939904738695997
+            ]
+          ],
+          [
+            17206,
+            "flat_facing_camera",
+            "success",
+            [
+              0.00956970472218166,
+              0.005215368401238041,
+              0.01349602711735498
+            ]
+          ],
+          [
+            17207,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.010319461915201833,
+              0.006935554785300613,
+              0.013958376301445252
+            ]
+          ],
+          [
+            17207,
+            "flat_facing_camera",
+            "success",
+            [
+              0.00934311584941816,
+              0.006697013326110723,
+              0.012751286861486744
+            ]
+          ],
+          [
+            17209,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.01088125043928101,
+              0.006762200474433544,
+              0.014317995222256297
+            ]
+          ],
+          [
+            17209,
+            "flat_facing_camera",
+            "success",
+            [
+              0.009573443623178468,
+              0.006719566240334873,
+              0.013199984503955431
+            ]
+          ],
+          [
+            17210,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.011814535870285914,
+              0.006161843697306657,
+              0.01567668271172762
+            ]
+          ],
+          [
+            17210,
+            "flat_facing_camera",
+            "success",
+            [
+              0.01041121163843406,
+              0.005879320420170475,
+              0.014121824416349238
+            ]
+          ],
+          [
+            17212,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.011062788770089815,
+              0.006302589046882079,
+              0.01583352890276002
+            ]
+          ],
+          [
+            17212,
+            "flat_facing_camera",
+            "success",
+            [
+              0.009890723798662071,
+              0.006012731105414448,
+              0.014573976759777008
+            ]
+          ],
+          [
+            17213,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.01113646465168805,
+              0.005710140089993376,
+              0.015157902883913277
+            ]
+          ],
+          [
+            17213,
+            "flat_facing_camera",
+            "success",
+            [
+              0.010508771938986916,
+              0.005382823546684956,
+              0.015194200107373046
+            ]
+          ],
+          [
+            17214,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.01074402313736278,
+              0.00573194711866154,
+              0.01396254480931658
+            ]
+          ],
+          [
+            17214,
+            "flat_facing_camera",
+            "success",
+            [
+              0.009356926066771853,
+              0.00557649876300903,
+              0.013198591698084794
+            ]
+          ],
+          [
+            17215,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.0106923826305374,
+              0.00568834523593853,
+              0.0139987865971416
+            ]
+          ],
+          [
+            17215,
+            "flat_facing_camera",
+            "success",
+            [
+              0.009684670220650338,
+              0.0054973148131266525,
+              0.013426726501449604
+            ]
+          ],
+          [
+            17216,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.009151301475170959,
+              0.005009432734368491,
+              0.013906279156173706
+            ]
+          ],
+          [
+            17217,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.010799335754981376,
+              0.005475962572958903,
+              0.015316524679860333
+            ]
+          ],
+          [
+            17218,
+            "protrusion_facing_camera",
+            "timeout",
+            [
+              0.006000000000000005,
+              0.0030000000000000027,
+              0.015010795088925999
+            ]
+          ],
+          [
+            17218,
+            "flat_facing_camera",
+            "timeout",
+            [
+              0.005848164734516104,
+              0.0030000000000000027,
+              0.00455677495236273
+            ]
+          ],
+          [
+            17219,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.010117921676936481,
+              0.0052832267654280285,
+              0.01417432388603812
+            ]
+          ],
+          [
+            18080,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.01132085009950834,
+              0.006161347416664742,
+              0.0159137673793448
+            ]
+          ],
+          [
+            18081,
+            "flat_facing_camera",
+            "success",
+            [
+              0.0095117269926559,
+              0.006261362452676056,
+              0.014371829199546493
+            ]
+          ],
+          [
+            18083,
+            "flat_facing_camera",
+            "success",
+            [
+              0.009870551462757282,
+              0.006212478064146043,
+              0.013325487507330092
+            ]
+          ],
+          [
+            18084,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.01081163159784615,
+              0.006826202656199487,
+              0.015120481559108168
+            ]
+          ],
+          [
+            18086,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.010064294094860093,
+              0.006476934678673163,
+              0.015067234347412306
+            ]
+          ],
+          [
+            18087,
+            "flat_facing_camera",
+            "success",
+            [
+              0.010388523502427693,
+              0.005555066523797225,
+              0.01481520314365481
+            ]
+          ],
+          [
+            18088,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.011530103603803132,
+              0.00634547278495734,
+              0.014469500711185912
+            ]
+          ],
+          [
+            18089,
+            "flat_facing_camera",
+            "success",
+            [
+              0.010221340811227497,
+              0.006229028827391292,
+              0.013590531039255449
+            ]
+          ],
+          [
+            18090,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.011181700055629795,
+              0.005230391149396385,
+              0.016318355590385192
+            ]
+          ],
+          [
+            18092,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.010948678369117948,
+              0.005591056525403704,
+              0.01530451379340958
+            ]
+          ],
+          [
+            18094,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.010061404100582427,
+              0.006860838337660158,
+              0.014030201379966467
+            ]
+          ],
+          [
+            18096,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.011543141075513796,
+              0.005825660889052897,
+              0.016387160778151166
+            ]
+          ],
+          [
+            18097,
+            "flat_facing_camera",
+            "success",
+            [
+              0.00975671691276836,
+              0.006436987910262704,
+              0.013275330945645702
+            ]
+          ],
+          [
+            18098,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.010714003907366765,
+              0.005680104938205477,
+              0.015025112055183865
+            ]
+          ],
+          [
+            18099,
+            "flat_facing_camera",
+            "success",
+            [
+              0.010453750106993231,
+              0.00520485473042942,
+              0.01469183875775526
+            ]
+          ]
+        ],
+        "online_completed": {
+          "success": 29,
+          "timeout": 1
+        },
+        "online_phases": {
+          "approach": 3102,
+          "near": 1650,
+          "closing": 535,
+          "bilateral": 1482,
+          "lift": 2680,
+          "hold": 551
+        },
+        "eligible": false,
+        "history": {
+          "success": 40,
+          "count": 42,
+          "all_mean": 327.2857142857143,
+          "successful_mean": 323.65,
+          "paired_n": 40,
+          "paired_delta": -6.775,
+          "reward_mean": 0.26068983148695013,
+          "bilateral": 40,
+          "confirmed": 40,
+          "lift100": 40,
+          "ik": 593,
+          "collisions": 0,
+          "absolute_max_mm": [
+            11.814535870285914,
+            6.935554785300613,
+            16.67405836212721
+          ],
+          "failures": {
+            "timeout / approach": 2
+          }
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 327.1,
+          "successful_mean": 327.1,
+          "paired_n": 20,
+          "paired_delta": -5.9,
+          "reward_mean": 0.6652081353757548,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            11.543141075513796,
+            6.860838337660158,
+            16.387160778151166
+          ],
+          "failures": {}
+        }
+      },
+      {
+        "step": 20000,
+        "gradients": 4875,
+        "review": [
+          [
+            17218,
+            "protrusion_facing_camera",
+            "success",
+            [
+              0.012082835169316075,
+              0.0036893117815707255,
+              0.02387818241601236
+            ]
+          ],
+          [
+            17218,
+            "flat_facing_camera",
+            "timeout",
+            [
+              0.0025357577516160745,
+              0.0027605397341545768,
+              0.00705016655111379
+            ]
+          ]
+        ],
+        "online_completed": {
+          "success": 56,
+          "timeout": 4
+        },
+        "online_phases": {
+          "approach": 6200,
+          "near": 3137,
+          "closing": 1836,
+          "bilateral": 2540,
+          "lift": 5223,
+          "hold": 1064
+        },
+        "eligible": false,
+        "history": {
+          "success": 41,
+          "count": 42,
+          "all_mean": 320.73809523809524,
+          "successful_mean": 318.8048780487805,
+          "paired_n": 41,
+          "paired_delta": -12.804878048780488,
+          "reward_mean": 0.5659029377145454,
+          "bilateral": 41,
+          "confirmed": 41,
+          "lift100": 41,
+          "ik": 308,
+          "collisions": 0,
+          "absolute_max_mm": [
+            16.299470901145476,
+            3.6893117815707255,
+            23.87818241601236
+          ],
+          "failures": {
+            "timeout / approach": 1
+          }
+        },
+        "validation": {
+          "success": 20,
+          "count": 20,
+          "all_mean": 324.85,
+          "successful_mean": 324.85,
+          "paired_n": 20,
+          "paired_delta": -8.15,
+          "reward_mean": 0.7128921961803006,
+          "bilateral": 20,
+          "confirmed": 20,
+          "lift100": 20,
+          "ik": 0,
+          "collisions": 0,
+          "absolute_max_mm": [
+            16.428522320367513,
+            3.4999618258807486,
+            18.733947596330847
+          ],
+          "failures": {}
+        }
+      }
+    ],
+    "online": {
+      "1000": {
+        "steps": 1000,
+        "reward": -0.0014545311213284753,
+        "actor_drift_p95": [
+          0.1292329356074333,
+          0.08624681308865538,
+          0.24289431050419788
+        ],
+        "sample_abs_p95": [
+          0.9820707499980926,
+          0.1368148483335971,
+          0.9673988848924636
+        ],
+        "projected_mm_p95": [
+          0.024231175945033098,
+          0.016171277968624036,
+          0.04554273327812549
+        ],
+        "actual_tcp_mm_p95": [
+          0.5804652693000196,
+          0.14848694920964062,
+          1.2658460727072023
+        ]
+      },
+      "2000": {
+        "steps": 1000,
+        "reward": 0.0012642508563399306,
+        "actor_drift_p95": [
+          0.529692956805229,
+          0.540053504705429,
+          0.3594635814428327
+        ],
+        "sample_abs_p95": [
+          0.803419029712677,
+          0.6015644669532775,
+          0.8970259994268417
+        ],
+        "projected_mm_p95": [
+          0.09674577704572575,
+          0.03850055836664978,
+          0.0654448638670146
+        ],
+        "actual_tcp_mm_p95": [
+          0.2067651206958202,
+          0.09156664361366768,
+          1.26467527019294
+        ]
+      },
+      "5000": {
+        "steps": 3000,
+        "reward": 0.0017788965337599304,
+        "actor_drift_p95": [
+          0.4002584517002105,
+          0.3188106730580329,
+          0.6058970749378204
+        ],
+        "sample_abs_p95": [
+          0.7426602065563201,
+          0.40987427234649654,
+          0.7898199021816249
+        ],
+        "projected_mm_p95": [
+          0.07369389568339076,
+          0.03406261405416444,
+          0.11360571370460092
+        ],
+        "actual_tcp_mm_p95": [
+          0.44983180611201656,
+          0.48352483319163164,
+          1.2757516577578842
+        ]
+      },
+      "10000": {
+        "steps": 5000,
+        "reward": 0.0006528152249380938,
+        "actor_drift_p95": [
+          0.4058887600898743,
+          0.3914603382349016,
+          0.5924958944320678
+        ],
+        "sample_abs_p95": [
+          0.7865010142326355,
+          0.40537935346364984,
+          0.7502433836460114
+        ],
+        "projected_mm_p95": [
+          0.07608726191392634,
+          0.04262068015350451,
+          0.11109301121905447
+        ],
+        "actual_tcp_mm_p95": [
+          0.1585572351505221,
+          0.5769844499131142,
+          1.2914303409137546
+        ]
+      },
+      "20000": {
+        "steps": 10000,
+        "reward": -0.0009053828169889769,
+        "actor_drift_p95": [
+          0.3494437530636787,
+          0.492589022219181,
+          1.1404683351516722
+        ],
+        "sample_abs_p95": [
+          0.6870830088853835,
+          0.5090581655502319,
+          0.8391546845436095
+        ],
+        "projected_mm_p95": [
+          0.06314984971140802,
+          0.05812894582959415,
+          0.2008094452321529
+        ],
+        "actual_tcp_mm_p95": [
+          0.3314160834974457,
+          0.7265649459275443,
+          1.3405537174754858
+        ]
+      }
+    }
+  }
+}

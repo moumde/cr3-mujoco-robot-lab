@@ -1,0 +1,31 @@
+{
+  "seed": 11,
+  "steps": 1000,
+  "train_seeds": [
+    18000,
+    18079
+  ],
+  "warmup": 500,
+  "effective_train_freq": 4,
+  "batch": 128,
+  "buffer": 2000,
+  "actor_lr": 0.0001,
+  "critic_lr": 0.0003,
+  "gain": 0.25,
+  "alpha": 0.005,
+  "anchor": 0.05,
+  "gamma": 0.99,
+  "tau": 0.005,
+  "log_std": [
+    -4,
+    -3
+  ],
+  "absolute_stop_mm": [
+    20.0,
+    5.0,
+    22.0
+  ],
+  "saturation_threshold": 0.95,
+  "saturation_window": 50,
+  "saturation_fraction_limit": 0.5
+}

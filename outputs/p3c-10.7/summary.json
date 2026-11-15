@@ -1,0 +1,276 @@
+{
+  "status": {
+    "steps": 211,
+    "updates": 0,
+    "stop_reason": "persistent_saturation",
+    "saturation_window_fraction": [
+      0.52,
+      0.0,
+      0.06
+    ],
+    "checkpoint_reconstructed_from_step_0": true,
+    "checkpoints": [
+      {
+        "step": 0,
+        "updates": 0,
+        "violations": []
+      }
+    ]
+  },
+  "paired": {
+    "0": {
+      "history": {
+        "n": 42,
+        "success": 42,
+        "previous_success": 42,
+        "bilateral": 42,
+        "confirmed": 42,
+        "lift100": 42,
+        "paired_success": 42,
+        "steps_delta_mean": 0.0,
+        "lift_step_delta_mean": 0.0,
+        "faster": 0,
+        "slower": 0,
+        "tied": 42,
+        "ik_delta": 0,
+        "cases_with_more_ik": 0,
+        "contacts": 0,
+        "max_absolute_mm": [
+          15.392357514116384,
+          2.2588598907766766,
+          15.840554539895635
+        ],
+        "max_signed_mm": [
+          6.0,
+          2.085618423890878,
+          12.0
+        ],
+        "executed_saturation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "nominal": {
+        "n": 2,
+        "success": 2,
+        "previous_success": 2,
+        "bilateral": 2,
+        "confirmed": 2,
+        "lift100": 2,
+        "paired_success": 2,
+        "steps_delta_mean": 0.0,
+        "lift_step_delta_mean": 0.0,
+        "faster": 0,
+        "slower": 0,
+        "tied": 2,
+        "ik_delta": 0,
+        "cases_with_more_ik": 0,
+        "contacts": 0,
+        "max_absolute_mm": [
+          6.430973469292445,
+          1.4711529536990398,
+          14.687084981204634
+        ],
+        "max_signed_mm": [
+          6.0,
+          0.6458821781132329,
+          11.18650908298946
+        ],
+        "executed_saturation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "validation": {
+        "n": 20,
+        "success": 20,
+        "previous_success": 20,
+        "bilateral": 20,
+        "confirmed": 20,
+        "lift100": 20,
+        "paired_success": 20,
+        "steps_delta_mean": 0.0,
+        "lift_step_delta_mean": 0.0,
+        "faster": 0,
+        "slower": 0,
+        "tied": 20,
+        "ik_delta": 0,
+        "cases_with_more_ik": 0,
+        "contacts": 0,
+        "max_absolute_mm": [
+          6.926525866930211,
+          1.6183972390493295,
+          16.13788944946748
+        ],
+        "max_signed_mm": [
+          6.0,
+          0.6776574148199543,
+          12.0
+        ],
+        "executed_saturation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "history_protrusion": {
+        "n": 21,
+        "success": 21,
+        "previous_success": 21,
+        "bilateral": 21,
+        "confirmed": 21,
+        "lift100": 21,
+        "paired_success": 21,
+        "steps_delta_mean": 0.0,
+        "lift_step_delta_mean": 0.0,
+        "faster": 0,
+        "slower": 0,
+        "tied": 21,
+        "ik_delta": 0,
+        "cases_with_more_ik": 0,
+        "contacts": 0,
+        "max_absolute_mm": [
+          15.392357514116384,
+          2.218431555363054,
+          15.425389797918854
+        ],
+        "max_signed_mm": [
+          6.0,
+          2.085618423890878,
+          12.0
+        ],
+        "executed_saturation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "history_flat": {
+        "n": 21,
+        "success": 21,
+        "previous_success": 21,
+        "bilateral": 21,
+        "confirmed": 21,
+        "lift100": 21,
+        "paired_success": 21,
+        "steps_delta_mean": 0.0,
+        "lift_step_delta_mean": 0.0,
+        "faster": 0,
+        "slower": 0,
+        "tied": 21,
+        "ik_delta": 0,
+        "cases_with_more_ik": 0,
+        "contacts": 0,
+        "max_absolute_mm": [
+          14.423075767791893,
+          2.2588598907766766,
+          15.840554539895635
+        ],
+        "max_signed_mm": [
+          6.0,
+          2.0069404218823195,
+          12.0
+        ],
+        "executed_saturation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "validation_protrusion": {
+        "n": 10,
+        "success": 10,
+        "previous_success": 10,
+        "bilateral": 10,
+        "confirmed": 10,
+        "lift100": 10,
+        "paired_success": 10,
+        "steps_delta_mean": 0.0,
+        "lift_step_delta_mean": 0.0,
+        "faster": 0,
+        "slower": 0,
+        "tied": 10,
+        "ik_delta": 0,
+        "cases_with_more_ik": 0,
+        "contacts": 0,
+        "max_absolute_mm": [
+          6.539284021794378,
+          1.4492154895640041,
+          16.01885267137959
+        ],
+        "max_signed_mm": [
+          6.0,
+          0.6776574148199543,
+          11.656932687827748
+        ],
+        "executed_saturation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "validation_flat": {
+        "n": 10,
+        "success": 10,
+        "previous_success": 10,
+        "bilateral": 10,
+        "confirmed": 10,
+        "lift100": 10,
+        "paired_success": 10,
+        "steps_delta_mean": 0.0,
+        "lift_step_delta_mean": 0.0,
+        "faster": 0,
+        "slower": 0,
+        "tied": 10,
+        "ik_delta": 0,
+        "cases_with_more_ik": 0,
+        "contacts": 0,
+        "max_absolute_mm": [
+          6.926525866930211,
+          1.6183972390493295,
+          16.13788944946748
+        ],
+        "max_signed_mm": [
+          6.0,
+          0.6683487068288585,
+          12.0
+        ],
+        "executed_saturation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "online": {
+    "scenarios": [
+      18010
+    ],
+    "actual_actor_abs_quantiles": [
+      [
+        0.052402716130018234,
+        0.04008634015917778,
+        0.12553828954696655
+      ],
+      [
+        0.9813641905784607,
+        0.1094205416738987,
+        0.7842824757099152
+      ],
+      [
+        0.9888278841972351,
+        0.1616072952747345,
+        0.9994437098503113
+      ]
+    ],
+    "actual_actor_saturation": [
+      0.12322274881516587,
+      0.0,
+      0.02843601895734597
+    ],
+    "completed": []
+  }
+}

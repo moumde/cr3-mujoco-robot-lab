@@ -1,0 +1,39 @@
+{
+  "seed": 11,
+  "steps": 1000,
+  "train_seeds": [
+    18000,
+    18079
+  ],
+  "warmup": 500,
+  "effective_train_freq": 4,
+  "batch": 128,
+  "buffer": 2000,
+  "actor_lr": 0.0001,
+  "critic_lr": 0.0003,
+  "actor_critic_hidden": [
+    64,
+    64
+  ],
+  "gain": 0.25,
+  "alpha": 0.005,
+  "anchor": 0.05,
+  "gamma": 0.99,
+  "tau": 0.005,
+  "initial_log_std": -3,
+  "log_std": [
+    -4,
+    -3
+  ],
+  "sb3": "2.7.1",
+  "absolute_review_mm": [
+    20.0,
+    5.0,
+    22.0
+  ],
+  "saturation_reporting_threshold": 0.95,
+  "drift_window": 50,
+  "drift_raw_p95": 0.25,
+  "drift_projected_p95_mm": 0.046875,
+  "rule": "Post-update only: stop at paired gate if both same-axis drift limits exceeded in any rolling 50-step window since previous gate. Stop for any lost baseline success, new contact, simulation fault, or paired absolute review exceedance. Online contact and absolute review exceedance are logged; invariant violations stop."
+}

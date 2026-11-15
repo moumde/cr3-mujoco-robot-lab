@@ -1,0 +1,2405 @@
+{
+  "schema": 1,
+  "episodes": [
+    {
+      "seed": 18000,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.47075800354172304,
+        0.110744618701977
+      ],
+      "settled_xy_m": [
+        0.47075799107551575,
+        0.11075853556394577
+      ],
+      "file": "18000.jsonl.gz",
+      "sha256": "02cbc1ccc2a187c250595b0ed3e8ee119071af0b7db294bfffdd62af2bddac1e",
+      "steps": 352,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 158,
+      "first_lift_step": 240,
+      "first_100mm_step": 306,
+      "hold_steps": 20,
+      "max_lift_m": 0.12997984886169434
+    },
+    {
+      "seed": 18001,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.44072751650518954,
+        0.10520202174479443
+      ],
+      "settled_xy_m": [
+        0.44072750210762024,
+        0.10518810153007507
+      ],
+      "file": "18001.jsonl.gz",
+      "sha256": "2e9ef033fa993d807617cef49a9c2f23dc5874a3a36052b1934c27791fb5b4dd",
+      "steps": 328,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 147,
+      "first_lift_step": 212,
+      "first_100mm_step": 278,
+      "hold_steps": 20,
+      "max_lift_m": 0.1357368677854538
+    },
+    {
+      "seed": 18002,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4657688600658318,
+        0.07041295956176402
+      ],
+      "settled_xy_m": [
+        0.46576887369155884,
+        0.07042687386274338
+      ],
+      "file": "18002.jsonl.gz",
+      "sha256": "2182df910d869406be755c3b1c8a0699af175a7d46b3d7ed8ecd99bc516407e7",
+      "steps": 326,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 151,
+      "first_lift_step": 207,
+      "first_100mm_step": 274,
+      "hold_steps": 20,
+      "max_lift_m": 0.13889655470848083
+    },
+    {
+      "seed": 18003,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4823600530195564,
+        0.10370924469152182
+      ],
+      "settled_xy_m": [
+        0.4823600649833679,
+        0.1036953255534172
+      ],
+      "file": "18003.jsonl.gz",
+      "sha256": "e9d109fbb7b8d99ac5663383abd2dd9cb4184a244a9af9f9800dc5498c040900",
+      "steps": 334,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 163,
+      "first_lift_step": 216,
+      "first_100mm_step": 282,
+      "hold_steps": 20,
+      "max_lift_m": 0.1379338949918747
+    },
+    {
+      "seed": 18004,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4316257457887961,
+        0.10942589131506333
+      ],
+      "settled_xy_m": [
+        0.43162575364112854,
+        0.10943980515003204
+      ],
+      "file": "18004.jsonl.gz",
+      "sha256": "77fe23f61f9a2296e6de60b69e7acdcded96c995160997f816a958fd77bb79e9",
+      "steps": 345,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 157,
+      "first_lift_step": 238,
+      "first_100mm_step": 305,
+      "hold_steps": 20,
+      "max_lift_m": 0.12303008884191513
+    },
+    {
+      "seed": 18005,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4824707416339056,
+        0.11713277738225003
+      ],
+      "settled_xy_m": [
+        0.4824707508087158,
+        0.11711885780096054
+      ],
+      "file": "18005.jsonl.gz",
+      "sha256": "b744af7fa1d79fa308f2cb8fbb447ae0e906bd51b8945bd018e6ceced032dcf2",
+      "steps": 336,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 162,
+      "first_lift_step": 217,
+      "first_100mm_step": 284,
+      "hold_steps": 20,
+      "max_lift_m": 0.13877207040786743
+    },
+    {
+      "seed": 18006,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4321021302393686,
+        0.061605489936986384
+      ],
+      "settled_xy_m": [
+        0.43210214376449585,
+        0.061619408428668976
+      ],
+      "file": "18006.jsonl.gz",
+      "sha256": "c157026196dcd8565bad8d3a3ebedcc2053bd99f6455ae8906ce088c3b9299a4",
+      "steps": 331,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 156,
+      "first_lift_step": 214,
+      "first_100mm_step": 281,
+      "hold_steps": 20,
+      "max_lift_m": 0.13580387830734253
+    },
+    {
+      "seed": 18007,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.46185981055957337,
+        0.056253995134549074
+      ],
+      "settled_xy_m": [
+        0.4618598222732544,
+        0.05624007806181908
+      ],
+      "file": "18007.jsonl.gz",
+      "sha256": "d0949c6aa7a4f10a8a2dcfc583b047f6e5515d045243785c0f8776ac60ca93c8",
+      "steps": 337,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 167,
+      "first_lift_step": 218,
+      "first_100mm_step": 285,
+      "hold_steps": 20,
+      "max_lift_m": 0.13929738104343414
+    },
+    {
+      "seed": 18008,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.42419962571171954,
+        0.0633110535289616
+      ],
+      "settled_xy_m": [
+        0.4241996109485626,
+        0.06332497298717499
+      ],
+      "file": "18008.jsonl.gz",
+      "sha256": "d75bbc43a279d5fd592ebe1f0145ee9845cd6a5bff00c7b366d076ef725007a4",
+      "steps": 346,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 158,
+      "first_lift_step": 234,
+      "first_100mm_step": 301,
+      "hold_steps": 20,
+      "max_lift_m": 0.13016609847545624
+    },
+    {
+      "seed": 18009,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.47298847759409773,
+        0.10847330633859972
+      ],
+      "settled_xy_m": [
+        0.472988486289978,
+        0.10845939069986343
+      ],
+      "file": "18009.jsonl.gz",
+      "sha256": "3fa41c077dc7b46aabf2f7a6ac6bade71c8db5e7f5cd36ebdeac425a02d686bc",
+      "steps": 330,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 156,
+      "first_lift_step": 211,
+      "first_100mm_step": 278,
+      "hold_steps": 20,
+      "max_lift_m": 0.1384919434785843
+    },
+    {
+      "seed": 18010,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.42815880331143447,
+        0.11320243593521241
+      ],
+      "settled_xy_m": [
+        0.42815878987312317,
+        0.1132163554430008
+      ],
+      "file": "18010.jsonl.gz",
+      "sha256": "04f6056babc4d9e1c74c6745dbdb2ba80b792be295e21a9a034d55d25a993ff7",
+      "steps": 346,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 160,
+      "first_lift_step": 240,
+      "first_100mm_step": 306,
+      "hold_steps": 20,
+      "max_lift_m": 0.12212438881397247
+    },
+    {
+      "seed": 18011,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4454650676280905,
+        0.07212673068564761
+      ],
+      "settled_xy_m": [
+        0.4454650580883026,
+        0.07211281359195709
+      ],
+      "file": "18011.jsonl.gz",
+      "sha256": "7c0957609f2308ad80eb46f4ec9ceb764a6edfd8896b0316c38f104870d420dd",
+      "steps": 330,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 154,
+      "first_lift_step": 212,
+      "first_100mm_step": 278,
+      "hold_steps": 20,
+      "max_lift_m": 0.13865511119365692
+    },
+    {
+      "seed": 18012,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4351200517833249,
+        0.12241901599996045
+      ],
+      "settled_xy_m": [
+        0.4351200461387634,
+        0.12243293225765228
+      ],
+      "file": "18012.jsonl.gz",
+      "sha256": "b8d582ce1887404379b8ef9e0070c5b617c3adad551f3391afd844ddf9762450",
+      "steps": 352,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 167,
+      "first_lift_step": 243,
+      "first_100mm_step": 310,
+      "hold_steps": 20,
+      "max_lift_m": 0.12525494396686554
+    },
+    {
+      "seed": 18013,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4482668265781096,
+        0.0909743621884509
+      ],
+      "settled_xy_m": [
+        0.4482668340206146,
+        0.09096044301986694
+      ],
+      "file": "18013.jsonl.gz",
+      "sha256": "574b5493d629e58db0d8ea413f69b8eafa96d17a84b8679cf3cfd94a65244784",
+      "steps": 325,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 140,
+      "first_lift_step": 208,
+      "first_100mm_step": 275,
+      "hold_steps": 20,
+      "max_lift_m": 0.13644178211688995
+    },
+    {
+      "seed": 18014,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.42201068298868616,
+        0.10016237200901208
+      ],
+      "settled_xy_m": [
+        0.4220106899738312,
+        0.10017628967761993
+      ],
+      "file": "18014.jsonl.gz",
+      "sha256": "4cd716c2780ae440ceb849d0f11754b0a4695c1e0dabb3a14a4e05c6072cd7e9",
+      "steps": 346,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 160,
+      "first_lift_step": 237,
+      "first_100mm_step": 304,
+      "hold_steps": 20,
+      "max_lift_m": 0.12509578466415405
+    },
+    {
+      "seed": 18015,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.42942972647307065,
+        0.05900556954905393
+      ],
+      "settled_xy_m": [
+        0.4294297397136688,
+        0.058991651982069016
+      ],
+      "file": "18015.jsonl.gz",
+      "sha256": "80c7e65ef7a5f9b00f960deb4ad19f1dee74db02c3010a0e0c339f21df18129a",
+      "steps": 308,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 165,
+      "first_lift_step": 188,
+      "first_100mm_step": 255,
+      "hold_steps": 20,
+      "max_lift_m": 0.1407754272222519
+    },
+    {
+      "seed": 18016,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.45561644971910453,
+        0.12413740773770925
+      ],
+      "settled_xy_m": [
+        0.45561644434928894,
+        0.1241513267159462
+      ],
+      "file": "18016.jsonl.gz",
+      "sha256": "a903e604420750496ca5fc3e28c54f4efc24dc05f08deff916a4fea844ec11f0",
+      "steps": 346,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 168,
+      "first_lift_step": 231,
+      "first_100mm_step": 298,
+      "hold_steps": 20,
+      "max_lift_m": 0.13314220309257507
+    },
+    {
+      "seed": 18017,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.43210378850516823,
+        0.1083492442576922
+      ],
+      "settled_xy_m": [
+        0.4321037828922272,
+        0.10833532363176346
+      ],
+      "file": "18017.jsonl.gz",
+      "sha256": "0354cacb840bba4eb0ac69dae7265f3306f2461a2b4f97590efbfd35c4a98c14",
+      "steps": 333,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 152,
+      "first_lift_step": 216,
+      "first_100mm_step": 283,
+      "hold_steps": 20,
+      "max_lift_m": 0.13468889892101288
+    },
+    {
+      "seed": 18018,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.46060988532642566,
+        0.12194381483506744
+      ],
+      "settled_xy_m": [
+        0.46060988306999207,
+        0.12195773422718048
+      ],
+      "file": "18018.jsonl.gz",
+      "sha256": "1247169032bab6e75bb6a676c372c5f04684f4dd086fc9638e2456eb9afd8a87",
+      "steps": 350,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 167,
+      "first_lift_step": 237,
+      "first_100mm_step": 303,
+      "hold_steps": 20,
+      "max_lift_m": 0.13166186213493347
+    },
+    {
+      "seed": 18019,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.46668931531221947,
+        0.07789065335230844
+      ],
+      "settled_xy_m": [
+        0.4666893184185028,
+        0.0778767392039299
+      ],
+      "file": "18019.jsonl.gz",
+      "sha256": "4305be757b21abc0afa7d36387cbb7973f966e86adedcf0a5eeacfb0082a8dc5",
+      "steps": 328,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 152,
+      "first_lift_step": 208,
+      "first_100mm_step": 275,
+      "hold_steps": 20,
+      "max_lift_m": 0.13943549990653992
+    },
+    {
+      "seed": 18020,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4231375543643854,
+        0.11576452260626865
+      ],
+      "settled_xy_m": [
+        0.4231375455856323,
+        0.11577843874692917
+      ],
+      "file": "18020.jsonl.gz",
+      "sha256": "4caa29f57eb7f15eed5611184028f6e00ce815994768787f7df9e78c5ae33ae9",
+      "steps": 346,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 162,
+      "first_lift_step": 241,
+      "first_100mm_step": 308,
+      "hold_steps": 20,
+      "max_lift_m": 0.12148240208625793
+    },
+    {
+      "seed": 18021,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4630231357620357,
+        0.11967404028423446
+      ],
+      "settled_xy_m": [
+        0.4630231261253357,
+        0.11966012418270111
+      ],
+      "file": "18021.jsonl.gz",
+      "sha256": "fac139c661adac914aa57c894e5aca0fc0f01306ec193d2a760ac08f5addbe45",
+      "steps": 335,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 158,
+      "first_lift_step": 217,
+      "first_100mm_step": 284,
+      "hold_steps": 20,
+      "max_lift_m": 0.13741672039031982
+    },
+    {
+      "seed": 18022,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4671049816655639,
+        0.1196622387717267
+      ],
+      "settled_xy_m": [
+        0.467104971408844,
+        0.11967615783214569
+      ],
+      "file": "18022.jsonl.gz",
+      "sha256": "5cb18ebd00543e8bbf01e508baa5c70b87ecf9ce8c2d423b6a3cabf5772c2c6d",
+      "steps": 362,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 165,
+      "first_lift_step": 254,
+      "first_100mm_step": 320,
+      "hold_steps": 20,
+      "max_lift_m": 0.12573345005512238
+    },
+    {
+      "seed": 18023,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4819195208899808,
+        0.11879648323884821
+      ],
+      "settled_xy_m": [
+        0.481919527053833,
+        0.11878256499767303
+      ],
+      "file": "18023.jsonl.gz",
+      "sha256": "c9f6aa5d372db4c68463be698777c45ce3af363b290bd6035f38994da8439473",
+      "steps": 336,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 163,
+      "first_lift_step": 216,
+      "first_100mm_step": 283,
+      "hold_steps": 20,
+      "max_lift_m": 0.13945253193378448
+    },
+    {
+      "seed": 18024,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.444541097853826,
+        0.11050391966519568
+      ],
+      "settled_xy_m": [
+        0.4445410966873169,
+        0.11051783710718155
+      ],
+      "file": "18024.jsonl.gz",
+      "sha256": "ae19dd44fbe9e4159ca397db28da7c140d7661df7c14c60d2f952bbbdb458fed",
+      "steps": 344,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 158,
+      "first_lift_step": 234,
+      "first_100mm_step": 301,
+      "hold_steps": 20,
+      "max_lift_m": 0.1269766390323639
+    },
+    {
+      "seed": 18025,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.48160880872342815,
+        0.08277302878848947
+      ],
+      "settled_xy_m": [
+        0.4816088080406189,
+        0.08275911211967468
+      ],
+      "file": "18025.jsonl.gz",
+      "sha256": "9f5f97b6c5382b779206e4c47d94bc0acbab4841bca8dbb4208016ecbafef077",
+      "steps": 332,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 161,
+      "first_lift_step": 212,
+      "first_100mm_step": 279,
+      "hold_steps": 20,
+      "max_lift_m": 0.13925518095493317
+    },
+    {
+      "seed": 18026,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4692060900616793,
+        0.077568869146568
+      ],
+      "settled_xy_m": [
+        0.4692060947418213,
+        0.07758278399705887
+      ],
+      "file": "18026.jsonl.gz",
+      "sha256": "14da695cdd3986ad5d55d0642a108c50b1578b804cb63c6f8d15845b1b0d677c",
+      "steps": 330,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 153,
+      "first_lift_step": 212,
+      "first_100mm_step": 278,
+      "hold_steps": 20,
+      "max_lift_m": 0.13787689805030823
+    },
+    {
+      "seed": 18027,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.45059565606922086,
+        0.09664275962208596
+      ],
+      "settled_xy_m": [
+        0.4505956470966339,
+        0.09662884473800659
+      ],
+      "file": "18027.jsonl.gz",
+      "sha256": "cec798f30bdb507ee754685e58fe6c1e51d0c0b03ea7fc60419495bfec12a8c7",
+      "steps": 324,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 140,
+      "first_lift_step": 207,
+      "first_100mm_step": 273,
+      "hold_steps": 20,
+      "max_lift_m": 0.1366007775068283
+    },
+    {
+      "seed": 18028,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4195261023168756,
+        0.07586005066479234
+      ],
+      "settled_xy_m": [
+        0.4195261001586914,
+        0.0758739709854126
+      ],
+      "file": "18028.jsonl.gz",
+      "sha256": "29f7196e40be09b8e4ee69c2a469a54b428437b4b0f91c6658ddf8fcd9c42a05",
+      "steps": 344,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 158,
+      "first_lift_step": 234,
+      "first_100mm_step": 300,
+      "hold_steps": 20,
+      "max_lift_m": 0.12863978743553162
+    },
+    {
+      "seed": 18029,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4384370946975662,
+        0.08910947004945424
+      ],
+      "settled_xy_m": [
+        0.4384371042251587,
+        0.08909555524587631
+      ],
+      "file": "18029.jsonl.gz",
+      "sha256": "b3e2f9f7d558b187fdfea5b9eff43138d906870ec9b1201b2ff14353cbb31f04",
+      "steps": 330,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 146,
+      "first_lift_step": 213,
+      "first_100mm_step": 280,
+      "hold_steps": 20,
+      "max_lift_m": 0.1356106549501419
+    },
+    {
+      "seed": 18030,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4202851852665875,
+        0.08778092103561728
+      ],
+      "settled_xy_m": [
+        0.4202851951122284,
+        0.08779484033584595
+      ],
+      "file": "18030.jsonl.gz",
+      "sha256": "1af412acf7618896beeb74513c0039adbde168c43299a5febe8abee31b6ecd38",
+      "steps": 346,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 159,
+      "first_lift_step": 236,
+      "first_100mm_step": 303,
+      "hold_steps": 20,
+      "max_lift_m": 0.12729667127132416
+    },
+    {
+      "seed": 18031,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4732389941391537,
+        0.12379426260253247
+      ],
+      "settled_xy_m": [
+        0.473239004611969,
+        0.12378034740686417
+      ],
+      "file": "18031.jsonl.gz",
+      "sha256": "8f07b59a9b4e0428d24e7cab1ffb311c8f23199a6d3059dcd32982228cda61c0",
+      "steps": 335,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 161,
+      "first_lift_step": 216,
+      "first_100mm_step": 283,
+      "hold_steps": 20,
+      "max_lift_m": 0.13863518834114075
+    },
+    {
+      "seed": 18032,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4550725038685803,
+        0.11376193606591886
+      ],
+      "settled_xy_m": [
+        0.4550724923610687,
+        0.11377585679292679
+      ],
+      "file": "18032.jsonl.gz",
+      "sha256": "c31d78c0211416d698d7820adfe693f9e63b1ec6d45023fc834e3062aaf1aa47",
+      "steps": 350,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 160,
+      "first_lift_step": 239,
+      "first_100mm_step": 306,
+      "hold_steps": 20,
+      "max_lift_m": 0.1281828135251999
+    },
+    {
+      "seed": 18033,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4469740958162689,
+        0.08216859685390591
+      ],
+      "settled_xy_m": [
+        0.44697409868240356,
+        0.08215467631816864
+      ],
+      "file": "18033.jsonl.gz",
+      "sha256": "3e32d0c49e9d00fb54c85c7464150bf235a938125ba898a21cc6c90f99dac503",
+      "steps": 327,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 147,
+      "first_lift_step": 209,
+      "first_100mm_step": 275,
+      "hold_steps": 20,
+      "max_lift_m": 0.1381634771823883
+    },
+    {
+      "seed": 18034,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.45911050954234667,
+        0.06737965131063461
+      ],
+      "settled_xy_m": [
+        0.4591104984283447,
+        0.06739357113838196
+      ],
+      "file": "18034.jsonl.gz",
+      "sha256": "ccb8eea22194480db2bd5dacd1a7de506b17289799eec9145a633379cd650cd8",
+      "steps": 330,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 152,
+      "first_lift_step": 212,
+      "first_100mm_step": 279,
+      "hold_steps": 20,
+      "max_lift_m": 0.13768334686756134
+    },
+    {
+      "seed": 18035,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.47577523341106437,
+        0.07458662922047275
+      ],
+      "settled_xy_m": [
+        0.47577524185180664,
+        0.07457271218299866
+      ],
+      "file": "18035.jsonl.gz",
+      "sha256": "af484de784686db6b9593b8c42aad2555ce615e1321d44cebbf189868025a0ea",
+      "steps": 331,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 158,
+      "first_lift_step": 210,
+      "first_100mm_step": 277,
+      "hold_steps": 20,
+      "max_lift_m": 0.1404658854007721
+    },
+    {
+      "seed": 18036,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.43308442670457303,
+        0.09051772638643804
+      ],
+      "settled_xy_m": [
+        0.4330844283103943,
+        0.09053164720535278
+      ],
+      "file": "18036.jsonl.gz",
+      "sha256": "45684c88372cd1b1e1b9598a24f95cee42e855ebea044f330c3f401a8757f0ab",
+      "steps": 342,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 151,
+      "first_lift_step": 232,
+      "first_100mm_step": 299,
+      "hold_steps": 20,
+      "max_lift_m": 0.12722814083099365
+    },
+    {
+      "seed": 18037,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4675543195839873,
+        0.11425337189830184
+      ],
+      "settled_xy_m": [
+        0.46755433082580566,
+        0.11423945426940918
+      ],
+      "file": "18037.jsonl.gz",
+      "sha256": "3fed5da942e6114dc857ec00d35da44844cfe5fa2d8e8cae0259e2bb84139645",
+      "steps": 332,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 154,
+      "first_lift_step": 214,
+      "first_100mm_step": 280,
+      "hold_steps": 20,
+      "max_lift_m": 0.1376594454050064
+    },
+    {
+      "seed": 18038,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.47033176452477693,
+        0.06683041449408716
+      ],
+      "settled_xy_m": [
+        0.47033175826072693,
+        0.06684432923793793
+      ],
+      "file": "18038.jsonl.gz",
+      "sha256": "31460dd41682eb337de0a918ec81a9ddcdb92a821b5e31f3f62712c2c5d8e8c5",
+      "steps": 334,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 154,
+      "first_lift_step": 216,
+      "first_100mm_step": 282,
+      "hold_steps": 20,
+      "max_lift_m": 0.13776090741157532
+    },
+    {
+      "seed": 18039,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.45298590279815687,
+        0.10532837735346534
+      ],
+      "settled_xy_m": [
+        0.4529859125614166,
+        0.1053144633769989
+      ],
+      "file": "18039.jsonl.gz",
+      "sha256": "d62aec7c6f2af2434d6c95a41e59076e6a9d9ec5c6331f6e6e7fdbc18a8ead72",
+      "steps": 324,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 147,
+      "first_lift_step": 205,
+      "first_100mm_step": 272,
+      "hold_steps": 20,
+      "max_lift_m": 0.13838635385036469
+    },
+    {
+      "seed": 18040,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4606512541454292,
+        0.12482186311211503
+      ],
+      "settled_xy_m": [
+        0.4606512486934662,
+        0.1248357817530632
+      ],
+      "file": "18040.jsonl.gz",
+      "sha256": "1798566e035e08c03006bc6a0ae60a1966686ab6b46e84100f3906407ab5456a",
+      "steps": 366,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 169,
+      "first_lift_step": 258,
+      "first_100mm_step": 325,
+      "hold_steps": 20,
+      "max_lift_m": 0.1241302564740181
+    },
+    {
+      "seed": 18041,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.45786086821758587,
+        0.06611260627428445
+      ],
+      "settled_xy_m": [
+        0.4578608572483063,
+        0.06609869003295898
+      ],
+      "file": "18041.jsonl.gz",
+      "sha256": "a29074c62f574c9fbbfc6c43d4c07002ee8b7e31b8cc662b72354d7517210697",
+      "steps": 333,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 159,
+      "first_lift_step": 213,
+      "first_100mm_step": 280,
+      "hold_steps": 20,
+      "max_lift_m": 0.1397974044084549
+    },
+    {
+      "seed": 18042,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4227578125533546,
+        0.10038572692266931
+      ],
+      "settled_xy_m": [
+        0.4227578043937683,
+        0.10039964318275452
+      ],
+      "file": "18042.jsonl.gz",
+      "sha256": "a6ac594533172addf4134a8f39d91bd3176e192e0bd601f674c5273b87357230",
+      "steps": 346,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 160,
+      "first_lift_step": 237,
+      "first_100mm_step": 304,
+      "hold_steps": 20,
+      "max_lift_m": 0.12476584315299988
+    },
+    {
+      "seed": 18043,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.46353934180537704,
+        0.12009612607240554
+      ],
+      "settled_xy_m": [
+        0.46353933215141296,
+        0.12008220702409744
+      ],
+      "file": "18043.jsonl.gz",
+      "sha256": "9e52b1102ea52249b472b8737a2ae74f882d97e4d925166a7cccb1d9f6ce0599",
+      "steps": 334,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 158,
+      "first_lift_step": 215,
+      "first_100mm_step": 282,
+      "hold_steps": 20,
+      "max_lift_m": 0.13778230547904968
+    },
+    {
+      "seed": 18044,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4804682136614995,
+        0.07766965815871321
+      ],
+      "settled_xy_m": [
+        0.480468213558197,
+        0.07768357545137405
+      ],
+      "file": "18044.jsonl.gz",
+      "sha256": "6b04ca3d38ddbecb22ab940b5b56f831df40200c6ea9bd358b7f43120011e8be",
+      "steps": 341,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 161,
+      "first_lift_step": 223,
+      "first_100mm_step": 290,
+      "hold_steps": 20,
+      "max_lift_m": 0.13761793076992035
+    },
+    {
+      "seed": 18045,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.47711890914158994,
+        0.07355320151525624
+      ],
+      "settled_xy_m": [
+        0.47711890935897827,
+        0.07353928685188293
+      ],
+      "file": "18045.jsonl.gz",
+      "sha256": "31d0c6e5843a05a940861c4ca4724de03c363d344d9888632d80e16b1391715e",
+      "steps": 331,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 159,
+      "first_lift_step": 211,
+      "first_100mm_step": 278,
+      "hold_steps": 20,
+      "max_lift_m": 0.14012721180915833
+    },
+    {
+      "seed": 18046,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.45275276520156565,
+        0.060835859213333204
+      ],
+      "settled_xy_m": [
+        0.4527527689933777,
+        0.06084977835416794
+      ],
+      "file": "18046.jsonl.gz",
+      "sha256": "b14b79eabf4adbc2c22ebf384d1817eed1ad58286f4e083552c5f79701c199b8",
+      "steps": 329,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 157,
+      "first_lift_step": 210,
+      "first_100mm_step": 277,
+      "hold_steps": 20,
+      "max_lift_m": 0.13902589678764343
+    },
+    {
+      "seed": 18047,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.44347473497343204,
+        0.11309094646098664
+      ],
+      "settled_xy_m": [
+        0.44347473978996277,
+        0.11307702958583832
+      ],
+      "file": "18047.jsonl.gz",
+      "sha256": "7c7e89cefdf9fe14c884666e0da6060a9b0bd9bc4ca92182a1f89634b0980a92",
+      "steps": 329,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 153,
+      "first_lift_step": 211,
+      "first_100mm_step": 278,
+      "hold_steps": 20,
+      "max_lift_m": 0.13737978041172028
+    },
+    {
+      "seed": 18048,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.46072648091584384,
+        0.12016416922623512
+      ],
+      "settled_xy_m": [
+        0.46072646975517273,
+        0.12017808854579926
+      ],
+      "file": "18048.jsonl.gz",
+      "sha256": "1c633d307358dbe35343904ce763c81a9f399ed947a78286e533e15b512ff76a",
+      "steps": 356,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 165,
+      "first_lift_step": 246,
+      "first_100mm_step": 313,
+      "hold_steps": 20,
+      "max_lift_m": 0.12743395566940308
+    },
+    {
+      "seed": 18049,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.47036374261676595,
+        0.0870142612681934
+      ],
+      "settled_xy_m": [
+        0.4703637361526489,
+        0.08700034022331238
+      ],
+      "file": "18049.jsonl.gz",
+      "sha256": "d6ccc00cb3e85e6bceae80bdc17c271fd84ec5f992dbfaefef15972f392aaab4",
+      "steps": 328,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 154,
+      "first_lift_step": 208,
+      "first_100mm_step": 275,
+      "hold_steps": 20,
+      "max_lift_m": 0.13922740519046783
+    },
+    {
+      "seed": 18050,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4769515968979289,
+        0.11545866945041094
+      ],
+      "settled_xy_m": [
+        0.47695159912109375,
+        0.11547258496284485
+      ],
+      "file": "18050.jsonl.gz",
+      "sha256": "bfd9fbccbf36d62118000ec99601f21da66b391bca31895a1fb732f90b25ea6a",
+      "steps": 360,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 162,
+      "first_lift_step": 249,
+      "first_100mm_step": 316,
+      "hold_steps": 20,
+      "max_lift_m": 0.12890183925628662
+    },
+    {
+      "seed": 18051,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4234003633221728,
+        0.06891271297808266
+      ],
+      "settled_xy_m": [
+        0.4234003722667694,
+        0.06889879703521729
+      ],
+      "file": "18051.jsonl.gz",
+      "sha256": "8e3bb45f9d763efeced154d01fa55d566ee22b20ef5a73aba56ba92fb1f5aaf9",
+      "steps": 340,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 159,
+      "first_lift_step": 224,
+      "first_100mm_step": 291,
+      "hold_steps": 20,
+      "max_lift_m": 0.13495497405529022
+    },
+    {
+      "seed": 18052,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.48010373103118803,
+        0.0683627030744842
+      ],
+      "settled_xy_m": [
+        0.4801037311553955,
+        0.06837662309408188
+      ],
+      "file": "18052.jsonl.gz",
+      "sha256": "93b12a3ffc9996ece5e115faf410bba916d87cc0da01eca1e9d6f1832955e746",
+      "steps": 330,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 160,
+      "first_lift_step": 210,
+      "first_100mm_step": 277,
+      "hold_steps": 20,
+      "max_lift_m": 0.13962849974632263
+    },
+    {
+      "seed": 18053,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4535256371926165,
+        0.06023932387537198
+      ],
+      "settled_xy_m": [
+        0.4535256326198578,
+        0.06022540479898453
+      ],
+      "file": "18053.jsonl.gz",
+      "sha256": "e8821dcb8ff41c72bb66bebcee465f0a937cebce15cc6bc209009042a1b601ff",
+      "steps": 339,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 163,
+      "first_lift_step": 221,
+      "first_100mm_step": 287,
+      "hold_steps": 20,
+      "max_lift_m": 0.13879427313804626
+    },
+    {
+      "seed": 18054,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4400322029455765,
+        0.12205759988356255
+      ],
+      "settled_xy_m": [
+        0.4400322139263153,
+        0.1220715194940567
+      ],
+      "file": "18054.jsonl.gz",
+      "sha256": "12fec5e2e052547f4f611542dc92d343d940b78148710bda4bfb33f82d34b6dc",
+      "steps": 353,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 167,
+      "first_lift_step": 243,
+      "first_100mm_step": 310,
+      "hold_steps": 20,
+      "max_lift_m": 0.1259719431400299
+    },
+    {
+      "seed": 18055,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.455896883914507,
+        0.06470294475262273
+      ],
+      "settled_xy_m": [
+        0.45589688420295715,
+        0.0646890252828598
+      ],
+      "file": "18055.jsonl.gz",
+      "sha256": "d6326c952f2baa9c6f71e10ad5fee5566ec4f0b5ae1b3d4b3031c94510d5b751",
+      "steps": 305,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 161,
+      "first_lift_step": 183,
+      "first_100mm_step": 249,
+      "hold_steps": 20,
+      "max_lift_m": 0.14301848411560059
+    },
+    {
+      "seed": 18056,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.47108154519807083,
+        0.08480786941604002
+      ],
+      "settled_xy_m": [
+        0.47108155488967896,
+        0.08482179045677185
+      ],
+      "file": "18056.jsonl.gz",
+      "sha256": "878673487951cd1fb62412d8df353e5250f56e65cb8db4c226d15720a755eba1",
+      "steps": 330,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 154,
+      "first_lift_step": 212,
+      "first_100mm_step": 279,
+      "hold_steps": 20,
+      "max_lift_m": 0.1374606490135193
+    },
+    {
+      "seed": 18057,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.45611983285330066,
+        0.11416152717359607
+      ],
+      "settled_xy_m": [
+        0.4561198353767395,
+        0.1141476109623909
+      ],
+      "file": "18057.jsonl.gz",
+      "sha256": "8e9926997daef5e23033656b9b59484beac43e90554bfe34fff5e3a0f515b053",
+      "steps": 331,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 153,
+      "first_lift_step": 213,
+      "first_100mm_step": 280,
+      "hold_steps": 20,
+      "max_lift_m": 0.13702736794948578
+    },
+    {
+      "seed": 18058,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4586401491307454,
+        0.10561304936020435
+      ],
+      "settled_xy_m": [
+        0.4586401581764221,
+        0.10562696307897568
+      ],
+      "file": "18058.jsonl.gz",
+      "sha256": "dd5881905d989c37fbcc94b69238dc084f3b4ced2d2acb49a7b5c655b07c70b3",
+      "steps": 342,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 153,
+      "first_lift_step": 231,
+      "first_100mm_step": 298,
+      "hold_steps": 20,
+      "max_lift_m": 0.12894590198993683
+    },
+    {
+      "seed": 18059,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.46742933387529306,
+        0.1086327875012546
+      ],
+      "settled_xy_m": [
+        0.46742933988571167,
+        0.10861887037754059
+      ],
+      "file": "18059.jsonl.gz",
+      "sha256": "fc9d915145480c997fbd87ee14bf8fe633a085212225c7b5057febce66cabc72",
+      "steps": 328,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 152,
+      "first_lift_step": 209,
+      "first_100mm_step": 276,
+      "hold_steps": 20,
+      "max_lift_m": 0.13810624182224274
+    },
+    {
+      "seed": 18060,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.447718501185741,
+        0.0793192470342865
+      ],
+      "settled_xy_m": [
+        0.4477185010910034,
+        0.07933316379785538
+      ],
+      "file": "18060.jsonl.gz",
+      "sha256": "284eeede4fc4fde089d4aadf3207577f09ad81a4c12d1d00baaaa23b8f2bd200",
+      "steps": 331,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 141,
+      "first_lift_step": 218,
+      "first_100mm_step": 284,
+      "hold_steps": 20,
+      "max_lift_m": 0.13144943118095398
+    },
+    {
+      "seed": 18061,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.47956815971329075,
+        0.11609476212633488
+      ],
+      "settled_xy_m": [
+        0.47956815361976624,
+        0.11608084291219711
+      ],
+      "file": "18061.jsonl.gz",
+      "sha256": "9b1045d17f6a20634ab627da50b8e541dd05c926e99a09ca762357d7f9a85efa",
+      "steps": 334,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 160,
+      "first_lift_step": 215,
+      "first_100mm_step": 281,
+      "hold_steps": 20,
+      "max_lift_m": 0.13894891738891602
+    },
+    {
+      "seed": 18062,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.44861888447810633,
+        0.10182032553329211
+      ],
+      "settled_xy_m": [
+        0.44861888885498047,
+        0.1018342450261116
+      ],
+      "file": "18062.jsonl.gz",
+      "sha256": "784aaf53eedb0ffa7869f9af9c2dea8625207dd778ade25538b3608db1091cf7",
+      "steps": 341,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 151,
+      "first_lift_step": 230,
+      "first_100mm_step": 297,
+      "hold_steps": 20,
+      "max_lift_m": 0.12851586937904358
+    },
+    {
+      "seed": 18063,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4456299486476745,
+        0.06529324987346222
+      ],
+      "settled_xy_m": [
+        0.44562995433807373,
+        0.06527933478355408
+      ],
+      "file": "18063.jsonl.gz",
+      "sha256": "633a64346249179499975aeb87b78218d8b49ef5c9e0e7f99f305bd0715e3abf",
+      "steps": 334,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 160,
+      "first_lift_step": 215,
+      "first_100mm_step": 282,
+      "hold_steps": 20,
+      "max_lift_m": 0.13894906640052795
+    },
+    {
+      "seed": 18064,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.47562086886545596,
+        0.11608798032197733
+      ],
+      "settled_xy_m": [
+        0.4756208658218384,
+        0.11610189825296402
+      ],
+      "file": "18064.jsonl.gz",
+      "sha256": "ee50d96161eb43232f632192e0e3638606ffa1809adcf19ff12aabb6f3384338",
+      "steps": 358,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 162,
+      "first_lift_step": 246,
+      "first_100mm_step": 313,
+      "hold_steps": 20,
+      "max_lift_m": 0.1299401819705963
+    },
+    {
+      "seed": 18065,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4441207504964333,
+        0.10265688821866843
+      ],
+      "settled_xy_m": [
+        0.44412076473236084,
+        0.1026429682970047
+      ],
+      "file": "18065.jsonl.gz",
+      "sha256": "84f5fd0799d542692fdb1f9086cdba09672e97760707e5d250e150e4469c8a32",
+      "steps": 325,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 145,
+      "first_lift_step": 207,
+      "first_100mm_step": 274,
+      "hold_steps": 20,
+      "max_lift_m": 0.1372138112783432
+    },
+    {
+      "seed": 18066,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4473526090307803,
+        0.07833350729022291
+      ],
+      "settled_xy_m": [
+        0.4473526179790497,
+        0.07834742218255997
+      ],
+      "file": "18066.jsonl.gz",
+      "sha256": "2b096c8bc50c76930fc72630bc4fe392be345d9ee8ce8450a7cff309f946edc6",
+      "steps": 334,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 143,
+      "first_lift_step": 221,
+      "first_100mm_step": 287,
+      "hold_steps": 20,
+      "max_lift_m": 0.13139890134334564
+    },
+    {
+      "seed": 18067,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.45162936116832914,
+        0.07172492883810785
+      ],
+      "settled_xy_m": [
+        0.4516293704509735,
+        0.07171101123094559
+      ],
+      "file": "18067.jsonl.gz",
+      "sha256": "8a080c4f1bbc5e5c83a021d4dcbcbe2964b1b2bbed4eaa4b88e09e42213f5b09",
+      "steps": 330,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 155,
+      "first_lift_step": 210,
+      "first_100mm_step": 277,
+      "hold_steps": 20,
+      "max_lift_m": 0.1395067572593689
+    },
+    {
+      "seed": 18068,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.46002046031716415,
+        0.11463096309352144
+      ],
+      "settled_xy_m": [
+        0.4600204527378082,
+        0.11464487761259079
+      ],
+      "file": "18068.jsonl.gz",
+      "sha256": "3fb790e1e42b33f7fa6b73e1fe542718153a48a5074956f985812024f85511d8",
+      "steps": 349,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 161,
+      "first_lift_step": 237,
+      "first_100mm_step": 304,
+      "hold_steps": 20,
+      "max_lift_m": 0.1299292892217636
+    },
+    {
+      "seed": 18069,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.42862408564584586,
+        0.05657911243275503
+      ],
+      "settled_xy_m": [
+        0.42862409353256226,
+        0.05656519532203674
+      ],
+      "file": "18069.jsonl.gz",
+      "sha256": "af2bb163a558b9b76f435bfe9f8f937247a466afb47809c976984f5e5666c988",
+      "steps": 342,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 166,
+      "first_lift_step": 225,
+      "first_100mm_step": 292,
+      "hold_steps": 20,
+      "max_lift_m": 0.1366562694311142
+    },
+    {
+      "seed": 18070,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4456106263543834,
+        0.10083393169900615
+      ],
+      "settled_xy_m": [
+        0.4456106126308441,
+        0.10084784775972366
+      ],
+      "file": "18070.jsonl.gz",
+      "sha256": "442d86b2ffabb7eca8849de14bd58cb916be717b2784e00fd58ad4801c8e753b",
+      "steps": 339,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 150,
+      "first_lift_step": 228,
+      "first_100mm_step": 295,
+      "hold_steps": 20,
+      "max_lift_m": 0.1283709704875946
+    },
+    {
+      "seed": 18071,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4576280010813208,
+        0.0868628920039721
+      ],
+      "settled_xy_m": [
+        0.4576280117034912,
+        0.08684897422790527
+      ],
+      "file": "18071.jsonl.gz",
+      "sha256": "f2e885baa3c6d177a6054a60a84ffd853c1360f8965f09c755dae7368514115c",
+      "steps": 326,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 144,
+      "first_lift_step": 208,
+      "first_100mm_step": 274,
+      "hold_steps": 20,
+      "max_lift_m": 0.13780587911605835
+    },
+    {
+      "seed": 18072,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.46625527322777255,
+        0.0728180479486918
+      ],
+      "settled_xy_m": [
+        0.4662552773952484,
+        0.07283196598291397
+      ],
+      "file": "18072.jsonl.gz",
+      "sha256": "5d3c655b7f7797994dcd5baa43564448f8aa47f36ffadf36d5393419c11b4fe1",
+      "steps": 335,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 151,
+      "first_lift_step": 218,
+      "first_100mm_step": 285,
+      "hold_steps": 20,
+      "max_lift_m": 0.1358489990234375
+    },
+    {
+      "seed": 18073,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4635383233303593,
+        0.07788475839231225
+      ],
+      "settled_xy_m": [
+        0.4635383188724518,
+        0.07787083834409714
+      ],
+      "file": "18073.jsonl.gz",
+      "sha256": "f537d72d1d839959f3d7237c3be9a3aec5da369b86eb3a4e24972f872abaa808",
+      "steps": 327,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 151,
+      "first_lift_step": 207,
+      "first_100mm_step": 274,
+      "hold_steps": 20,
+      "max_lift_m": 0.1395379900932312
+    },
+    {
+      "seed": 18074,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4564638620421888,
+        0.10394569815982857
+      ],
+      "settled_xy_m": [
+        0.45646387338638306,
+        0.10395961254835129
+      ],
+      "file": "18074.jsonl.gz",
+      "sha256": "e74f30e15525030c512da796720d3fe1d8f081dab01be3a9f634c930f50a7ede",
+      "steps": 341,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 152,
+      "first_lift_step": 229,
+      "first_100mm_step": 296,
+      "hold_steps": 20,
+      "max_lift_m": 0.12941572070121765
+    },
+    {
+      "seed": 18075,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4510447116741352,
+        0.06689459900143924
+      ],
+      "settled_xy_m": [
+        0.4510447084903717,
+        0.06688068062067032
+      ],
+      "file": "18075.jsonl.gz",
+      "sha256": "1474705ce115dc7727925c20d5b922fb683bafd3781ad8dac1af1575a539ae59",
+      "steps": 333,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 159,
+      "first_lift_step": 213,
+      "first_100mm_step": 279,
+      "hold_steps": 20,
+      "max_lift_m": 0.14004020392894745
+    },
+    {
+      "seed": 18076,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.47322185545337103,
+        0.05715012706161554
+      ],
+      "settled_xy_m": [
+        0.47322186827659607,
+        0.05716404318809509
+      ],
+      "file": "18076.jsonl.gz",
+      "sha256": "7b508d437ce68e757aa05571a842ed46597c9038dc8d7a4be483ba860c94fb36",
+      "steps": 329,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 160,
+      "first_lift_step": 209,
+      "first_100mm_step": 276,
+      "hold_steps": 20,
+      "max_lift_m": 0.14019228518009186
+    },
+    {
+      "seed": 18077,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4794405513945096,
+        0.11531378218062036
+      ],
+      "settled_xy_m": [
+        0.4794405400753021,
+        0.11529986560344696
+      ],
+      "file": "18077.jsonl.gz",
+      "sha256": "53d548aba403432a36485259d6ecf6bdec4b4c5e610971ebe4c86c423ef09c56",
+      "steps": 334,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 161,
+      "first_lift_step": 214,
+      "first_100mm_step": 281,
+      "hold_steps": 20,
+      "max_lift_m": 0.13926808536052704
+    },
+    {
+      "seed": 18078,
+      "orientation": "protrusion_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.4603328581909805,
+        0.11991490669349877
+      ],
+      "settled_xy_m": [
+        0.46033287048339844,
+        0.11992882192134857
+      ],
+      "file": "18078.jsonl.gz",
+      "sha256": "9e9681600ca3ae7ae7e7d91cb59f1c3f6b0f1779f27dff222a188a6c4ef6afa8",
+      "steps": 356,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 165,
+      "first_lift_step": 247,
+      "first_100mm_step": 313,
+      "hold_steps": 20,
+      "max_lift_m": 0.12675166130065918
+    },
+    {
+      "seed": 18079,
+      "orientation": "flat_facing_camera",
+      "split": "train",
+      "spawn_xy_m": [
+        0.44063498283124264,
+        0.09576368854246198
+      ],
+      "settled_xy_m": [
+        0.44063499569892883,
+        0.09574977308511734
+      ],
+      "file": "18079.jsonl.gz",
+      "sha256": "ea41919b4fcfdc1c980a284425690c32d9af9b28f7f13c508e5a25627ac32860",
+      "steps": 328,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 144,
+      "first_lift_step": 211,
+      "first_100mm_step": 278,
+      "hold_steps": 20,
+      "max_lift_m": 0.13574858009815216
+    },
+    {
+      "seed": 18080,
+      "orientation": "protrusion_facing_camera",
+      "split": "validation",
+      "spawn_xy_m": [
+        0.4452812277574606,
+        0.11241314105452564
+      ],
+      "settled_xy_m": [
+        0.4452812373638153,
+        0.11242705583572388
+      ],
+      "file": "18080.jsonl.gz",
+      "sha256": "726b25aff741b3a18ce0076f5535a57042ba17f8b8c980690ed604a8d5558249",
+      "steps": 344,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 159,
+      "first_lift_step": 234,
+      "first_100mm_step": 301,
+      "hold_steps": 20,
+      "max_lift_m": 0.1272467076778412
+    },
+    {
+      "seed": 18081,
+      "orientation": "flat_facing_camera",
+      "split": "validation",
+      "spawn_xy_m": [
+        0.43370692936253613,
+        0.05722229875467767
+      ],
+      "settled_xy_m": [
+        0.43370693922042847,
+        0.057208381593227386
+      ],
+      "file": "18081.jsonl.gz",
+      "sha256": "878999073b2cb6af65cf54866514855af021e12fb300caf405cc5c4204b23d59",
+      "steps": 342,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 166,
+      "first_lift_step": 224,
+      "first_100mm_step": 290,
+      "hold_steps": 20,
+      "max_lift_m": 0.13789954781532288
+    },
+    {
+      "seed": 18082,
+      "orientation": "protrusion_facing_camera",
+      "split": "validation",
+      "spawn_xy_m": [
+        0.48225281950158094,
+        0.08104551545861399
+      ],
+      "settled_xy_m": [
+        0.4822528064250946,
+        0.08105943351984024
+      ],
+      "file": "18082.jsonl.gz",
+      "sha256": "2442e88f54230e86fd8601673ac9938bce36631da1e3b58113b8cccc23b40e75",
+      "steps": 335,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 161,
+      "first_lift_step": 216,
+      "first_100mm_step": 283,
+      "hold_steps": 20,
+      "max_lift_m": 0.13804535567760468
+    },
+    {
+      "seed": 18083,
+      "orientation": "flat_facing_camera",
+      "split": "validation",
+      "spawn_xy_m": [
+        0.43424008985520174,
+        0.08976460729446434
+      ],
+      "settled_xy_m": [
+        0.43424010276794434,
+        0.08975069224834442
+      ],
+      "file": "18083.jsonl.gz",
+      "sha256": "6b757c8211803c3d7262a6ceb2f038e53d8387ee78c493646fac57be3cd5036b",
+      "steps": 334,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 149,
+      "first_lift_step": 218,
+      "first_100mm_step": 285,
+      "hold_steps": 20,
+      "max_lift_m": 0.13441921770572662
+    },
+    {
+      "seed": 18084,
+      "orientation": "protrusion_facing_camera",
+      "split": "validation",
+      "spawn_xy_m": [
+        0.4270228418306995,
+        0.11497943304754873
+      ],
+      "settled_xy_m": [
+        0.4270228445529938,
+        0.11499334871768951
+      ],
+      "file": "18084.jsonl.gz",
+      "sha256": "337ecfe1020be5ac0ddae7a96b15de4e06e23ed51bd6a4e2773cd71605173a5a",
+      "steps": 347,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 161,
+      "first_lift_step": 241,
+      "first_100mm_step": 308,
+      "hold_steps": 20,
+      "max_lift_m": 0.12194573879241943
+    },
+    {
+      "seed": 18085,
+      "orientation": "flat_facing_camera",
+      "split": "validation",
+      "spawn_xy_m": [
+        0.48191030812059554,
+        0.11193423501665847
+      ],
+      "settled_xy_m": [
+        0.4819103181362152,
+        0.1119203194975853
+      ],
+      "file": "18085.jsonl.gz",
+      "sha256": "64106372d3751026bd1680fe56f01eed365483322bc13b4e7d7a663087e5f529",
+      "steps": 335,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 163,
+      "first_lift_step": 215,
+      "first_100mm_step": 282,
+      "hold_steps": 20,
+      "max_lift_m": 0.13897399604320526
+    },
+    {
+      "seed": 18086,
+      "orientation": "protrusion_facing_camera",
+      "split": "validation",
+      "spawn_xy_m": [
+        0.43182269543965973,
+        0.05563322237271506
+      ],
+      "settled_xy_m": [
+        0.43182268738746643,
+        0.05564713850617409
+      ],
+      "file": "18086.jsonl.gz",
+      "sha256": "028e1529983b9ebbcaab21db62bd0f6341e16e7a6848fac02e0c707379f69444",
+      "steps": 335,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 161,
+      "first_lift_step": 218,
+      "first_100mm_step": 285,
+      "hold_steps": 20,
+      "max_lift_m": 0.13600656390190125
+    },
+    {
+      "seed": 18087,
+      "orientation": "flat_facing_camera",
+      "split": "validation",
+      "spawn_xy_m": [
+        0.4536927162815012,
+        0.11855128099466437
+      ],
+      "settled_xy_m": [
+        0.4536927044391632,
+        0.11853736639022827
+      ],
+      "file": "18087.jsonl.gz",
+      "sha256": "e6bf5b0efe62f0101a018949dbebbcd2dfc8f2ab19c1e0562c69948efa86e2dc",
+      "steps": 333,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 157,
+      "first_lift_step": 215,
+      "first_100mm_step": 282,
+      "hold_steps": 20,
+      "max_lift_m": 0.13715879619121552
+    },
+    {
+      "seed": 18088,
+      "orientation": "protrusion_facing_camera",
+      "split": "validation",
+      "spawn_xy_m": [
+        0.43648744462301187,
+        0.08745380271916324
+      ],
+      "settled_xy_m": [
+        0.43648743629455566,
+        0.087467722594738
+      ],
+      "file": "18088.jsonl.gz",
+      "sha256": "195c2de857011911e3b3a703490656591822da5718fe40f5ab84ee8c47526d58",
+      "steps": 339,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 148,
+      "first_lift_step": 229,
+      "first_100mm_step": 295,
+      "hold_steps": 20,
+      "max_lift_m": 0.12816950678825378
+    },
+    {
+      "seed": 18089,
+      "orientation": "flat_facing_camera",
+      "split": "validation",
+      "spawn_xy_m": [
+        0.4347061457182042,
+        0.09524917510685266
+      ],
+      "settled_xy_m": [
+        0.4347061514854431,
+        0.09523525834083557
+      ],
+      "file": "18089.jsonl.gz",
+      "sha256": "86378788a62d25a7110915f557c350615b3097e0692ac850c145216a5581c375",
+      "steps": 331,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 149,
+      "first_lift_step": 215,
+      "first_100mm_step": 282,
+      "hold_steps": 20,
+      "max_lift_m": 0.13504885137081146
+    },
+    {
+      "seed": 18090,
+      "orientation": "protrusion_facing_camera",
+      "split": "validation",
+      "spawn_xy_m": [
+        0.48252913082001897,
+        0.10469093254896299
+      ],
+      "settled_xy_m": [
+        0.4825291335582733,
+        0.104704849421978
+      ],
+      "file": "18090.jsonl.gz",
+      "sha256": "d0e11b1f4949d86a7677956f18987c178991a96733feefed4dfca1ab911ccb4c",
+      "steps": 339,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 163,
+      "first_lift_step": 221,
+      "first_100mm_step": 287,
+      "hold_steps": 20,
+      "max_lift_m": 0.13833627104759216
+    },
+    {
+      "seed": 18091,
+      "orientation": "flat_facing_camera",
+      "split": "validation",
+      "spawn_xy_m": [
+        0.4707361051200929,
+        0.06985703030040614
+      ],
+      "settled_xy_m": [
+        0.4707361161708832,
+        0.0698431134223938
+      ],
+      "file": "18091.jsonl.gz",
+      "sha256": "ec84a33301c7d9d660eb432e3f39625587e6bbfbe84c80b523de573a0007ad6d",
+      "steps": 327,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 157,
+      "first_lift_step": 206,
+      "first_100mm_step": 273,
+      "hold_steps": 20,
+      "max_lift_m": 0.1414928436279297
+    },
+    {
+      "seed": 18092,
+      "orientation": "protrusion_facing_camera",
+      "split": "validation",
+      "spawn_xy_m": [
+        0.46906622993050917,
+        0.1026651690410566
+      ],
+      "settled_xy_m": [
+        0.46906623244285583,
+        0.10267908871173859
+      ],
+      "file": "18092.jsonl.gz",
+      "sha256": "04648e403b89df990f395b1117e51db5f3a98fe727fac0f7fb97cf540ce67007",
+      "steps": 347,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 153,
+      "first_lift_step": 237,
+      "first_100mm_step": 303,
+      "hold_steps": 20,
+      "max_lift_m": 0.12843723595142365
+    },
+    {
+      "seed": 18093,
+      "orientation": "flat_facing_camera",
+      "split": "validation",
+      "spawn_xy_m": [
+        0.48465623032248945,
+        0.06560401658153538
+      ],
+      "settled_xy_m": [
+        0.4846562445163727,
+        0.06559009850025177
+      ],
+      "file": "18093.jsonl.gz",
+      "sha256": "6b046ccc9b99a9ef45efcbc2a46dcc50af325289641b741880ef2d3e51520c92",
+      "steps": 334,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 163,
+      "first_lift_step": 215,
+      "first_100mm_step": 281,
+      "hold_steps": 20,
+      "max_lift_m": 0.1396166980266571
+    },
+    {
+      "seed": 18094,
+      "orientation": "protrusion_facing_camera",
+      "split": "validation",
+      "spawn_xy_m": [
+        0.4241270266432862,
+        0.06724534219258152
+      ],
+      "settled_xy_m": [
+        0.4241270124912262,
+        0.06725925952196121
+      ],
+      "file": "18094.jsonl.gz",
+      "sha256": "9471d77710584277903a235fc34e425e37ca155eaf5fe37c8bb0772f78851fb7",
+      "steps": 345,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 158,
+      "first_lift_step": 233,
+      "first_100mm_step": 300,
+      "hold_steps": 20,
+      "max_lift_m": 0.13027270138263702
+    },
+    {
+      "seed": 18095,
+      "orientation": "flat_facing_camera",
+      "split": "validation",
+      "spawn_xy_m": [
+        0.47801286627700457,
+        0.07170933884966671
+      ],
+      "settled_xy_m": [
+        0.4780128598213196,
+        0.07169542461633682
+      ],
+      "file": "18095.jsonl.gz",
+      "sha256": "f638d782713155339b253abab5accfbca21b6448445fe17ea1c4b5102db0bacb",
+      "steps": 332,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 159,
+      "first_lift_step": 212,
+      "first_100mm_step": 279,
+      "hold_steps": 20,
+      "max_lift_m": 0.13972750306129456
+    },
+    {
+      "seed": 18096,
+      "orientation": "protrusion_facing_camera",
+      "split": "validation",
+      "spawn_xy_m": [
+        0.45683156318478246,
+        0.10623404075542922
+      ],
+      "settled_xy_m": [
+        0.45683157444000244,
+        0.10624796152114868
+      ],
+      "file": "18096.jsonl.gz",
+      "sha256": "9dfaa4b736430c60bea4af6ef9ac5e9608d760299b308042f7e24b42afda75f2",
+      "steps": 343,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 154,
+      "first_lift_step": 231,
+      "first_100mm_step": 298,
+      "hold_steps": 20,
+      "max_lift_m": 0.12928546965122223
+    },
+    {
+      "seed": 18097,
+      "orientation": "flat_facing_camera",
+      "split": "validation",
+      "spawn_xy_m": [
+        0.431079645728437,
+        0.09399725068653263
+      ],
+      "settled_xy_m": [
+        0.4310796558856964,
+        0.09398332983255386
+      ],
+      "file": "18097.jsonl.gz",
+      "sha256": "9ee0fb06b63d5b22fc6ec3f4de5387b4721a0815fb06adc7b58bc308501f0545",
+      "steps": 335,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 151,
+      "first_lift_step": 220,
+      "first_100mm_step": 287,
+      "hold_steps": 20,
+      "max_lift_m": 0.13418766856193542
+    },
+    {
+      "seed": 18098,
+      "orientation": "protrusion_facing_camera",
+      "split": "validation",
+      "spawn_xy_m": [
+        0.4570703341139621,
+        0.08365379211641691
+      ],
+      "settled_xy_m": [
+        0.45707032084465027,
+        0.08366771042346954
+      ],
+      "file": "18098.jsonl.gz",
+      "sha256": "4d5c5148c9c87066e0086deab95f2dba1227a46b5ff6f2fa276b454cbf4ad40a",
+      "steps": 332,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 142,
+      "first_lift_step": 219,
+      "first_100mm_step": 285,
+      "hold_steps": 20,
+      "max_lift_m": 0.13153818249702454
+    },
+    {
+      "seed": 18099,
+      "orientation": "flat_facing_camera",
+      "split": "validation",
+      "spawn_xy_m": [
+        0.4656597964163067,
+        0.10932321054730645
+      ],
+      "settled_xy_m": [
+        0.4656597971916199,
+        0.10930929332971573
+      ],
+      "file": "18099.jsonl.gz",
+      "sha256": "d1d645e2c714a5e5fd39898541c4412c2df22da87184290432e491f36077d26a",
+      "steps": 330,
+      "is_success": true,
+      "reason": "success",
+      "collision": null,
+      "first_bilateral_step": 151,
+      "first_lift_step": 212,
+      "first_100mm_step": 279,
+      "hold_steps": 20,
+      "max_lift_m": 0.1375388354063034
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "candidates": [
+    {
+      "name": "bc",
+      "algorithm": "bc",
+      "seed": null,
+      "step": 0,
+      "path": "outputs/p3c-10.5/uniform/model.pt",
+      "sha256": "27456f45c93961e012087528581472d02c65eca15ed47bd48c6d59191f123be0",
+      "qualified": true,
+      "zero_reference": "outputs/p3c-10.7-r1/run/residual-bc.json"
+    },
+    {
+      "name": "ppo-11",
+      "algorithm": "ppo",
+      "seed": 11,
+      "step": 2000,
+      "path": "outputs/p5a-r2/ppo-11/model-2000.zip",
+      "sha256": "073f8a1c1a99f3b6e82c1d02c7550efc796da5f59b1ef2255a2248a3072c636f",
+      "qualified": true,
+      "zero_reference": "outputs/p5a-r2/ppo-11/step-0.json"
+    },
+    {
+      "name": "ppo-22",
+      "algorithm": "ppo",
+      "seed": 22,
+      "step": 5000,
+      "path": "outputs/p5a-r2/ppo-22/model-5000.zip",
+      "sha256": "e3f6ac9403cdd994b8da0654530362021eef3ee0dd0c74facfe2e6b4eba57942",
+      "qualified": true,
+      "zero_reference": "outputs/p5a-r2/ppo-22/step-0.json"
+    },
+    {
+      "name": "ppo-33",
+      "algorithm": "ppo",
+      "seed": 33,
+      "step": 20000,
+      "path": "outputs/p5a-r2/ppo-33/model-20000.zip",
+      "sha256": "82c0f43fc5056a3fbeb4d81c35eada52c100681e245435981e5a5a7e63de6455",
+      "qualified": true,
+      "zero_reference": "outputs/p5a-r2/ppo-33/step-0.json"
+    },
+    {
+      "name": "sac-11",
+      "algorithm": "sac",
+      "seed": 11,
+      "step": 2000,
+      "path": "outputs/p5a-r2/sac-11/model-2000.zip",
+      "sha256": "cd1c0d5909e20716ffbdf8fb65d0a71eb8f11ceb67243e5adbeeb642f6661638",
+      "qualified": true,
+      "zero_reference": "outputs/p5a-r2/sac-11/step-0.json"
+    },
+    {
+      "name": "sac-22",
+      "algorithm": "sac",
+      "seed": 22,
+      "step": 5000,
+      "path": "outputs/p5a-r2/sac-22/model-5000.zip",
+      "sha256": "8c9c684e10088cc2a8e5648297e4ec940f768adf9a447839ea82168b6dc44279",
+      "qualified": true,
+      "zero_reference": "outputs/p5a-r2/sac-22/step-0.json"
+    },
+    {
+      "name": "sac-33",
+      "algorithm": "sac",
+      "seed": 33,
+      "step": 5000,
+      "path": "outputs/p5a-r2/sac-33/model-5000.zip",
+      "sha256": "b7c45713604acc590d141156e61151ac1b542ef8561f604bd250a7da6cbfce87",
+      "qualified": true,
+      "zero_reference": "outputs/p5a-r2/sac-33/step-0.json"
+    }
+  ],
+  "initialization": {
+    "checkpoint": "outputs/p3c-10.5/uniform/model.pt",
+    "checkpoint_sha256": "27456f45c93961e012087528581472d02c65eca15ed47bd48c6d59191f123be0",
+    "normalized_residual_gain": 0.25,
+    "xyz_scale": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "signed_budget_m": [
+      0.006,
+      0.003,
+      0.012
+    ]
+  },
+  "base": {
+    "path": "outputs/p3c-6/run/model.pt",
+    "sha256": "999e77405fb4bfdc1dc43c1ef6b8a4cef48e4cf6924ffdd9c5d918b2dc668617",
+    "normalization": "SCALE and checkpoint center/spread; clip \u00b18"
+  },
+  "residual_normalization": "P3c-10.5 checkpoint center/spread; copied to both actors",
+  "protocol": "outputs/p5a-r2/protocol.json",
+  "protocol_sha256": "3583aae0b24a091644e8418e928d54afb9b436b9d7f3f1d9e69c84c9ac4c3426",
+  "qualification": "Select among updated checkpoints only. Deployment eligibility requires no unexpected contact or absolute travel violation on either panel and no paired baseline success loss on either panel. Within eligible checkpoints rank by validation successes descending, then validation successful mean steps ascending, then earliest step. If none eligible, retain final and select best research checkpoint by validation success descending then earliest step. Never open independent Test.",
+  "review_mm": [
+    20.0,
+    5.0,
+    22.0
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "rgb_expert/fixed": {
+    "orientation_correct": 2,
+    "grasped": 2,
+    "stable": 2,
+    "completed": 2,
+    "success": 2,
+    "unexpected_collisions": 0,
+    "dropped": 0,
+    "observed_bilateral": 2,
+    "episodes": 2,
+    "lift_100mm": 2,
+    "hold_20_ticks": 0,
+    "phase_completed": {
+      "Reorient": 2,
+      "Transfer": 2,
+      "Place": 2
+    },
+    "rgb_xy_error_mm": {
+      "mean": 0.25495844658408934,
+      "max": 0.3234990940440118
+    },
+    "position_error_mm": {
+      "mean": 6.579945815133304,
+      "max": 6.5857622751037646
+    },
+    "angle_error_deg": {
+      "mean": 0.032191455686238796,
+      "max": 0.032519872521849444
+    },
+    "simulation_s": {
+      "mean": 21.37999999999903,
+      "max": 21.459999999998985
+    },
+    "wall_s": {
+      "mean": 0.6845688739999787,
+      "max": 0.9549179370000047
+    }
+  },
+  "rgb_learned_grasp/fixed": {
+    "orientation_correct": 2,
+    "grasped": 2,
+    "stable": 2,
+    "completed": 2,
+    "success": 2,
+    "unexpected_collisions": 0,
+    "dropped": 0,
+    "observed_bilateral": 2,
+    "episodes": 2,
+    "lift_100mm": 2,
+    "hold_20_ticks": 2,
+    "phase_completed": {
+      "Reorient": 2,
+      "Transfer": 2,
+      "Place": 2
+    },
+    "rgb_xy_error_mm": {
+      "mean": 0.25495844658408934,
+      "max": 0.3234990940440118
+    },
+    "position_error_mm": {
+      "mean": 6.5605734928211845,
+      "max": 6.565070856492293
+    },
+    "angle_error_deg": {
+      "mean": 0.03248095645203855,
+      "max": 0.033144385725233386
+    },
+    "simulation_s": {
+      "mean": 20.219999999999672,
+      "max": 20.25999999999965
+    },
+    "wall_s": {
+      "mean": 7.812267990000009,
+      "max": 7.997478657999977
+    },
+    "first_carry_max_tcp_speed_m_s": 0.009067977904820933,
+    "first_carry_max_ctrl_jump_rad": 0.006963251216075106,
+    "max_passive_grip_offset_error_mm": 6.655148731155294
+  },
+  "rgb_expert/large": {
+    "orientation_correct": 20,
+    "grasped": 20,
+    "stable": 20,
+    "completed": 20,
+    "success": 20,
+    "unexpected_collisions": 0,
+    "dropped": 0,
+    "observed_bilateral": 20,
+    "episodes": 20,
+    "lift_100mm": 20,
+    "hold_20_ticks": 0,
+    "phase_completed": {
+      "Reorient": 20,
+      "Transfer": 20,
+      "Place": 20
+    },
+    "rgb_xy_error_mm": {
+      "mean": 0.214231703808265,
+      "max": 0.3501189870349186
+    },
+    "position_error_mm": {
+      "mean": 6.576071197283815,
+      "max": 6.647773878630512
+    },
+    "angle_error_deg": {
+      "mean": 0.03223086648625456,
+      "max": 0.032773941918387416
+    },
+    "simulation_s": {
+      "mean": 21.456999999998988,
+      "max": 22.059999999998652
+    },
+    "wall_s": {
+      "mean": 0.4240248567000037,
+      "max": 0.4362236239999788
+    }
+  },
+  "rgb_learned_grasp/large": {
+    "orientation_correct": 20,
+    "grasped": 20,
+    "stable": 20,
+    "completed": 20,
+    "success": 20,
+    "unexpected_collisions": 0,
+    "dropped": 0,
+    "observed_bilateral": 20,
+    "episodes": 20,
+    "lift_100mm": 20,
+    "hold_20_ticks": 20,
+    "phase_completed": {
+      "Reorient": 20,
+      "Transfer": 20,
+      "Place": 20
+    },
+    "rgb_xy_error_mm": {
+      "mean": 0.214231703808265,
+      "max": 0.3501189870349186
+    },
+    "position_error_mm": {
+      "mean": 6.612613227133567,
+      "max": 6.838533773174672
+    },
+    "angle_error_deg": {
+      "mean": 0.03410981667409233,
+      "max": 0.04135410527886475
+    },
+    "simulation_s": {
+      "mean": 20.344999999999605,
+      "max": 21.079999999999195
+    },
+    "wall_s": {
+      "mean": 0.5879879696000074,
+      "max": 0.6097649140000385
+    },
+    "first_carry_max_tcp_speed_m_s": 0.009385831620107954,
+    "first_carry_max_ctrl_jump_rad": 0.00846001611515057,
+    "max_passive_grip_offset_error_mm": 8.25356803901213
+  }
+}

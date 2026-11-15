@@ -1,0 +1,28 @@
+{
+  "seed": 11,
+  "steps": 750,
+  "n_steps": 250,
+  "batch_size": 125,
+  "n_epochs": 2,
+  "learning_rate": 0.0001,
+  "clip_range": 0.1,
+  "target_kl": 0.01,
+  "gamma": 0.99,
+  "gae_lambda": 0.95,
+  "ent_coef": 0.0,
+  "vf_coef": 0.5,
+  "max_grad_norm": 0.5,
+  "gain": 0.25,
+  "log_std": [
+    -4,
+    -3
+  ],
+  "absolute_review_mm": [
+    20.0,
+    5.0,
+    22.0
+  ],
+  "drift_raw_p95": 0.25,
+  "drift_projected_p95_mm": 0.046875,
+  "drift_window": 50
+}

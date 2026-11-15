@@ -1,0 +1,14 @@
+{
+  "algorithms": ["ppo", "sac"],
+  "seeds": [11, 22, 33],
+  "steps": 20000,
+  "checkpoints": [0, 1000, 2000, 5000, 10000, 20000],
+  "train": [18000, 18079],
+  "validation": [18080, 18099],
+  "absolute_review_mm": [20, 5, 22],
+  "anchor_weight": 0.05,
+  "anchor_space": "mean squared difference of deterministic post-tanh pre-gain XYZ on training batch",
+  "ppo": {"n_steps": 1000, "batch_size": 125, "n_epochs": 2, "learning_rate": 0.00001, "clip_range": 0.1, "target_kl": 0.01, "gamma": 0.99, "gae_lambda": 0.95, "max_grad_norm": 0.5, "vf_coef": 0.5, "ent_coef": 0},
+  "sac": {"actor_lr": 0.0001, "critic_lr": 0.0003, "gamma": 0.99, "tau": 0.005, "batch_size": 128, "alpha": 0.005, "learning_starts": 500, "effective_train_freq": 4, "buffer_size": 24000},
+  "selection": "Select among updated checkpoints only. Deployment eligibility requires no unexpected contact or absolute travel violation on either panel and no paired baseline success loss on either panel. Within eligible checkpoints rank by validation successes descending, then validation successful mean steps ascending, then earliest step. If none eligible, retain final and select best research checkpoint by validation success descending then earliest step. Never open independent Test."
+}

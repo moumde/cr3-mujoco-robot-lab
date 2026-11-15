@@ -1,0 +1,59 @@
+{
+  "stop": "paired review",
+  "steps": 250,
+  "checkpoints": [
+    {
+      "step": 0,
+      "epochs": 0,
+      "gradient_steps": 0,
+      "violations": [],
+      "drift": [
+        false,
+        false,
+        false
+      ],
+      "parameter_change": {
+        "actor": 0.0,
+        "critic": 0.0
+      }
+    },
+    {
+      "step": 250,
+      "epochs": 1,
+      "gradient_steps": 1,
+      "violations": [
+        [
+          17218,
+          "protrusion_facing_camera",
+          "timeout",
+          [
+            0.0014132887754385592,
+            0.00035335414577275515,
+            0.004601505292455954
+          ]
+        ],
+        [
+          17218,
+          "flat_facing_camera",
+          "timeout",
+          [
+            0.006757456582505261,
+            0.0006075728301766503,
+            0.01200000000000001
+          ]
+        ]
+      ],
+      "drift": [
+        false,
+        false,
+        false
+      ],
+      "parameter_change": {
+        "actor": 0.00010001659393310547,
+        "critic": 9.942799806594849e-05
+      }
+    }
+  ],
+  "optimization_epochs": 1,
+  "wall_including_eval_s": 27.63763008100068
+}

@@ -1,0 +1,7 @@
+{
+  "checkpoint": "outputs/p3c-10.5/uniform/model.pt",
+  "checkpoint_sha256": "27456f45c93961e012087528581472d02c65eca15ed47bd48c6d59191f123be0",
+  "normalized_residual_gain": 0.25,
+  "xyz_scale": [0.5, 0.5, 0.5],
+  "signed_budget_m": [0.006, 0.003, 0.012]
+}
